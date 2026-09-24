@@ -24,7 +24,7 @@ The interface presents these eight steps in matching rows and enforces their dep
 
 ## Firmware integrity
 
-Firmware is discovered from the official ESP-Miner repositories for the supported device families. Automated release processing checks each file against the digest published by GitHub. The browser downloads the selected image and independently verifies its SHA-256 checksum before writing it to the device. The interface links to the upstream release and a corresponding source archive.
+Firmware is discovered from the official ESP-Miner repositories for the supported device families. Automated release processing checks each file against the digest published by GitHub. After a compatible version is selected, the browser prepares the matching image and independently verifies its SHA-256 checksum before writing it to the device. Changing the hardware or version prepares the newly matched image. A verified image may be reused from page memory or the browser HTTP cache. The interface links to the upstream release and a corresponding source archive.
 
 ## Supported hardware
 
@@ -32,7 +32,7 @@ The live manifest determines the exact supported images. The displayed families 
 
 ## Privacy
 
-The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining pool credentials. It does not use advertising cookies, behavioral analytics, localStorage, or sessionStorage. Web Serial access requires an explicit browser selection. The application does not upload USB logs or miner settings to Solo Satoshi. Hosting and delivery providers receive ordinary network request information needed to operate and secure the service.
+The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining pool credentials. It does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files. Web Serial access requires an explicit browser selection. The application does not upload USB logs or miner settings to Solo Satoshi. Hosting and delivery providers receive ordinary network request information needed to operate and secure the service.
 
 Privacy policy: https://flash.solosatoshi.com/privacy.html
 

@@ -9,7 +9,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-JBZYI2aKVVFSzJdx5ZO/nUKxchNIMGIlBFAu58vL3Gc='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-LmLuPatJE0naIGRpFM9T0sSZk/Hcl6/naZfmSYRO28I='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -89,7 +89,7 @@
             ],
             "primaryImageOfPage": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
             "mainEntity": { "@id": "https://flash.solosatoshi.com/#app" },
-            "dateModified": "2026-09-23",
+            "dateModified": "2026-09-24",
             "inLanguage": "en-US"
           },
           {
@@ -117,6 +117,7 @@
               "Automatic official firmware release discovery",
               "Optional prerelease firmware testing channel",
               "SHA-256 firmware verification",
+              "Verified background firmware preparation and browser caching",
               "Bitaxe and NerdAxe model selection",
               "Optional miner settings preservation",
               "Local Web Serial installation"
@@ -210,7 +211,7 @@
                 "name": "How do I flash firmware with the Solo Satoshi Web Flasher?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "First connect and approve the miner's USB serial device. Then select the firmware family, release channel, exact model, Bitaxe board revision when applicable, and compatible firmware version. Choose whether to preserve settings, start flashing, and keep USB and power connected until the miner restarts."
+                  "text": "Complete the eight steps in order: connect and approve the USB serial device, choose the miner family and release channel, select the exact model, confirm the Bitaxe board when applicable, choose a supported version, decide whether to preserve settings, then install. Keep USB and power connected until the automatic restart finishes."
                 }
               },
               {
@@ -234,7 +235,7 @@
                 "name": "How is firmware verified before flashing?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. The browser calculates and checks the firmware SHA-256 checksum again before writing it to the miner."
+                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. Your browser calculates and checks the firmware SHA-256 checksum again before writing it to the miner."
                 }
               },
               {
@@ -242,7 +243,7 @@
                 "name": "Which Bitaxe and NerdAxe models are supported?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The supported model list is generated from current official ESP-Miner releases. Select the exact model and board revision printed on your miner before flashing."
+                  "text": "The supported list is generated from current official ESP-Miner releases. Select the exact model and printed Bitaxe board revision. NerdAxe hardware is matched automatically from the selected model. A firmware version is offered only when its release contains the matching factory image."
                 }
               },
               {
@@ -258,7 +259,15 @@
                 "name": "Can I test prerelease firmware?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. When an official prerelease is newer than the latest production release, select the Prereleases channel. Prerelease firmware may contain bugs or require recovery, so the Latest Releases channel remains recommended."
+                  "text": "Yes. When an official prerelease is newer than the latest production release, select the Prereleases channel. If no eligible prerelease exists, that option is disabled and Latest Releases is selected automatically. Prerelease firmware may contain bugs or require recovery."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens if I change my firmware selection?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Flash firmware button always uses the image matched to the current family, channel, model, board, and version. Changing a selection prepares and verifies the newly matched image. A previously verified image may be reused from memory or the browser cache, but its file size and SHA-256 must still match before it can be written."
                 }
               }
             ]
@@ -266,11 +275,11 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-BNHQ5Dva.js"></script>
+    <script type="module" crossorigin src="./assets/index-DRHQad8-.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-Cuys-Gzy.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-BpaimU92.css">
   </head>
   <body>
     <div id="root"></div>
@@ -281,9 +290,10 @@
           <h1>Flash Bitaxe and NerdAxe firmware from your browser.</h1>
           <p>Install the latest verified ESP-Miner firmware for supported Bitaxe and NerdAxe Bitcoin miners directly from a compatible desktop browser. The flasher checks every firmware file with SHA-256 before writing it through a local Web Serial connection.</p>
           <h2>Supported firmware and hardware</h2>
-          <p>The live model list is generated from official ESP-Miner releases and includes supported Bitaxe and NerdAxe board revisions. Confirm the exact model and board number printed on your miner before installing firmware.</p>
+          <p>The live model and rollback-version lists are generated from official ESP-Miner releases. Select the exact model and printed Bitaxe board number. NerdAxe hardware is matched automatically from the selected model.</p>
           <h2>How the browser flasher works</h2>
           <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
+          <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>
           <h2>Verification and source transparency</h2>
           <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing. Corresponding source archives and upstream release pages are linked for inspection.</p>
           <h2>Frequently asked questions</h2>
@@ -291,7 +301,8 @@
           <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool.</p>
           <h3>Can the flasher preserve my miner settings?</h3><p>Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution.</p>
           <h3>Where does the firmware come from?</h3><p>Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive.</p>
-          <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. Prerelease firmware may contain bugs or require recovery, so the Latest Releases channel remains recommended.</p>
+          <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. If none is eligible, the option is disabled and Latest Releases is selected automatically.</p>
+          <h3>What happens if I change my firmware selection?</h3><p>The install button always uses the image matched to the current selections. A changed selection prepares and verifies its matching image before writing.</p>
           <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
         </article>
       </main>
