@@ -22,6 +22,10 @@ The Solo Satoshi Web Flasher installs current factory firmware on supported Bita
 
 The interface presents these eight steps in matching rows and enforces their dependencies. Miner-family selection requires USB approval, model selection requires a confirmed release channel, board matching requires a model, firmware selection requires a supported board, and settings and installation remain disabled until a compatible firmware image is selected. When no eligible prerelease exists, the prerelease option remains visible but disabled and the latest-release channel is selected automatically.
 
+## Custom firmware
+
+The separate Advanced custom image tool accepts a local merged ESP32-S3 `.bin` built for address `0x0`. It checks the ESP boot-image header, the partition table at `0x8000`, the file size, and the locally calculated SHA-256 digest. The custom file remains in browser memory and is never uploaded. Because there is no trusted release digest or hardware-compatibility record for a user-supplied image, the tool writes the complete image without preserving settings and identifies it as unverified custom firmware.
+
 ## Firmware integrity
 
 Firmware is discovered from the official ESP-Miner repositories for the supported device families. Automated release processing checks each file against the digest published by GitHub. After a compatible version is selected, the browser prepares the matching image and independently verifies its SHA-256 checksum before writing it to the device. Changing the hardware or version prepares the newly matched image. A verified image may be reused from page memory or the browser HTTP cache. The interface links to the upstream release and a corresponding source archive.
@@ -32,7 +36,7 @@ The live manifest determines the exact supported images. The displayed families 
 
 ## Privacy
 
-The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining pool credentials. It does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files. Web Serial access requires an explicit browser selection. The application does not upload USB logs or miner settings to Solo Satoshi. Hosting and delivery providers receive ordinary network request information needed to operate and secure the service.
+The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining pool credentials. It does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files. Web Serial access requires an explicit browser selection. The application does not upload USB logs, miner settings, or locally selected custom firmware files to Solo Satoshi. Hosting and delivery providers receive ordinary network request information needed to operate and secure the service.
 
 Privacy policy: https://flash.solosatoshi.com/privacy.html
 
