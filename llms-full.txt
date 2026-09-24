@@ -12,13 +12,15 @@ The Solo Satoshi Web Flasher installs current factory firmware on supported Bita
 ## Installation process
 
 1. Connect the miner with a data-capable USB cable and approve its USB serial device when prompted by the browser.
-2. Choose the Bitaxe or NerdAxe firmware family and the latest-release or prerelease channel.
-3. Select the exact miner model. For Bitaxe hardware, also select the board revision printed on the device; NerdAxe does not show a redundant board field.
-4. Select a compatible production firmware version. Prerelease mode uses the current eligible prerelease for the selected hardware.
-5. Choose whether to preserve the miner's saved settings.
-6. Start the installation and keep USB and power connected until flashing and the automatic restart are complete.
+2. Choose the Bitaxe or NerdAxe firmware family.
+3. Choose the latest-release or prerelease channel.
+4. Select the exact miner model.
+5. Select the board revision printed on Bitaxe hardware. The flasher matches this value automatically for NerdAxe models without showing a redundant board dropdown.
+6. Select a compatible production firmware version. Prerelease mode uses the current eligible prerelease for the selected hardware.
+7. Choose whether to preserve the miner's saved Wi-Fi, pool, and configuration settings.
+8. Start the installation and keep USB and power connected until flashing and the automatic restart are complete.
 
-The interface enforces this order. Model selection remains disabled until USB approval, Bitaxe board selection remains disabled until a model is chosen, firmware selection remains disabled until the hardware is complete, and installation remains disabled until a compatible firmware image is selected.
+The interface presents these eight steps in matching rows and enforces their dependencies. Hardware controls remain disabled until USB approval, board matching requires a model, firmware selection requires a supported board, and settings and installation remain disabled until a compatible firmware image is selected.
 
 ## Firmware integrity
 

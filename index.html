@@ -9,7 +9,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-0FbXSj6xbb2xoZ5Vr0ZNfJfxze19lASkMJgP8qUFmb4='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-w9fihk7vsJflZcD4JT15MyqaddjxkwoSCMjByPTVqqE='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -113,7 +113,7 @@
             "browserRequirements": "Requires a current desktop browser with Web Serial support, such as Google Chrome, Microsoft Edge, or Brave.",
             "isAccessibleForFree": true,
             "featureList": [
-              "Guided connect, select, and install workflow",
+              "Guided eight-step firmware installation workflow",
               "Automatic official firmware release discovery",
               "Optional prerelease firmware testing channel",
               "SHA-256 firmware verification",
@@ -149,14 +149,44 @@
               {
                 "@type": "HowToStep",
                 "position": 2,
-                "name": "Select the exact firmware",
-                "text": "Choose the miner family, release channel, model, Bitaxe board revision when applicable, and a compatible firmware version."
+                "name": "Choose the miner family",
+                "text": "Choose Bitaxe or NerdAxe to load the correct hardware catalog."
               },
               {
                 "@type": "HowToStep",
                 "position": 3,
+                "name": "Choose the release channel",
+                "text": "Use the latest production releases or opt into prerelease firmware for testing."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 4,
+                "name": "Choose the miner model",
+                "text": "Select the exact miner model from the supported hardware list."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 5,
+                "name": "Match the board",
+                "text": "Select the Bitaxe board revision printed on the device. The matching board is identified automatically for NerdAxe models."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 6,
+                "name": "Choose a compatible firmware version",
+                "text": "Select an eligible production version or review the eligible prerelease matched to the hardware."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 7,
+                "name": "Choose whether to preserve settings",
+                "text": "Choose whether the installation should preserve the miner's saved Wi-Fi, pool, and configuration settings."
+              },
+              {
+                "@type": "HowToStep",
+                "position": 8,
                 "name": "Install and restart",
-                "text": "Choose whether to preserve miner settings, start flashing, and keep USB and power connected until the verified firmware is installed and the miner restarts."
+                "text": "Start flashing and keep USB and power connected until the verified firmware is installed and the miner restarts."
               }
             ]
           },
@@ -236,11 +266,11 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-4QqG7hF2.js"></script>
+    <script type="module" crossorigin src="./assets/index-CJZOZfog.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-CkEiI69N.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-CGw238zT.css">
   </head>
   <body>
     <div id="root"></div>
@@ -253,7 +283,7 @@
           <h2>Supported firmware and hardware</h2>
           <p>The live model list is generated from official ESP-Miner releases and includes supported Bitaxe and NerdAxe board revisions. Confirm the exact model and board number printed on your miner before installing firmware.</p>
           <h2>How the browser flasher works</h2>
-          <ol><li>Connect the miner with a data-capable USB cable and approve its USB serial device.</li><li>Select the firmware family, release channel, exact model, Bitaxe board revision when applicable, and compatible firmware version.</li><li>Choose whether to preserve settings, install the verified release, and maintain USB and power until the miner restarts.</li></ol>
+          <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
           <h2>Verification and source transparency</h2>
           <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing. Corresponding source archives and upstream release pages are linked for inspection.</p>
           <h2>Frequently asked questions</h2>
