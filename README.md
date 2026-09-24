@@ -15,6 +15,8 @@ miners. Use the flasher at **https://flash.solosatoshi.com/**.
 - Restarts the miner automatically after a successful flash.
 - Provides an Advanced tool for a local merged ESP32-S3 `.bin` built for
   address `0x0`. Custom firmware stays in the browser and is never uploaded.
+- Provides a clearly marked Mujina beta tool for user-supplied, merged
+  `bitaxe-raw` ESP32-S3 images on Bitaxe Gamma hardware.
 - Provides a translated interface in nine languages.
 
 A current desktop version of Chrome, Edge, or Brave is required because the
@@ -30,6 +32,9 @@ compatible with the selected hardware's recorded support date.
 Custom firmware is not supplied, authenticated, or checked for hardware
 compatibility by Solo Satoshi. The Advanced tool writes the complete image
 without preserving settings, and the user is responsible for the selected file.
+The Mujina beta has the same local-file limitations, may be unstable, erases
+AxeOS and saved settings, and requires a separate USB host running
+`mujina-minerd`.
 
 ## Source and licenses
 
@@ -50,7 +55,9 @@ and
 Firmware is obtained from the official
 [Bitaxe ESP-Miner](https://github.com/bitaxeorg/ESP-Miner) and
 [NerdAxe ESP-Miner](https://github.com/shufps/ESP-Miner-NerdQAxePlus)
-repositories.
+repositories. The optional Mujina beta accepts user-built images from the
+[bitaxe-raw](https://github.com/bitaxeorg/bitaxe-raw) project; no bitaxe-raw
+firmware binary is distributed by this repository.
 
 The repository intentionally contains no development workflow, credentials,
 infrastructure configuration, or internal business material.
