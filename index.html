@@ -10,7 +10,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-ApUJJJ1ZhDoSPrlnPS8vSxZEaS2OcBOXTI/lgOYeyUE='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-PgioWgL8+IVg+YbSzNiTGatjwh+jSwqZG7dsN9/R1Lw='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://raw.githubusercontent.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -287,17 +287,25 @@
                   "@type": "Answer",
                   "text": "The browser can connect to the USB serial port even when the ESP32 bootloader is not active. If flashing does not start, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. Select Retry flashing. Some miners enter bootloader mode automatically and do not require this sequence."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "What does the Mujina beta support?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Mujina beta uses WebUSB to flash a user-selected Avalon Nano 3S K230 .kdimg image to SPI NAND after checking its structure and every partition SHA-256. Solo Satoshi does not provide or authenticate the image, and an interrupted full-NAND replacement can require recovery. For Bitaxe Gamma Mujina bridge firmware, use Advanced with a merged ESP32-S3 .bin built for address 0x0."
+                }
               }
             ]
           }
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-DRT2U11V.js"></script>
+    <script type="module" crossorigin src="./assets/index-CcsVExnu.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-ChQfe5uS.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-D1kJwjmF.css">
   </head>
   <body>
     <div id="root"></div>
@@ -325,6 +333,7 @@
           <h3>What happens if I change my firmware selection?</h3><p>The install button always uses the image matched to the current selections. A changed selection prepares and verifies its matching image before writing.</p>
           <h3>Can I flash my own compiled firmware?</h3><p>Yes. Use the Advanced tool with a merged, bootable ESP32-S3 .bin built for address 0x0. The file is processed locally and never uploaded. You are solely responsible for its origin, contents, layout, and compatibility.</p>
           <h3>How do I put my miner into bootloader mode?</h3><p>The browser can connect to the USB serial port even when the ESP32 bootloader is not active. If flashing does not start, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. Select Retry flashing. Some miners enter bootloader mode automatically and do not require this sequence.</p>
+          <h3>What does the Mujina beta support?</h3><p>The Mujina beta uses WebUSB to flash a user-selected Avalon Nano 3S K230 .kdimg image to SPI NAND after checking its structure and every partition SHA-256. Solo Satoshi does not provide or authenticate the image, and an interrupted full-NAND replacement can require recovery. For Bitaxe Gamma Mujina bridge firmware, use Advanced with a merged ESP32-S3 .bin built for address 0x0.</p>
           <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
         </article>
       </main>

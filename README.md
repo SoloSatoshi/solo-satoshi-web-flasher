@@ -15,8 +15,12 @@ miners. Use the flasher at **https://flash.solosatoshi.com/**.
 - Restarts the miner automatically after a successful flash.
 - Provides an Advanced tool for a local merged ESP32-S3 `.bin` built for
   address `0x0`. Custom firmware stays in the browser and is never uploaded.
-- Provides a clearly marked Mujina beta tool for user-supplied, merged
-  `bitaxe-raw` ESP32-S3 images on Bitaxe Gamma hardware.
+- Provides a clearly marked Mujina beta for local Avalon Nano 3S
+  `.kdimg` images. It validates the KDIMG structure and every embedded
+  partition SHA-256 before writing the K230 device's SPI NAND through
+  WebUSB, then restarts the miner.
+- Routes Bitaxe Gamma Mujina bridge images to the Advanced ESP32-S3
+  flasher, which verifies the connected chip before writing.
 - Provides a translated interface in nine languages.
 
 A current desktop version of Chrome, Edge, or Brave is required because the
@@ -32,9 +36,10 @@ compatible with the selected hardware's recorded support date.
 Custom firmware is not supplied, authenticated, or checked for hardware
 compatibility by Solo Satoshi. The Advanced tool writes the complete image
 without preserving settings, and the user is responsible for the selected file.
-The Mujina beta has the same local-file limitations, may be unstable, erases
-AxeOS and saved settings, and requires a separate USB host running
-`mujina-minerd`.
+The Nano 3S Mujina beta has the same local-file limitations, may be unstable,
+and replaces the complete SPI NAND image. Interrupting power or USB can leave
+the Nano unable to boot. Nano Mujina is a community fork rather than an
+official 256 Foundation release.
 
 ## Source and licenses
 
@@ -55,9 +60,12 @@ and
 Firmware is obtained from the official
 [Bitaxe ESP-Miner](https://github.com/bitaxeorg/ESP-Miner) and
 [NerdAxe ESP-Miner](https://github.com/shufps/ESP-Miner-NerdQAxePlus)
-repositories. The optional Mujina beta accepts user-built images from the
-[bitaxe-raw](https://github.com/bitaxeorg/bitaxe-raw) project; no bitaxe-raw
-firmware binary is distributed by this repository.
+repositories. The K230 implementation interoperates with the MIT-licensed
+[K230 flash tool](https://github.com/kendryte/k230_flash_py). Its pinned SPI
+NAND loader is fetched from that official repository and checked against a
+fixed SHA-256 digest before use. The optional Nano 3S firmware is maintained
+by the community [nano-mujina](https://github.com/aadhi1014/nano-mujina)
+project; no Mujina firmware image is distributed by this repository.
 
 The repository intentionally contains no development workflow, credentials,
 infrastructure configuration, or internal business material.
