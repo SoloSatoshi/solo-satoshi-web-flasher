@@ -18,6 +18,6 @@
 - The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases.
 - Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation.
 - USB communication remains between the user's browser and the locally selected device.
-- The installer uses eight aligned steps: Connect, Miner family, Release channel, Model, Board match, Version, Settings, and Install. Each dependent control remains disabled until its prerequisites are complete.
+- The installer uses eight aligned steps: Connect, Miner family, Release channel, Model, Board match, Version, Settings, and Install. Each dependent control remains disabled until its prerequisites are complete, and an unavailable prerelease channel is shown as disabled.
 - The application does not require an account and does not use advertising or behavioral analytics.
 - Solo Satoshi LLC operates the flasher and may contribute to ESP-Miner, but upstream firmware remains an open-source community project.

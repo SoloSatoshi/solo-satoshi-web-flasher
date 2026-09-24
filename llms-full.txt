@@ -20,7 +20,7 @@ The Solo Satoshi Web Flasher installs current factory firmware on supported Bita
 7. Choose whether to preserve the miner's saved Wi-Fi, pool, and configuration settings.
 8. Start the installation and keep USB and power connected until flashing and the automatic restart are complete.
 
-The interface presents these eight steps in matching rows and enforces their dependencies. Hardware controls remain disabled until USB approval, board matching requires a model, firmware selection requires a supported board, and settings and installation remain disabled until a compatible firmware image is selected.
+The interface presents these eight steps in matching rows and enforces their dependencies. Miner-family selection requires USB approval, release-channel selection requires a confirmed family, model selection requires a confirmed release channel, board matching requires a model, firmware selection requires a supported board, and settings and installation remain disabled until a compatible firmware image is selected. When no eligible prerelease exists, the prerelease option remains visible but disabled.
 
 ## Firmware integrity
 
