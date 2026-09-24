@@ -1,6 +1,6 @@
 # Solo Satoshi Web Flasher
 
-> A free browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin miners. It discovers official ESP-Miner releases, verifies firmware with SHA-256, and writes the selected image through the browser's local Web Serial connection.
+> A free browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin miners and the Bitaxe Turbo Touch display controller. It discovers official releases, verifies firmware with SHA-256, and writes the selected image through the browser's local Web Serial connection.
 
 ## Primary page
 
@@ -15,7 +15,7 @@
 
 ## Authoritative facts
 
-- The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases.
+- The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases, plus screen-only Bitaxe Turbo Touch firmware from the official BAP-GT-TOUCH project.
 - Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation. After a compatible version is selected, the matching image may be prepared in the background and reused from page memory or the browser HTTP cache.
 - The installer has Verified releases and Advanced tabs. In Advanced, the miner must be connected before a user can choose a merged ESP32-S3 `.bin` to write at address `0x0`. Disconnecting clears that selection. Custom files remain in browser memory, are never uploaded, are not authenticated or verified for hardware compatibility, and are written without preserving settings. The user is solely responsible for custom firmware and any resulting device or data impact.
 - USB communication remains between the user's browser and the locally selected device.

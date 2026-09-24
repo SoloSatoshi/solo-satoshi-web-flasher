@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T20:55:18.195Z",
+  "generatedAt": "2026-09-24T21:13:10.306Z",
   "sources": [
     {
       "family": "bitaxe",
@@ -55,6 +55,51 @@
       "releaseUrl": "https://github.com/bitaxeorg/ESP-Miner/releases/tag/v2.14.0",
       "publishedAt": "2026-06-04T17:52:24Z",
       "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe/v2.14.0/ESP-Miner-v2.14.0-source.tar.gz"
+    },
+    {
+      "family": "bitaxe",
+      "channel": "stable",
+      "repository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseTag": "v1.1.2",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.2",
+      "publishedAt": "2026-03-07T19:57:39Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.2/BAP-GT-TOUCH-v1.1.2-source.tar.gz"
+    },
+    {
+      "family": "bitaxe",
+      "channel": "stable",
+      "repository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseTag": "v1.1.1",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.1",
+      "publishedAt": "2026-03-07T19:01:00Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.1/BAP-GT-TOUCH-v1.1.1-source.tar.gz"
+    },
+    {
+      "family": "bitaxe",
+      "channel": "stable",
+      "repository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseTag": "v1.1.0",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.0",
+      "publishedAt": "2026-02-16T19:10:08Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.0/BAP-GT-TOUCH-v1.1.0-source.tar.gz"
+    },
+    {
+      "family": "bitaxe",
+      "channel": "stable",
+      "repository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseTag": "v1.0.9",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.0.9",
+      "publishedAt": "2026-02-16T19:08:07Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.0.9/BAP-GT-TOUCH-v1.0.9-source.tar.gz"
+    },
+    {
+      "family": "bitaxe",
+      "channel": "stable",
+      "repository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseTag": "v1.0",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.0",
+      "publishedAt": "2025-09-10T08:16:56Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.0/BAP-GT-TOUCH-v1.0-source.tar.gz"
     },
     {
       "family": "nerdaxe",
@@ -681,6 +726,81 @@
       "downloadUrl": "https://firmware.solosatoshi.com/bitaxe/v2.14.0/esp-miner-factory-303-v2.14.0.bin",
       "sourceRepository": "bitaxeorg/ESP-Miner",
       "releaseUrl": "https://github.com/bitaxeorg/ESP-Miner/releases/tag/v2.14.0"
+    },
+    {
+      "id": "bitaxe-touch-GT-TOUCH-v1.1.2",
+      "family": "bitaxe",
+      "channel": "stable",
+      "model": "Bitaxe Turbo Touch — Screen Only",
+      "board": "GT-TOUCH",
+      "supportedSince": "2025-09-10T08:16:56Z",
+      "releaseTag": "v1.1.2",
+      "assetName": "esp-display-v1.1.2.bin",
+      "size": 2139584,
+      "sha256": "ecc780a98bafd4484b076d0cb37cbb055561a71888c9720aca041fea79a14a79",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.2/esp-display-v1.1.2.bin",
+      "sourceRepository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.2"
+    },
+    {
+      "id": "bitaxe-touch-GT-TOUCH-v1.1.1",
+      "family": "bitaxe",
+      "channel": "stable",
+      "model": "Bitaxe Turbo Touch — Screen Only",
+      "board": "GT-TOUCH",
+      "supportedSince": "2025-09-10T08:16:56Z",
+      "releaseTag": "v1.1.1",
+      "assetName": "esp-display-v1.1.1.bin",
+      "size": 2131728,
+      "sha256": "3f60de0048aa4ed6b8459cfae2d2ceae77b744a441273247565f981839df8055",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.1/esp-display-v1.1.1.bin",
+      "sourceRepository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.1"
+    },
+    {
+      "id": "bitaxe-touch-GT-TOUCH-v1.1.0",
+      "family": "bitaxe",
+      "channel": "stable",
+      "model": "Bitaxe Turbo Touch — Screen Only",
+      "board": "GT-TOUCH",
+      "supportedSince": "2025-09-10T08:16:56Z",
+      "releaseTag": "v1.1.0",
+      "assetName": "esp-display-v1.1.0.bin",
+      "size": 2130672,
+      "sha256": "e1317e2c35affca53abf5f0778cde2a5828a204cfbe851b35a4f88d31b97c191",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.1.0/esp-display-v1.1.0.bin",
+      "sourceRepository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.1.0"
+    },
+    {
+      "id": "bitaxe-touch-GT-TOUCH-v1.0.9",
+      "family": "bitaxe",
+      "channel": "stable",
+      "model": "Bitaxe Turbo Touch — Screen Only",
+      "board": "GT-TOUCH",
+      "supportedSince": "2025-09-10T08:16:56Z",
+      "releaseTag": "v1.0.9",
+      "assetName": "esp-display-v1.0.9.bin",
+      "size": 2130400,
+      "sha256": "8d9d51a4f04b11d045cb7ccd7f85d5a04b16eacf6291c8f3b17e8ea26bebf8e4",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.0.9/esp-display-v1.0.9.bin",
+      "sourceRepository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.0.9"
+    },
+    {
+      "id": "bitaxe-touch-GT-TOUCH-v1.0",
+      "family": "bitaxe",
+      "channel": "stable",
+      "model": "Bitaxe Turbo Touch — Screen Only",
+      "board": "GT-TOUCH",
+      "supportedSince": "2025-09-10T08:16:56Z",
+      "releaseTag": "v1.0",
+      "assetName": "esp-display.bin",
+      "size": 1941136,
+      "sha256": "699936f7e89778d0b63cfa8756efc938f4a2df00eef647f218ac64ccf5aec730",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.0/esp-display.bin",
+      "sourceRepository": "bitaxeorg/BAP-GT-TOUCH",
+      "releaseUrl": "https://github.com/bitaxeorg/BAP-GT-TOUCH/releases/tag/v1.0"
     },
     {
       "id": "bitaxe-207-v2.15.3",

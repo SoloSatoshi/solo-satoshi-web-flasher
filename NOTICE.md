@@ -20,6 +20,7 @@ source for the deployed version is published with the application.
 It discovers and mirrors unmodified GPL-3.0 firmware from:
 
 - [bitaxeorg/ESP-Miner](https://github.com/bitaxeorg/ESP-Miner)
+- [bitaxeorg/BAP-GT-TOUCH](https://github.com/bitaxeorg/BAP-GT-TOUCH)
 - [shufps/ESP-Miner-NerdQAxePlus](https://github.com/shufps/ESP-Miner-NerdQAxePlus)
 
 Each mirrored firmware release is published with the corresponding tagged

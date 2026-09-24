@@ -7,7 +7,7 @@ Application source: https://flash.solosatoshi.com/source/latest.tar.gz
 
 ## Purpose
 
-The Solo Satoshi Web Flasher installs current factory firmware on supported Bitaxe and NerdAxe Bitcoin miners from a compatible desktop web browser. It is designed for Chrome, Edge, and Brave browsers with Web Serial support.
+The Solo Satoshi Web Flasher installs current factory firmware on supported Bitaxe and NerdAxe Bitcoin miners and the Bitaxe Turbo Touch display controller from a compatible desktop web browser. It is designed for Chrome, Edge, and Brave browsers with Web Serial support.
 
 ## Installation process
 
@@ -28,11 +28,11 @@ The installer provides Verified releases and Advanced tabs. The Advanced tab acc
 
 ## Firmware integrity
 
-Firmware is discovered from the official ESP-Miner repositories for the supported device families. Automated release processing checks each file against the digest published by GitHub. After a compatible version is selected, the browser prepares the matching image and independently verifies its SHA-256 checksum before writing it to the device. Changing the hardware or version prepares the newly matched image. A verified image may be reused from page memory or the browser HTTP cache. The interface links to the upstream release and a corresponding source archive.
+Firmware is discovered from the official ESP-Miner repositories for the supported miner families and from the official BAP-GT-TOUCH repository for the Turbo Touch display controller. Automated release processing checks each file against the digest published by GitHub. After a compatible version is selected, the browser prepares the matching image and independently verifies its SHA-256 checksum before writing it to the device. Changing the hardware or version prepares the newly matched image. A verified image may be reused from page memory or the browser HTTP cache. The interface links to the upstream release and a corresponding source archive.
 
 ## Supported hardware
 
-The live manifest determines the exact supported images. The displayed families include Bitaxe models such as Gamma, Gamma Duo, Gamma Turbo, Hex, Max, Supra, SupraHex, Ultra, GammaHex, and Naja Duo, plus supported NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe, NerdOCTAXE, NerdQAxe, NerdQX, Q1370, and Q1373 revisions. Users must match the exact board identifier printed on their device.
+The live manifest determines the exact supported images. The displayed families include Bitaxe models such as Gamma, Gamma Duo, Gamma Turbo, Hex, Max, Supra, SupraHex, Ultra, GammaHex, and Naja Duo, plus supported NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe, NerdOCTAXE, NerdQAxe, NerdQX, Q1370, and Q1373 revisions. Bitaxe Turbo Touch appears as a separate screen-only model with its own controller and release history. Its screen firmware does not update the Bitaxe GT miner inside the unit. Users must match the exact hardware and USB port they intend to update.
 
 ## Privacy
 

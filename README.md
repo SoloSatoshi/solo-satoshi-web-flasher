@@ -1,11 +1,14 @@
 # Solo Satoshi Web Flasher
 
 A browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin
-miners. Use the flasher at **https://flash.solosatoshi.com/**.
+miners and the Bitaxe Turbo Touch display. Use the flasher at
+**https://flash.solosatoshi.com/**.
 
 ## Capabilities
 
 - Installs verified production releases from the official ESP-Miner projects.
+- Installs verified BAP-GT-TOUCH releases on the Turbo Touch display
+  controller, clearly separated from the Bitaxe GT miner inside the unit.
 - Offers newer official prereleases when an eligible build is available.
 - Shows up to five compatible production releases for supported rollbacks.
 - Filters firmware by miner family, model, board revision, and the version in
@@ -60,7 +63,9 @@ and
 Firmware is obtained from the official
 [Bitaxe ESP-Miner](https://github.com/bitaxeorg/ESP-Miner) and
 [NerdAxe ESP-Miner](https://github.com/shufps/ESP-Miner-NerdQAxePlus)
-repositories. The K230 implementation interoperates with the MIT-licensed
+repositories. Turbo Touch display firmware is obtained from the official
+[BAP-GT-TOUCH](https://github.com/bitaxeorg/BAP-GT-TOUCH) repository.
+The K230 implementation interoperates with the MIT-licensed
 [K230 flash tool](https://github.com/kendryte/k230_flash_py). Its pinned SPI
 NAND loader is fetched from that official repository and checked against a
 fixed SHA-256 digest before use. The optional Nano 3S firmware is maintained

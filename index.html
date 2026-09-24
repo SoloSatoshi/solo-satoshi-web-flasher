@@ -10,7 +10,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-PgioWgL8+IVg+YbSzNiTGatjwh+jSwqZG7dsN9/R1Lw='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://raw.githubusercontent.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-bNLMm5w0bezkijbSDmawAzkZTg8eCgRdHUwdZ21td2M='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://raw.githubusercontent.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -295,17 +295,25 @@
                   "@type": "Answer",
                   "text": "The Mujina beta uses WebUSB to flash a user-selected Avalon Nano 3S K230 .kdimg image to SPI NAND after checking its structure and every partition SHA-256. Solo Satoshi does not provide or authenticate the image, and an interrupted full-NAND replacement can require recovery. For Bitaxe Gamma Mujina bridge firmware, use Advanced with a merged ESP32-S3 .bin built for address 0x0."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Turbo Touch screen firmware update the miner inside it?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through its USB port. It does not update the internal Bitaxe GT miner. To update the miner, select its exact Bitaxe model and board separately and connect the miner USB port."
+                }
               }
             ]
           }
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-DxEdpj-I.js"></script>
+    <script type="module" crossorigin src="./assets/index-BAXUlW4x.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-D-nGIdiG.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DJIyQ-Mp.css">
   </head>
   <body>
     <div id="root"></div>
@@ -316,7 +324,7 @@
           <h1>Flash Bitaxe, NerdAxe, and custom firmware directly from your browser.</h1>
           <p>A precise, browser-based installer for Bitaxe, NerdAxe, and custom Bitcoin mining firmware builds.</p>
           <h2>Supported firmware and hardware</h2>
-          <p>The live model and rollback-version lists are generated from official ESP-Miner releases. Select the exact model and printed Bitaxe board number. NerdAxe hardware is matched automatically from the selected model.</p>
+          <p>The live model and rollback-version lists are generated from official ESP-Miner and BAP-GT-TOUCH releases. Select the exact model and printed Bitaxe board number. NerdAxe hardware is matched automatically from the selected model. Turbo Touch screen firmware updates only the display controller, not the Bitaxe GT miner inside the unit.</p>
           <h2>How the browser flasher works</h2>
           <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
           <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>
@@ -329,6 +337,7 @@
           <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool.</p>
           <h3>Can the flasher preserve my miner settings?</h3><p>Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution.</p>
           <h3>Where does the firmware come from?</h3><p>Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive.</p>
+          <h3>Does Turbo Touch screen firmware update the miner inside it?</h3><p>No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through its USB port. It does not update the internal Bitaxe GT miner.</p>
           <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. If none is eligible, the option is disabled and Latest Releases is selected automatically.</p>
           <h3>What happens if I change my firmware selection?</h3><p>The install button always uses the image matched to the current selections. A changed selection prepares and verifies its matching image before writing.</p>
           <h3>Can I flash my own compiled firmware?</h3><p>Yes. Use the Advanced tool with a merged, bootable ESP32-S3 .bin built for address 0x0. The file is processed locally and never uploaded. You are solely responsible for its origin, contents, layout, and compatibility.</p>
