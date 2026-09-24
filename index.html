@@ -10,7 +10,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-bNLMm5w0bezkijbSDmawAzkZTg8eCgRdHUwdZ21td2M='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://raw.githubusercontent.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-KbzJUyEGoYC2g9EMFfUT296QGXJHoqjFDHhFrtKSXRo='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://raw.githubusercontent.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -117,7 +117,7 @@
               "Guided eight-step firmware installation workflow",
               "Automatic official firmware release discovery",
               "Optional prerelease firmware testing channel",
-              "SHA-256 firmware verification",
+              "SHA-256 firmware verification before and after writing",
               "Verified background firmware preparation and browser caching",
               "Bitaxe and NerdAxe model selection",
               "Optional miner settings preservation",
@@ -237,7 +237,7 @@
                 "name": "How is firmware verified before flashing?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. Your browser calculates and checks the firmware SHA-256 checksum again before writing it to the miner."
+                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. Your browser checks the firmware SHA-256 checksum before installation, and the flashing tool verifies the bytes written to flash before restarting the device."
                 }
               },
               {
@@ -309,11 +309,11 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-BpyyrMz3.js"></script>
+    <script type="module" crossorigin src="./assets/index-BMJJGrlm.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-LaMjwJBH.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-Cf8vfUws.css">
   </head>
   <body>
     <div id="root"></div>
@@ -329,7 +329,7 @@
           <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
           <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>
           <h2>Verification and source transparency</h2>
-          <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing. Corresponding source archives and upstream release pages are linked for inspection.</p>
+          <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing, and the flashing tool verifies the bytes written to flash before restarting the device. Corresponding source archives and upstream release pages are linked for inspection.</p>
           <h2>Advanced custom firmware</h2>
           <p>The Advanced tool can install a local merged, bootable ESP32-S3 firmware file built for address 0x0. The file remains in browser memory and is never uploaded. Custom firmware is not verified for authenticity or hardware compatibility, does not preserve settings, and is used entirely at the user's risk.</p>
           <h2>Frequently asked questions</h2>
