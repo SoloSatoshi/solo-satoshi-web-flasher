@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T05:40:20.403Z",
+  "generatedAt": "2026-09-24T05:46:24.090Z",
   "sources": [
     {
       "family": "bitaxe",
@@ -60,6 +60,15 @@
       "family": "nerdaxe",
       "channel": "stable",
       "repository": "shufps/ESP-Miner-NerdQAxePlus",
+      "releaseTag": "v1.1.0.1",
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1",
+      "publishedAt": "2026-09-24T05:36:59Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/ESP-Miner-NerdQAxePlus-v1.1.0.1-source.tar.gz"
+    },
+    {
+      "family": "nerdaxe",
+      "channel": "stable",
+      "repository": "shufps/ESP-Miner-NerdQAxePlus",
       "releaseTag": "v1.1.0",
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0",
       "publishedAt": "2026-08-29T07:50:55Z",
@@ -100,24 +109,6 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37",
       "publishedAt": "2026-05-09T14:12:30Z",
       "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.37/ESP-Miner-NerdQAxePlus-v1.0.37-source.tar.gz"
-    },
-    {
-      "family": "nerdaxe",
-      "channel": "stable",
-      "repository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseTag": "v1.0.36",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36",
-      "publishedAt": "2026-01-24T10:02:05Z",
-      "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/ESP-Miner-NerdQAxePlus-v1.0.36-source.tar.gz"
-    },
-    {
-      "family": "nerdaxe",
-      "channel": "beta",
-      "repository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseTag": "v1.1.1-test1",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1",
-      "publishedAt": "2026-09-06T08:06:29Z",
-      "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/ESP-Miner-NerdQAxePlus-v1.1.1-test1-source.tar.gz"
     }
   ],
   "firmware": [
@@ -1862,6 +1853,21 @@
       "releaseUrl": "https://github.com/bitaxeorg/ESP-Miner/releases/tag/v2.14.0"
     },
     {
+      "id": "nerdaxe-Q1373-v1.1.0.1",
+      "family": "nerdaxe",
+      "channel": "stable",
+      "model": "Q1373",
+      "board": "Q1373",
+      "supportedSince": "2026-06-02T10:33:44Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-Q1373-v1.1.0.1.bin",
+      "size": 15802368,
+      "sha256": "cec9e894a6eb162ae43c233d3b97da5df26d8d6d17ca35d5fb681c2b0d83d06f",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-Q1373-v1.1.0.1.bin",
+      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
+    },
+    {
       "id": "nerdaxe-Q1373-v1.1.0",
       "family": "nerdaxe",
       "channel": "stable",
@@ -1877,19 +1883,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0"
     },
     {
-      "id": "nerdaxe-Q1373-v1.1.1-test1",
+      "id": "nerdaxe-Q1370-v1.1.0.1",
       "family": "nerdaxe",
-      "channel": "beta",
-      "model": "Q1373",
-      "board": "Q1373",
-      "supportedSince": "2026-06-02T10:33:44Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-Q1373-v1.1.1-test1.bin",
+      "channel": "stable",
+      "model": "Q1370",
+      "board": "Q1370",
+      "supportedSince": "2026-05-22T13:34:12Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-Q1370-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "84a7a5a8f9cc1631aae30c9e8a0ca11a44f2364caaebc6c4fda34e0b00132f76",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-Q1373-v1.1.1-test1.bin",
+      "sha256": "1b80fdd9929e1cf91ec2b12cc415eebc587f35f628ef668be1b8d55a598825ba",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-Q1370-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-Q1370-v1.1.0",
@@ -1907,19 +1913,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0"
     },
     {
-      "id": "nerdaxe-Q1370-v1.1.1-test1",
+      "id": "nerdaxe-NerdQX-v1.1.0.1",
       "family": "nerdaxe",
-      "channel": "beta",
-      "model": "Q1370",
-      "board": "Q1370",
-      "supportedSince": "2026-05-22T13:34:12Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-Q1370-v1.1.1-test1.bin",
+      "channel": "stable",
+      "model": "NerdQX",
+      "board": "NerdQX",
+      "supportedSince": "2025-11-09T13:03:31Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdQX-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "1047d519535387e1b59ade24dc05b68e974c2d4ab1c797971dba34c93a91f719",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-Q1370-v1.1.1-test1.bin",
+      "sha256": "1d669eb78c800cc8b7664ba722816ed0f9e46c3232dd554e46907f838c7d7c6b",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdQX-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdQX-v1.1.0",
@@ -1997,34 +2003,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdQX-v1.0.36",
+      "id": "nerdaxe-NerdEKO-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdQX",
-      "board": "NerdQX",
-      "supportedSince": "2025-11-09T13:03:31Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdQX-v1.0.36.bin",
+      "model": "NerdEKO",
+      "board": "NerdEKO",
+      "supportedSince": "2025-04-07T15:54:05Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdEKO-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "90027bed74b99339e987caf48af2b461eda732ce21ce955c84bf721e66cdc39b",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdQX-v1.0.36.bin",
+      "sha256": "75ee07aea64210d267862288235f23e9411d82772d7885c9929f35b4dd3bcdcf",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdEKO-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdQX-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdQX",
-      "board": "NerdQX",
-      "supportedSince": "2025-11-09T13:03:31Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdQX-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "47f858417bbfee03e1db3fb70fba5c1a994327ca613f8369d4c2d1ae24ee64a4",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdQX-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdEKO-v1.1.0",
@@ -2102,34 +2093,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdEKO-v1.0.36",
+      "id": "nerdaxe-NerdHaxe-Gamma-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdEKO",
-      "board": "NerdEKO",
-      "supportedSince": "2025-04-07T15:54:05Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdEKO-v1.0.36.bin",
+      "model": "NerdHaxe Gamma",
+      "board": "NerdHaxe-Gamma",
+      "supportedSince": "2025-02-16T10:22:52Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdHaxe-Gamma-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "50ba61ec89925ce07f203765714b715e92728836c22941de1aaf1b51965f7315",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdEKO-v1.0.36.bin",
+      "sha256": "a04bd7b10a011ca71ac9c5b015ea15bf8c76a1dca5f7d745018f030ede82b0e4",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdHaxe-Gamma-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdEKO-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdEKO",
-      "board": "NerdEKO",
-      "supportedSince": "2025-04-07T15:54:05Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdEKO-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "8c02b7c79089dedf8e9c9d90178110fb2df89e76ecd28710475010f6af16fe75",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdEKO-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdHaxe-Gamma-v1.1.0",
@@ -2207,34 +2183,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdHaxe-Gamma-v1.0.36",
+      "id": "nerdaxe-NerdAxeGamma-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdHaxe Gamma",
-      "board": "NerdHaxe-Gamma",
-      "supportedSince": "2025-02-16T10:22:52Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdHaxe-Gamma-v1.0.36.bin",
+      "model": "NerdAxe Gamma",
+      "board": "NerdAxeGamma",
+      "supportedSince": "2025-02-06T10:16:05Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdAxeGamma-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "ec47a01dd5ddd5a87482e6d46492905e319a72c8f5a2d5317eb7f7c68262cfc2",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdHaxe-Gamma-v1.0.36.bin",
+      "sha256": "030810daf5bb393a391a57a17046d3746f3e1aeceffdf1702d10b2d7a8fd1d94",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdAxeGamma-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdHaxe-Gamma-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdHaxe Gamma",
-      "board": "NerdHaxe-Gamma",
-      "supportedSince": "2025-02-16T10:22:52Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdHaxe-Gamma-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "c0dd0286ce76783097c52ca228018ddaed7bfb6e88fe1cd752cac87c6c30c754",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdHaxe-Gamma-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdAxeGamma-v1.1.0",
@@ -2312,34 +2273,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdAxeGamma-v1.0.36",
+      "id": "nerdaxe-NerdOCTAXE-Gamma-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdAxe Gamma",
-      "board": "NerdAxeGamma",
-      "supportedSince": "2025-02-06T10:16:05Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdAxeGamma-v1.0.36.bin",
+      "model": "NerdOCTAXE Gamma",
+      "board": "NerdOCTAXE-Gamma",
+      "supportedSince": "2024-10-29T18:42:15Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdOCTAXE-Gamma-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "6d40cc382e8b13ce9a17ddb8625543bdec8763384cd36441e7895acd4537f827",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdAxeGamma-v1.0.36.bin",
+      "sha256": "866a8c21d811860035299f4591094e43a7fb13d631bfef712cf734f12146a5e9",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdOCTAXE-Gamma-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdAxeGamma-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdAxe Gamma",
-      "board": "NerdAxeGamma",
-      "supportedSince": "2025-02-06T10:16:05Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdAxeGamma-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "99fbba0b387e2c1ffaff870961dcb295c320588583ec66882211bcb49dc82c48",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdAxeGamma-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdOCTAXE-Gamma-v1.1.0",
@@ -2417,34 +2363,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdOCTAXE-Gamma-v1.0.36",
+      "id": "nerdaxe-NerdOCTAXE+-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdOCTAXE Gamma",
-      "board": "NerdOCTAXE-Gamma",
+      "model": "NerdOCTAXE+",
+      "board": "NerdOCTAXE+",
       "supportedSince": "2024-10-29T18:42:15Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdOCTAXE-Gamma-v1.0.36.bin",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdOCTAXE+-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "7b188ffa8613c991e03112c37541be09e3221c0e6adaf0657b4628edc3dfba9d",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdOCTAXE-Gamma-v1.0.36.bin",
+      "sha256": "bf07c235f023a16f3a335ef88b6962a330d077c3c68ef904a3957e042cd2db40",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdOCTAXE+-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdOCTAXE-Gamma-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdOCTAXE Gamma",
-      "board": "NerdOCTAXE-Gamma",
-      "supportedSince": "2024-10-29T18:42:15Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdOCTAXE-Gamma-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "444d0d7acb4e57e4f025200670970ba68239137a8d8a0b062c78d1f1fd030ee3",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdOCTAXE-Gamma-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdOCTAXE+-v1.1.0",
@@ -2522,34 +2453,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdOCTAXE+-v1.0.36",
+      "id": "nerdaxe-NerdAxe-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdOCTAXE+",
-      "board": "NerdOCTAXE+",
-      "supportedSince": "2024-10-29T18:42:15Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdOCTAXE+-v1.0.36.bin",
+      "model": "NerdAxe",
+      "board": "NerdAxe",
+      "supportedSince": "2024-10-15T11:13:59Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdAxe-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "9794cba4edae9042451c70c68cf83f956bd745c680614c59a56660c359be5069",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdOCTAXE+-v1.0.36.bin",
+      "sha256": "3f534f4063b0362d2df731e3e619f87045065805b0aaeaeff75181b21ef5718c",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdAxe-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdOCTAXE+-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdOCTAXE+",
-      "board": "NerdOCTAXE+",
-      "supportedSince": "2024-10-29T18:42:15Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdOCTAXE+-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "d85b138676495258ec740c517096cdef5b87a17f1da78733eadc02c362fb3064",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdOCTAXE+-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdAxe-v1.1.0",
@@ -2627,34 +2543,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdAxe-v1.0.36",
+      "id": "nerdaxe-NerdQAxe+-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdAxe",
-      "board": "NerdAxe",
-      "supportedSince": "2024-10-15T11:13:59Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdAxe-v1.0.36.bin",
+      "model": "NerdQAxe+",
+      "board": "NerdQAxe+",
+      "supportedSince": "2024-10-07T18:34:37Z",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdQAxe+-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "8f3c8e5c75d5378c1daf6efde74a22fda6c76697f3f77c142f366598734c8d94",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdAxe-v1.0.36.bin",
+      "sha256": "9b5fb7ba5c783664ea750de48c8e862f02934f5b650dc5b36aadec243a0736ad",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdQAxe+-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdAxe-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdAxe",
-      "board": "NerdAxe",
-      "supportedSince": "2024-10-15T11:13:59Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdAxe-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "79dff5af08fcd712fe3267401ed6720c32561317c164adecc78e8533b0a05296",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdAxe-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdQAxe+-v1.1.0",
@@ -2732,34 +2633,19 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
     },
     {
-      "id": "nerdaxe-NerdQAxe+-v1.0.36",
+      "id": "nerdaxe-NerdQAxe++-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
-      "model": "NerdQAxe+",
-      "board": "NerdQAxe+",
+      "model": "NerdQAxe++",
+      "board": "NerdQAxe++",
       "supportedSince": "2024-10-07T18:34:37Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdQAxe+-v1.0.36.bin",
+      "releaseTag": "v1.1.0.1",
+      "assetName": "esp-miner-factory-NerdQAxe++-v1.1.0.1.bin",
       "size": 15802368,
-      "sha256": "b6cee5344c6c20566a0a9edee59a6478990eddcd1d672926b77f5a0261afc913",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdQAxe+-v1.0.36.bin",
+      "sha256": "c084a7523df132bc3a6dd2f5dcaf0fdc989e9c210b12479aceb80376c4f47e12",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.0.1/esp-miner-factory-NerdQAxe++-v1.1.0.1.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdQAxe+-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdQAxe+",
-      "board": "NerdQAxe+",
-      "supportedSince": "2024-10-07T18:34:37Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdQAxe+-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "71f4cea98a97b29c03a909f21ef2606c83d0d1236e5296de2cc9ddfe9ca499f6",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdQAxe+-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
+      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.0.1"
     },
     {
       "id": "nerdaxe-NerdQAxe++-v1.1.0",
@@ -2835,36 +2721,6 @@
       "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.37/esp-miner-factory-NerdQAxe++-v1.0.37.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
-    },
-    {
-      "id": "nerdaxe-NerdQAxe++-v1.0.36",
-      "family": "nerdaxe",
-      "channel": "stable",
-      "model": "NerdQAxe++",
-      "board": "NerdQAxe++",
-      "supportedSince": "2024-10-07T18:34:37Z",
-      "releaseTag": "v1.0.36",
-      "assetName": "esp-miner-factory-NerdQAxe++-v1.0.36.bin",
-      "size": 15802368,
-      "sha256": "8956eb758ab235c755c16468397c6906086a142c5cd1f07d97832f4e6f5694bd",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.36/esp-miner-factory-NerdQAxe++-v1.0.36.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.36"
-    },
-    {
-      "id": "nerdaxe-NerdQAxe++-v1.1.1-test1",
-      "family": "nerdaxe",
-      "channel": "beta",
-      "model": "NerdQAxe++",
-      "board": "NerdQAxe++",
-      "supportedSince": "2024-10-07T18:34:37Z",
-      "releaseTag": "v1.1.1-test1",
-      "assetName": "esp-miner-factory-NerdQAxe++-v1.1.1-test1.bin",
-      "size": 15802368,
-      "sha256": "d98e83404fe12974b889d06aebc48eea3bae9ca82fd6d2fdcc7162d8a8b86de4",
-      "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.1.1-test1/esp-miner-factory-NerdQAxe++-v1.1.1-test1.bin",
-      "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
-      "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.1.1-test1"
     }
   ]
 }
