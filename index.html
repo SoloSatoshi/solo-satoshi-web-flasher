@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#f3efe6" />
+    <meta name="description" content="Flash the latest verified Bitaxe and NerdAxe firmware from Chrome or Edge with automatic releases, SHA-256 checks, and settings preservation." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="Solo Satoshi" />
+    <meta name="application-name" content="Solo Satoshi Web Flasher" />
+    <meta name="referrer" content="no-referrer" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-5ht82I0Rol/eNTRG8Ubig3gHUlYrxDZyFEbtrwoA56g='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <link rel="canonical" href="https://flash.solosatoshi.com/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./boot.css" />
+    <link rel="alternate" type="text/plain" href="https://flash.solosatoshi.com/llms.txt" title="AI-readable site summary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Solo Satoshi" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi" />
+    <meta property="og:description" content="Install the latest verified ESP-Miner firmware from your browser. Supports Bitaxe and NerdAxe models with SHA-256 verification." />
+    <meta property="og:url" content="https://flash.solosatoshi.com/" />
+    <meta property="og:image" content="https://flash.solosatoshi.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Solo Satoshi Bitaxe and NerdAxe Web Flasher" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi" />
+    <meta name="twitter:description" content="Install verified ESP-Miner firmware from Chrome or Edge with automatic releases and SHA-256 checks." />
+    <meta name="twitter:image" content="https://flash.solosatoshi.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Solo Satoshi Bitaxe and NerdAxe Web Flasher" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.solosatoshi.com/#organization",
+            "name": "Solo Satoshi LLC",
+            "url": "https://www.solosatoshi.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://flash.solosatoshi.com/solo-satoshi-logo.png",
+              "width": 112,
+              "height": 112
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1022 Outpost Drive, Ste A4",
+              "addressLocality": "Conroe",
+              "addressRegion": "TX",
+              "postalCode": "77304",
+              "addressCountry": "US"
+            },
+            "sameAs": [
+              "https://www.youtube.com/@solo.satoshi",
+              "https://twitter.com/SoloSatoshi",
+              "https://tiktok.com/@solo.satoshi",
+              "https://www.facebook.com/people/Solo-Satoshi/61575323724787/",
+              "https://www.instagram.com/solosatoshi_/",
+              "https://www.reddit.com/r/SoloSatoshi/",
+              "https://discord.gg/solosatoshi",
+              "https://github.com/SoloSatoshi"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://flash.solosatoshi.com/#website",
+            "url": "https://flash.solosatoshi.com/",
+            "name": "Solo Satoshi Web Flasher",
+            "description": "Verified browser-based firmware installer for Bitaxe and NerdAxe Bitcoin miners.",
+            "inLanguage": "en-US",
+            "publisher": { "@id": "https://www.solosatoshi.com/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://flash.solosatoshi.com/#webpage",
+            "url": "https://flash.solosatoshi.com/",
+            "name": "Bitaxe and NerdAxe Web Flasher",
+            "description": "Flash the latest verified Bitaxe and NerdAxe firmware from a supported desktop browser.",
+            "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
+            "about": [
+              { "@type": "Thing", "name": "Bitaxe" },
+              { "@type": "Thing", "name": "NerdAxe" },
+              { "@type": "Thing", "name": "ESP-Miner firmware" }
+            ],
+            "primaryImageOfPage": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
+            "mainEntity": { "@id": "https://flash.solosatoshi.com/#app" },
+            "dateModified": "2026-09-23",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://flash.solosatoshi.com/#primaryimage",
+            "url": "https://flash.solosatoshi.com/og-image.png",
+            "contentUrl": "https://flash.solosatoshi.com/og-image.png",
+            "width": 1200,
+            "height": 630,
+            "caption": "Solo Satoshi Bitaxe and NerdAxe Web Flasher"
+          },
+          {
+            "@type": "WebApplication",
+            "@id": "https://flash.solosatoshi.com/#app",
+            "name": "Solo Satoshi Bitaxe and NerdAxe Web Flasher",
+            "url": "https://flash.solosatoshi.com/",
+            "description": "A free browser-based firmware flasher for supported Bitaxe and NerdAxe Bitcoin miners with automatic release updates and SHA-256 verification.",
+            "applicationCategory": "UtilitiesApplication",
+            "applicationSubCategory": "Firmware updater",
+            "operatingSystem": "Windows, macOS, Linux, ChromeOS",
+            "browserRequirements": "Requires a current desktop browser with Web Serial support, such as Google Chrome, Microsoft Edge, or Brave.",
+            "isAccessibleForFree": true,
+            "featureList": [
+              "Automatic official firmware release discovery",
+              "Optional prerelease firmware testing channel",
+              "SHA-256 firmware verification",
+              "Bitaxe and NerdAxe model selection",
+              "Optional miner settings preservation",
+              "Local Web Serial installation"
+            ],
+            "image": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
+            "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
+            "provider": { "@id": "https://www.solosatoshi.com/#organization" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "@id": "https://flash.solosatoshi.com/#source",
+            "name": "Solo Satoshi Web Flasher source code",
+            "codeRepository": "https://flash.solosatoshi.com/source/latest.tar.gz",
+            "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+            "programmingLanguage": ["TypeScript", "HTML", "CSS"],
+            "runtimePlatform": "Web browser",
+            "targetProduct": { "@id": "https://flash.solosatoshi.com/#app" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://flash.solosatoshi.com/#faq",
+            "isPartOf": { "@id": "https://flash.solosatoshi.com/#webpage" },
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which browsers support the web flasher?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can the flasher preserve my miner settings?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How is firmware verified before flashing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. The browser calculates and checks the firmware SHA-256 checksum again before writing it to the miner."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which Bitaxe and NerdAxe models are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The supported model list is generated from current official ESP-Miner releases. Select the exact model and board revision printed on your miner before flashing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where does the firmware come from?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I test prerelease firmware?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. When an official prerelease is newer than the latest production release, select the Prereleases channel. Prerelease firmware may contain bugs or require recovery, so the Latest Releases channel remains recommended."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-BzUB_lq2.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
+    <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
+    <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-B9ezkmTS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main class="seo-fallback">
+        <header><img src="./solo-satoshi-logo.webp" alt="Solo Satoshi" width="64" height="64"><p>Solo Satoshi Web Flasher</p></header>
+        <article>
+          <h1>Update your miner with verified firmware.</h1>
+          <p>Install the latest verified ESP-Miner firmware for supported Bitaxe and NerdAxe Bitcoin miners directly from a compatible desktop browser. The flasher checks every firmware file with SHA-256 before writing it through a local Web Serial connection.</p>
+          <h2>Supported firmware and hardware</h2>
+          <p>The live model list is generated from official ESP-Miner releases and includes supported Bitaxe and NerdAxe board revisions. Confirm the exact model and board number printed on your miner before installing firmware.</p>
+          <h2>How the browser flasher works</h2>
+          <ol><li>Select the exact miner model and board revision.</li><li>Connect the miner with a data-capable USB cable.</li><li>Verify the release and install it while maintaining stable power.</li></ol>
+          <h2>Verification and source transparency</h2>
+          <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing. Corresponding source archives and upstream release pages are linked for inspection.</p>
+          <h2>Frequently asked questions</h2>
+          <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool.</p>
+          <h3>Can the flasher preserve my miner settings?</h3><p>Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution.</p>
+          <h3>Where does the firmware come from?</h3><p>Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive.</p>
+          <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. Prerelease firmware may contain bugs or require recovery, so the Latest Releases channel remains recommended.</p>
+          <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
+        </article>
+      </main>
+    </noscript>
+  </body>
+</html>

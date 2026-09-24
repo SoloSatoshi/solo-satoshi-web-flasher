@@ -1,0 +1,41 @@
+# Solo Satoshi Bitaxe and NerdAxe Web Flasher
+
+Canonical URL: https://flash.solosatoshi.com/
+Operator: Solo Satoshi LLC
+Application license: GNU GPL version 3 only
+Application source: https://flash.solosatoshi.com/source/latest.tar.gz
+
+## Purpose
+
+The Solo Satoshi Web Flasher installs current factory firmware on supported Bitaxe and NerdAxe Bitcoin miners from a compatible desktop web browser. It is designed for Chrome, Edge, and Brave browsers with Web Serial support.
+
+## Installation process
+
+1. Choose the Bitaxe or NerdAxe firmware family.
+2. Select the exact miner model and board revision printed on the hardware.
+3. Choose whether to preserve the miner's saved settings.
+4. Confirm the model and terms.
+5. Select the miner's USB serial connection when prompted by the browser.
+6. Keep USB and power connected until installation and restart are complete.
+
+## Firmware integrity
+
+Firmware is discovered from the official ESP-Miner repositories for the supported device families. Automated release processing checks each file against the digest published by GitHub. The browser downloads the selected image and independently verifies its SHA-256 checksum before writing it to the device. The interface links to the upstream release and a corresponding source archive.
+
+## Supported hardware
+
+The live manifest determines the exact supported images. The displayed families include Bitaxe models such as Gamma, Gamma Duo, Gamma Turbo, Hex, Max, Supra, SupraHex, Ultra, GammaHex, and Naja Duo, plus supported NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe, NerdOCTAXE, NerdQAxe, NerdQX, Q1370, and Q1373 revisions. Users must match the exact board identifier printed on their device.
+
+## Privacy
+
+The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining pool credentials. It does not use advertising cookies, behavioral analytics, localStorage, or sessionStorage. Web Serial access requires an explicit browser selection. The application does not upload USB logs or miner settings to Solo Satoshi. Hosting and delivery providers receive ordinary network request information needed to operate and secure the service.
+
+Privacy policy: https://flash.solosatoshi.com/privacy.html
+
+## Open-source relationship
+
+ESP-Miner and related firmware are community-developed open-source projects. Solo Satoshi may sponsor, test, document, package, distribute, or contribute code and also sells compatible hardware. Solo Satoshi is not the sole author or controller of every upstream release or third-party contribution.
+
+Terms: https://flash.solosatoshi.com/terms.html
+Licenses: https://flash.solosatoshi.com/licenses.html
+Store: https://www.solosatoshi.com/shop

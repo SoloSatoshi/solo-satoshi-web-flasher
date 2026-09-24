@@ -1,0 +1,22 @@
+# Solo Satoshi Web Flasher
+
+> A free browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin miners. It discovers official ESP-Miner releases, verifies firmware with SHA-256, and writes the selected image through the browser's local Web Serial connection.
+
+## Primary page
+
+- [Bitaxe and NerdAxe Web Flasher](https://flash.solosatoshi.com/): Select a supported model, verify the board revision, preserve miner settings if desired, and install current firmware.
+
+## Documentation and policies
+
+- [Privacy Policy](https://flash.solosatoshi.com/privacy.html): Data handling, browser permissions, hosting providers, and USB privacy.
+- [Terms of Service](https://flash.solosatoshi.com/terms.html): User responsibilities, firmware risks, warranties, and liability.
+- [Licenses and Source](https://flash.solosatoshi.com/licenses.html): Application, firmware, library, and font licenses.
+- [Application source](https://flash.solosatoshi.com/source/latest.tar.gz): GPL-3.0-only corresponding source for the deployed browser application.
+
+## Authoritative facts
+
+- The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases.
+- Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation.
+- USB communication remains between the user's browser and the locally selected device.
+- The application does not require an account and does not use advertising or behavioral analytics.
+- Solo Satoshi LLC operates the flasher and may contribute to ESP-Miner, but upstream firmware remains an open-source community project.

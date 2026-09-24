@@ -1,0 +1,33 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  background: #f3efe6;
+}
+
+.seo-fallback {
+  width: min(900px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 44px 0 80px;
+  color: #211820;
+  font: 16px/1.75 system-ui, sans-serif;
+}
+
+.seo-fallback header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #d8d3c8;
+}
+
+.seo-fallback header img { border-radius: 12px; }
+.seo-fallback header p { font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.seo-fallback article { padding-top: 50px; }
+.seo-fallback h1, .seo-fallback h2 { font-family: Georgia, serif; line-height: 1.08; }
+.seo-fallback h1 { margin: 0 0 24px; font-size: clamp(44px, 8vw, 76px); letter-spacing: -.045em; }
+.seo-fallback h2 { margin: 48px 0 14px; font-size: 30px; }
+.seo-fallback h3 { margin: 28px 0 8px; font-size: 17px; }
+.seo-fallback p, .seo-fallback li { color: #51434f; }
+.seo-fallback nav { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 44px; }
+.seo-fallback a { color: #74285f; font-weight: 750; text-underline-offset: 4px; }
+.seo-fallback a:hover { color: #f7931a; }
