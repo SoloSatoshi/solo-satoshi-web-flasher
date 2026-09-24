@@ -11,12 +11,14 @@ The Solo Satoshi Web Flasher installs current factory firmware on supported Bita
 
 ## Installation process
 
-1. Choose the Bitaxe or NerdAxe firmware family.
-2. Select the exact miner model and board revision printed on the hardware.
-3. Choose whether to preserve the miner's saved settings.
-4. Confirm the model and terms.
-5. Select the miner's USB serial connection when prompted by the browser.
-6. Keep USB and power connected until installation and restart are complete.
+1. Connect the miner with a data-capable USB cable and approve its USB serial device when prompted by the browser.
+2. Choose the Bitaxe or NerdAxe firmware family and the latest-release or prerelease channel.
+3. Select the exact miner model. For Bitaxe hardware, also select the board revision printed on the device; NerdAxe does not show a redundant board field.
+4. Select a compatible production firmware version. Prerelease mode uses the current eligible prerelease for the selected hardware.
+5. Choose whether to preserve the miner's saved settings.
+6. Start the installation and keep USB and power connected until flashing and the automatic restart are complete.
+
+The interface enforces this order. Model selection remains disabled until USB approval, Bitaxe board selection remains disabled until a model is chosen, firmware selection remains disabled until the hardware is complete, and installation remains disabled until a compatible firmware image is selected.
 
 ## Firmware integrity
 

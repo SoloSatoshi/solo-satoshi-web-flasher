@@ -4,7 +4,7 @@
 
 ## Primary page
 
-- [Bitaxe and NerdAxe Web Flasher](https://flash.solosatoshi.com/): Select a supported model, verify the board revision, preserve miner settings if desired, and install current firmware.
+- [Bitaxe and NerdAxe Web Flasher](https://flash.solosatoshi.com/): Connect and approve the miner's USB serial device, select the exact supported hardware and compatible firmware, choose whether to preserve settings, and install the verified release.
 
 ## Documentation and policies
 
@@ -18,5 +18,6 @@
 - The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases.
 - Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation.
 - USB communication remains between the user's browser and the locally selected device.
+- The installer uses a gated Connect, Select, and Install sequence. Each later control remains disabled until its required prior step is complete.
 - The application does not require an account and does not use advertising or behavioral analytics.
 - Solo Satoshi LLC operates the flasher and may contribute to ESP-Miner, but upstream firmware remains an open-source community project.
