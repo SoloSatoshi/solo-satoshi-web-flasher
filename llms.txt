@@ -17,7 +17,7 @@
 
 - The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases.
 - Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation. After a compatible version is selected, the matching image may be prepared in the background and reused from page memory or the browser HTTP cache.
-- The installer has Verified releases and Advanced tabs. In Advanced, the miner must be connected before a user can choose a merged ESP32-S3 `.bin` to write at address `0x0`. Disconnecting clears that selection. Custom files remain in browser memory, are not uploaded, are not verified against an official release digest, and are written without preserving settings.
+- The installer has Verified releases and Advanced tabs. In Advanced, the miner must be connected before a user can choose a merged ESP32-S3 `.bin` to write at address `0x0`. Disconnecting clears that selection. Custom files remain in browser memory, are never uploaded, are not authenticated or verified for hardware compatibility, and are written without preserving settings. The user is solely responsible for custom firmware and any resulting device or data impact.
 - USB communication remains between the user's browser and the locally selected device.
 - The installer uses eight aligned steps: Connect, Miner family, Release channel, Model, Board match, Version, Settings, and Install. Each dependent control remains disabled until its prerequisites are complete. If no prerelease exists, that channel is shown as disabled and Latest Releases is selected automatically.
 - The application does not require an account and does not use advertising or behavioral analytics.

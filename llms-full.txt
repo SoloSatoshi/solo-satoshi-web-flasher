@@ -24,7 +24,7 @@ The interface presents these eight steps in matching rows and enforces their dep
 
 ## Custom firmware
 
-The installer provides Verified releases and Advanced tabs. The Advanced tab accepts a local merged ESP32-S3 `.bin` built for address `0x0`. The user must connect and approve the miner before choosing a file. The tool then checks the ESP boot-image header, the partition table at `0x8000`, the file size, and the locally calculated SHA-256 digest. Disconnecting clears the selected custom file. The custom file remains in browser memory and is never uploaded. Because there is no trusted release digest or hardware-compatibility record for a user-supplied image, the tool writes the complete image without preserving settings and identifies it as unverified custom firmware.
+The installer provides Verified releases and Advanced tabs. The Advanced tab accepts a local merged ESP32-S3 `.bin` built for address `0x0`. The user must connect and approve the miner before choosing a file. The tool then checks the ESP boot-image header, the partition table at `0x8000`, the file size, and the locally calculated SHA-256 digest. Disconnecting clears the selected custom file. The custom file remains in browser memory and is never uploaded. The tool cannot authenticate custom firmware, detect malicious code, or determine hardware compatibility. It writes the complete image without preserving settings and identifies it as unverified custom firmware. The user is solely responsible for the file, its origin, contents, flash layout, compatibility, installation, and resulting device or data impact.
 
 ## Firmware integrity
 

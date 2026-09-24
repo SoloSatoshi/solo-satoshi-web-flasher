@@ -1,15 +1,16 @@
 <!doctype html>
+<!-- Solo Satoshi Web Flasher; Copyright (C) 2026 Solo Satoshi LLC; SPDX-License-Identifier: GPL-3.0-only; see NOTICE.md for upstream attribution. -->
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#f3efe6" />
-    <meta name="description" content="Flash the latest verified Bitaxe and NerdAxe firmware from Chrome or Edge with automatic releases, SHA-256 checks, and settings preservation." />
+    <meta name="description" content="Flash verified Bitaxe and NerdAxe releases or local custom firmware from Chrome, Edge, or Brave with SHA-256 checks and automatic restart." />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-LmLuPatJE0naIGRpFM9T0sSZk/Hcl6/naZfmSYRO28I='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-JsaAlaLcTUF/vdY38gKH010P1JrSSH7TwzpQ+mitT0U='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -18,17 +19,17 @@
     <meta property="og:site_name" content="Solo Satoshi" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi" />
-    <meta property="og:description" content="Install the latest verified ESP-Miner firmware from your browser. Supports Bitaxe and NerdAxe models with SHA-256 verification." />
+    <meta property="og:description" content="Install verified ESP-Miner releases or local custom firmware for Bitaxe and NerdAxe devices from a supported desktop browser." />
     <meta property="og:url" content="https://flash.solosatoshi.com/" />
-    <meta property="og:image" content="https://flash.solosatoshi.com/og-image-2026-09-23.png" />
+    <meta property="og:image" content="https://flash.solosatoshi.com/og-image-2026-09-24.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Solo Satoshi Bitaxe and NerdAxe Web Flasher" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi" />
-    <meta name="twitter:description" content="Install verified ESP-Miner firmware from Chrome or Edge with automatic releases and SHA-256 checks." />
-    <meta name="twitter:image" content="https://flash.solosatoshi.com/og-image-2026-09-23.png" />
+    <meta name="twitter:description" content="Install verified releases or local custom firmware for Bitaxe and NerdAxe devices from Chrome, Edge, or Brave." />
+    <meta name="twitter:image" content="https://flash.solosatoshi.com/og-image-2026-09-24.png" />
     <meta name="twitter:image:alt" content="Solo Satoshi Bitaxe and NerdAxe Web Flasher" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bitaxe &amp; NerdAxe Web Flasher | Solo Satoshi</title>
@@ -71,7 +72,7 @@
             "@id": "https://flash.solosatoshi.com/#website",
             "url": "https://flash.solosatoshi.com/",
             "name": "Solo Satoshi Web Flasher",
-            "description": "Verified browser-based firmware installer for Bitaxe and NerdAxe Bitcoin miners.",
+            "description": "Browser-based verified-release and local custom-firmware installer for Bitaxe and NerdAxe Bitcoin miners.",
             "inLanguage": "en-US",
             "publisher": { "@id": "https://www.solosatoshi.com/#organization" }
           },
@@ -80,7 +81,7 @@
             "@id": "https://flash.solosatoshi.com/#webpage",
             "url": "https://flash.solosatoshi.com/",
             "name": "Bitaxe and NerdAxe Web Flasher",
-            "description": "Flash the latest verified Bitaxe and NerdAxe firmware from a supported desktop browser.",
+            "description": "Flash verified Bitaxe and NerdAxe releases or a local custom firmware file from a supported desktop browser.",
             "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
             "about": [
               { "@type": "Thing", "name": "Bitaxe" },
@@ -95,8 +96,8 @@
           {
             "@type": "ImageObject",
             "@id": "https://flash.solosatoshi.com/#primaryimage",
-            "url": "https://flash.solosatoshi.com/og-image-2026-09-23.png",
-            "contentUrl": "https://flash.solosatoshi.com/og-image-2026-09-23.png",
+            "url": "https://flash.solosatoshi.com/og-image-2026-09-24.png",
+            "contentUrl": "https://flash.solosatoshi.com/og-image-2026-09-24.png",
             "width": 1200,
             "height": 630,
             "caption": "Solo Satoshi Bitaxe and NerdAxe Web Flasher"
@@ -120,7 +121,8 @@
               "Verified background firmware preparation and browser caching",
               "Bitaxe and NerdAxe model selection",
               "Optional miner settings preservation",
-              "Local Web Serial installation"
+              "Local Web Serial installation",
+              "Advanced local custom-firmware installation without file upload"
             ],
             "image": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
             "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
@@ -269,13 +271,21 @@
                   "@type": "Answer",
                   "text": "The Flash firmware button always uses the image matched to the current family, channel, model, board, and version. Changing a selection prepares and verifies the newly matched image. A previously verified image may be reused from memory or the browser cache, but its file size and SHA-256 must still match before it can be written."
                 }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I flash my own compiled firmware?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. The Advanced custom firmware tool accepts a merged, bootable ESP32-S3 .bin built for address 0x0. The file stays in your browser and is not uploaded. Custom firmware is not verified for authenticity or hardware compatibility, and the Advanced path writes the complete image without preserving settings. You are solely responsible for selecting and using it."
+                }
               }
             ]
           }
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-B0nExGx9.js"></script>
+    <script type="module" crossorigin src="./assets/index-DeUrLgFr.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
@@ -296,6 +306,8 @@
           <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>
           <h2>Verification and source transparency</h2>
           <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing. Corresponding source archives and upstream release pages are linked for inspection.</p>
+          <h2>Advanced custom firmware</h2>
+          <p>The Advanced tool can install a local merged, bootable ESP32-S3 firmware file built for address 0x0. The file remains in browser memory and is never uploaded. Custom firmware is not verified for authenticity or hardware compatibility, does not preserve settings, and is used entirely at the user's risk.</p>
           <h2>Frequently asked questions</h2>
           <h3>How do I flash firmware with the Solo Satoshi Web Flasher?</h3><p>Connect and approve the miner's USB serial device, select the exact supported hardware and firmware, choose whether to preserve settings, then keep USB and power connected while the verified release installs and the miner restarts.</p>
           <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool.</p>
@@ -303,6 +315,7 @@
           <h3>Where does the firmware come from?</h3><p>Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive.</p>
           <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. If none is eligible, the option is disabled and Latest Releases is selected automatically.</p>
           <h3>What happens if I change my firmware selection?</h3><p>The install button always uses the image matched to the current selections. A changed selection prepares and verifies its matching image before writing.</p>
+          <h3>Can I flash my own compiled firmware?</h3><p>Yes. Use the Advanced tool with a merged, bootable ESP32-S3 .bin built for address 0x0. The file is processed locally and never uploaded. You are solely responsible for its origin, contents, layout, and compatibility.</p>
           <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
         </article>
       </main>

@@ -6,10 +6,16 @@ This application is distributed under the GNU General Public License version
 3 only. See `LICENSE` and `LICENSE-SCOPE.md`. No trademark license is granted;
 see `TRADEMARKS.md`.
 
-The implementation was informed by these GPL-3.0 projects:
+Portions of the flashing workflow, hardware-selection approach, and initial
+language catalog were adapted from these GPL-3.0 projects:
 
 - [bitaxeorg/bitaxe-web-flasher](https://github.com/bitaxeorg/bitaxe-web-flasher)
 - [shufps/nerdqaxe-web-flasher](https://github.com/shufps/nerdqaxe-web-flasher)
+
+Copyright in those upstream works remains with their respective authors and
+contributors. Solo Satoshi's modifications are identified by this application's
+distinct source distribution and release history. The complete GPL-covered
+source for the deployed version is published with the application.
 
 It discovers and mirrors unmodified GPL-3.0 firmware from:
 

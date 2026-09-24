@@ -16,11 +16,13 @@ deployed browser application. A versioned copy is retained beside it.
 
 ## Separate works and rights
 
-The Privacy Policy, Terms of Service, search metadata, crawler files, marketing
-content, brand artwork, and other non-program website materials are provided as
-separate works in the website distribution. Copyright in those materials is
-reserved by Solo Satoshi LLC. Their public availability does not place them
-under the GPL.
+The standalone Privacy Policy, Terms of Service, search metadata, crawler files,
+social-preview artwork, brand artwork, and other expressly identified
+non-program website materials are provided as separate works in the website
+distribution. Copyright in those materials is reserved by Solo Satoshi LLC.
+Their public availability does not place them under the GPL. Application code,
+styles, interface text, and localization catalogs included in the corresponding
+source archive remain covered by the GPL.
 
 No trademark rights are granted. See `TRADEMARKS.md` for the trademark terms
 permitted by section 7(e) of GNU GPL version 3.
