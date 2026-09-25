@@ -4,15 +4,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#f3efe6" />
-    <meta name="description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
+    <meta name="description" content="Flash verified AxeOS firmware for Bitaxe and NerdAxe miners in your browser. Preserve settings, recover devices, or install custom ESP32-S3 firmware." />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-v9sGhvs1WT47RDcwALLDy9EyiCgDTdxFM/GshHPNzNQ=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-4FJ8EaCCpfbPjRAIyqbzRsRkCwrTthZsz1OI5v8nvxs=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/newsreader-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
     <script>document.documentElement.classList.add('js')</script>
     <style>html,body{background:#f3efe6;min-height:100%;margin:0}.js .seo-fallback{display:none}</style>
     <link rel="stylesheet" href="./boot.css" />
@@ -20,21 +22,21 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Solo Satoshi" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Bitaxe, NerdAxe &amp; Custom Firmware Flasher | Solo Satoshi" />
-    <meta property="og:description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
+    <meta property="og:title" content="Bitaxe &amp; NerdAxe Web Flasher for AxeOS | Solo Satoshi" />
+    <meta property="og:description" content="Flash verified AxeOS firmware for Bitaxe and NerdAxe miners in your browser. Preserve settings, recover devices, or install custom ESP32-S3 firmware." />
     <meta property="og:url" content="https://flash.solosatoshi.com/" />
-    <meta property="og:image" content="https://flash.solosatoshi.com/og-image-2026-09-24-line2.png" />
+    <meta property="og:image" content="https://flash.solosatoshi.com/bitaxe-nerdaxe-axeos-firmware-web-flasher.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher" />
+    <meta property="og:image:alt" content="Solo Satoshi Bitaxe and NerdAxe AxeOS firmware web flasher" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bitaxe, NerdAxe &amp; Custom Firmware Flasher | Solo Satoshi" />
-    <meta name="twitter:description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
-    <meta name="twitter:image" content="https://flash.solosatoshi.com/og-image-2026-09-24-line2.png" />
-    <meta name="twitter:image:alt" content="Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher" />
+    <meta name="twitter:title" content="Bitaxe &amp; NerdAxe Web Flasher for AxeOS | Solo Satoshi" />
+    <meta name="twitter:description" content="Flash verified AxeOS firmware for Bitaxe and NerdAxe miners in your browser. Preserve settings, recover devices, or install custom ESP32-S3 firmware." />
+    <meta name="twitter:image" content="https://flash.solosatoshi.com/bitaxe-nerdaxe-axeos-firmware-web-flasher.png" />
+    <meta name="twitter:image:alt" content="Solo Satoshi Bitaxe and NerdAxe AxeOS firmware web flasher" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bitaxe, NerdAxe &amp; Custom Firmware Flasher | Solo Satoshi</title>
+    <title>Bitaxe &amp; NerdAxe Web Flasher for AxeOS | Solo Satoshi</title>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -74,7 +76,7 @@
             "@id": "https://flash.solosatoshi.com/#website",
             "url": "https://flash.solosatoshi.com/",
             "name": "Solo Satoshi Web Flasher",
-            "description": "Browser-based installer for verified Bitaxe, NerdAxe, and Turbo Touch releases plus local ESP32-S3 and Nano 3S firmware.",
+            "description": "Browser-based AxeOS web flasher for verified Bitaxe, NerdAxe, and Turbo Touch releases plus local ESP32-S3 and Nano 3S firmware.",
             "inLanguage": "en-US",
             "publisher": {
               "@id": "https://www.solosatoshi.com/#organization"
@@ -84,8 +86,8 @@
             "@type": "WebPage",
             "@id": "https://flash.solosatoshi.com/#webpage",
             "url": "https://flash.solosatoshi.com/",
-            "name": "Bitaxe, NerdAxe, and Custom Firmware Web Flasher",
-            "description": "Flash verified Bitaxe, NerdAxe, and Turbo Touch releases or local ESP32-S3 and Nano 3S firmware from a supported desktop browser.",
+            "name": "Bitaxe and NerdAxe Web Flasher for AxeOS",
+            "description": "Flash verified AxeOS firmware for Bitaxe and NerdAxe miners in a supported desktop browser, preserve settings, recover devices, or install custom ESP32-S3 firmware.",
             "isPartOf": {
               "@id": "https://flash.solosatoshi.com/#website"
             },
@@ -112,6 +114,10 @@
               },
               {
                 "@type": "Thing",
+                "name": "AxeOS firmware"
+              },
+              {
+                "@type": "Thing",
                 "name": "Mujina firmware"
               }
             ],
@@ -121,24 +127,24 @@
             "mainEntity": {
               "@id": "https://flash.solosatoshi.com/#app"
             },
-            "dateModified": "2026-09-24",
+            "dateModified": "2026-09-25",
             "inLanguage": "en-US"
           },
           {
             "@type": "ImageObject",
             "@id": "https://flash.solosatoshi.com/#primaryimage",
-            "url": "https://flash.solosatoshi.com/og-image-2026-09-24-line2.png",
-            "contentUrl": "https://flash.solosatoshi.com/og-image-2026-09-24-line2.png",
+            "url": "https://flash.solosatoshi.com/bitaxe-nerdaxe-axeos-firmware-web-flasher.png",
+            "contentUrl": "https://flash.solosatoshi.com/bitaxe-nerdaxe-axeos-firmware-web-flasher.png",
             "width": 1200,
             "height": 630,
-            "caption": "Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher"
+            "caption": "Solo Satoshi Bitaxe and NerdAxe AxeOS firmware web flasher interface"
           },
           {
             "@type": "WebApplication",
             "@id": "https://flash.solosatoshi.com/#app",
-            "name": "Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher",
+            "name": "Solo Satoshi Bitaxe and NerdAxe Web Flasher for AxeOS",
             "url": "https://flash.solosatoshi.com/",
-            "description": "A free browser-based firmware flasher for verified Bitaxe, NerdAxe, and Turbo Touch releases, local ESP32-S3 images, and Nano 3S K230 images.",
+            "description": "A free browser-based AxeOS firmware flasher for verified Bitaxe, NerdAxe, and Turbo Touch releases, local ESP32-S3 images, and Nano 3S K230 images.",
             "applicationCategory": "UtilitiesApplication",
             "applicationSubCategory": "Firmware updater",
             "operatingSystem": "Windows, macOS, Linux, ChromeOS",
@@ -174,8 +180,8 @@
           {
             "@type": "HowTo",
             "@id": "https://flash.solosatoshi.com/#howto",
-            "name": "How to flash Bitaxe or NerdAxe firmware from a web browser",
-            "description": "Connect the miner, select its exact supported hardware and firmware, then install the verified release through Web Serial.",
+            "name": "How to flash Bitaxe or NerdAxe AxeOS firmware from a web browser",
+            "description": "Connect the miner, select its exact supported hardware and AxeOS firmware, then install the verified release through Web Serial.",
             "tool": [
               {
                 "@type": "HowToTool",
@@ -241,7 +247,8 @@
             "@type": "SoftwareSourceCode",
             "@id": "https://flash.solosatoshi.com/#source",
             "name": "Solo Satoshi Web Flasher source code",
-            "codeRepository": "https://flash.solosatoshi.com/source/latest.tar.gz",
+            "codeRepository": "https://github.com/SoloSatoshi/solo-satoshi-web-flasher",
+            "downloadUrl": "https://flash.solosatoshi.com/source/latest.tar.gz",
             "license": "https://www.gnu.org/licenses/gpl-3.0.html",
             "programmingLanguage": [
               "TypeScript",
@@ -377,21 +384,18 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-nWDsg_k0.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
-    <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
-    <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-BADlE1Bc.css">
+    <script type="module" crossorigin src="./assets/index-0ByYxZ0C.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D3zPeUTv.css">
   </head>
   <body>
     <div id="root" data-prerendered="true">
       <main class="seo-fallback">
         <header><img src="./solo-satoshi-logo.webp" alt="Solo Satoshi" width="64" height="64"><p>Solo Satoshi Web Flasher</p></header>
         <article>
-          <h1>Flash Bitaxe, NerdAxe, and custom firmware directly from your browser.</h1>
-          <p>A browser-based installer for verified Bitaxe and NerdAxe releases, Turbo Touch screen firmware, and local custom Bitcoin mining firmware.</p>
+          <h1>Flash Bitaxe and NerdAxe AxeOS firmware directly from your browser.</h1>
+          <p>A browser-based AxeOS web flasher for verified Bitaxe and NerdAxe releases, Turbo Touch screen firmware, and local custom Bitcoin mining firmware.</p>
           <h2>Supported firmware and hardware</h2>
-          <p>The flasher automatically discovers official releases and offers the newest stable release plus up to five earlier stable versions only when each release contains a factory image for the selected hardware. New hardware cannot be rolled back to firmware released before support for that hardware was added. Turbo Touch screen firmware updates only the display controller, not the Bitaxe GT miner inside the unit.</p>
+          <p>The AxeOS flasher supports Bitaxe Max 102; Ultra 201, 202, 203, 204, 205, and 207; Hex 302 and 303; Supra 400 through 403; Gamma 601 and 602; Gamma Duo 650; SupraHex 701 and 702; Gamma Turbo 801; GammaHex 1300; Naja Duo 1201; and the GT-TOUCH display. It also supports NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe Gamma, NerdOCTAXE Gamma, NerdOCTAXE+, NerdQAxe+, NerdQAxe++, NerdQX, Q1370, and Q1373. The flasher automatically discovers official releases and offers the newest stable release plus up to five earlier stable versions only when each release contains a factory image for the selected hardware. New hardware cannot be rolled back to firmware released before support for that hardware was added. Turbo Touch screen firmware updates only the display controller, not the Bitaxe GT miner inside the unit.</p>
           <h2>How the browser flasher works</h2>
           <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
           <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>

@@ -7,7 +7,7 @@ Application source: https://flash.solosatoshi.com/source/latest.tar.gz
 
 ## Purpose and browser support
 
-The Solo Satoshi Web Flasher provides three browser-based tools: Verified releases for approved Bitaxe, NerdAxe, and Bitaxe Turbo Touch screen firmware; Advanced for a local merged ESP32-S3 image; and a beta Mujina tool for a local Avalon Nano 3S K230 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial or WebUSB. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
+The Solo Satoshi AxeOS Web Flasher provides three browser-based tools: Verified releases for approved Bitaxe, NerdAxe, and Bitaxe Turbo Touch screen firmware; Advanced for a local merged ESP32-S3 image; and a beta Mujina tool for a local Avalon Nano 3S K230 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial or WebUSB. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
 
 ## Verified releases
 
@@ -25,6 +25,8 @@ The verified installer enforces eight ordered steps:
 Each dependent control remains disabled until its prerequisite is complete. When a firmware family has no eligible prerelease, the prerelease box remains visible but disabled and Latest Releases is selected automatically.
 
 Release automation follows bitaxeorg/ESP-Miner, shufps/ESP-Miner-NerdQAxePlus, and bitaxeorg/BAP-GT-TOUCH. For each repository it retains the newest stable release plus up to five preceding stable releases. A version appears for selected hardware only if that release contains a matching factory image. This prevents recently introduced hardware from selecting firmware released before support for that hardware existed. A prerelease is eligible only when it is newer than the latest stable release.
+
+Supported Bitaxe models and boards include Max 102; Ultra 201, 202, 203, 204, 205, and 207; Hex 302 and 303; Supra 400 through 403; Gamma 601 and 602; Gamma Duo 650; SupraHex 701 and 702; Gamma Turbo 801; GammaHex 1300; and Naja Duo 1201. Supported NerdAxe models include NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe Gamma, NerdOCTAXE Gamma, NerdOCTAXE+, NerdQAxe+, NerdQAxe++, NerdQX, Q1370, and Q1373. The GT-TOUCH target updates the Turbo Touch display controller only.
 
 Release processing restricts files to approved repositories and expected asset formats, checks the file size, and compares the file with the SHA-256 digest published by GitHub. The browser independently checks size and SHA-256 before writing. The ESP flashing library verifies the completed write. These checks confirm that the bytes match the listed release; they do not prove that firmware is bug-free or suitable for every configuration.
 
