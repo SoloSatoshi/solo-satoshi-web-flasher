@@ -1,8 +1,10 @@
-# Solo Satoshi Web Flasher
+# [Solo Satoshi Web Flasher](https://flash.solosatoshi.com/)
 
 A browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin
 miners and the Bitaxe Turbo Touch display. Use the flasher at
 **https://flash.solosatoshi.com/**.
+
+**[Open the live Solo Satoshi Web Flasher](https://flash.solosatoshi.com/)**
 
 ## Capabilities
 
@@ -47,11 +49,15 @@ and replaces the complete SPI NAND image. Interrupting power or USB can leave
 the Nano unable to boot. Nano Mujina is a community fork rather than an
 official 256 Foundation release.
 
+When you are ready, [open the live flasher](https://flash.solosatoshi.com/)
+in a supported desktop browser.
+
 ## Source and licenses
 
 This production repository contains the deployed website and the exact
 corresponding GPL source for its active browser application:
 
+- [Live web flasher](https://flash.solosatoshi.com/)
 - [Current corresponding source](https://flash.solosatoshi.com/source/latest.tar.gz)
 - [Licenses and attribution](https://flash.solosatoshi.com/licenses.html)
 - [Terms of Service](https://flash.solosatoshi.com/terms.html)
