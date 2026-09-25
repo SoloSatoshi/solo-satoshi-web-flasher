@@ -1,24 +1,31 @@
 # Solo Satoshi Web Flasher
 
-> A free browser-based firmware installer for supported Bitaxe and NerdAxe Bitcoin miners and the Bitaxe Turbo Touch display controller. It discovers official releases, verifies firmware with SHA-256, and writes the selected image through the browser's local Web Serial connection.
+> A free browser-based firmware installer for verified Bitaxe and NerdAxe releases, the Bitaxe Turbo Touch display controller, local ESP32-S3 images, and user-selected Avalon Nano 3S K230 images.
 
 ## Primary page
 
-- [Bitaxe and NerdAxe Web Flasher](https://flash.solosatoshi.com/): Connect and approve the miner's USB serial device, select the exact supported hardware and compatible firmware, choose whether to preserve settings, and install the verified release.
+- [Solo Satoshi Web Flasher](https://flash.solosatoshi.com/): Use Verified releases for approved upstream firmware, Advanced for a local merged ESP32-S3 image, or the Mujina beta for a local Avalon Nano 3S K230 KDIMG image.
 
 ## Documentation and policies
 
-- [Privacy Policy](https://flash.solosatoshi.com/privacy.html): Data handling, browser permissions, hosting providers, and USB privacy.
-- [Terms of Service](https://flash.solosatoshi.com/terms.html): User responsibilities, firmware risks, warranties, and liability.
-- [Licenses and Source](https://flash.solosatoshi.com/licenses.html): Application, firmware, library, and font licenses.
+- [Privacy Policy](https://flash.solosatoshi.com/privacy.html): Browser permissions, local files, issue reports, hosting providers, storage, and USB data practices.
+- [Terms of Service](https://flash.solosatoshi.com/terms.html): User responsibilities, verified and custom firmware limitations, installation risks, warranties, and liability.
+- [Licenses and Source](https://flash.solosatoshi.com/licenses.html): Application, firmware, library, font, upstream-project, and GPL source information.
 - [Application source](https://flash.solosatoshi.com/source/latest.tar.gz): GPL-3.0-only corresponding source for the deployed browser application.
 
 ## Authoritative facts
 
-- The flasher supports listed Bitaxe and NerdAxe models derived from current official ESP-Miner releases, plus screen-only Bitaxe Turbo Touch firmware from the official BAP-GT-TOUCH project.
-- Firmware files are checked by release automation and verified again in the browser with SHA-256 before installation. After a compatible version is selected, the matching image may be prepared in the background and reused from page memory or the browser HTTP cache.
-- The installer has Verified releases and Advanced tabs. In Advanced, the miner must be connected before a user can choose a merged ESP32-S3 `.bin` to write at address `0x0`. Disconnecting clears that selection. Custom files remain in browser memory, are never uploaded, are not authenticated or verified for hardware compatibility, and are written without preserving settings. The user is solely responsible for custom firmware and any resulting device or data impact.
-- USB communication remains between the user's browser and the locally selected device.
-- The installer uses eight aligned steps: Connect, Miner family, Release channel, Model, Board match, Version, Settings, and Install. Each dependent control remains disabled until its prerequisites are complete. If no prerelease exists, that channel is shown as disabled and Latest Releases is selected automatically.
+- Verified releases discovers approved releases from bitaxeorg/ESP-Miner, shufps/ESP-Miner-NerdQAxePlus, and bitaxeorg/BAP-GT-TOUCH.
+- The verified installer shows the newest stable release plus up to five previous stable releases only when a release contains a factory image for the selected board. Firmware from before a hardware model's first supported release is not offered for that model.
+- An eligible prerelease is offered only when it is newer than the current stable release. Otherwise the prerelease option remains visible but disabled and Latest Releases is selected automatically.
+- Release automation checks the approved repository, asset name, file size, and SHA-256 digest published by GitHub. The browser verifies size and SHA-256 before writing, and the ESP flashing library verifies the completed write.
+- Turbo Touch is a screen-only target. Its firmware updates the display controller and does not update the Bitaxe GT miner inside the unit.
+- Verified ESP releases may preserve the designated NVS settings partition. The option is off by default and is not a backup.
+- Advanced requires an approved USB serial connection before accepting a local merged, bootable ESP32-S3 `.bin` for address `0x0`. The browser checks basic image structure and the connected chip type. The image remains local, is never uploaded, is not authenticated or checked for hardware compatibility, and is written without preserving settings.
+- Mujina beta requires hardware selection before connection. For Avalon Nano 3S it uses WebUSB to validate and write a user-selected K230 `.kdimg` to SPI NAND. It checks K230/Nano 3S metadata, KDIMG structure, and each embedded partition SHA-256. The image remains local, is not authenticated by Solo Satoshi, replaces the complete device image, and may require recovery if interrupted.
+- The Bitaxe Gamma choice in Mujina directs the user to Advanced for a merged ESP32-S3 Mujina bridge image.
+- After an ESP flash, the interface reports: firmware written and verified, device restarting, USB disconnect detected, and restart complete. This sequence confirms the flash and reset flow, not mining or network operation after boot.
+- USB communication and selected custom firmware remain between the browser and the locally selected device. Technical logs are not uploaded.
+- Report an issue sends only the entered description. The form does not request a name, email address, or device logs. Cloudflare rate limiting and Turnstile protect the submission, and Proton delivers and stores the support email.
+- The application requires a current supported desktop Chrome, Edge, or Brave browser. Phones, tablets, Safari, and Firefox are not supported for flashing.
 - The application does not require an account and does not use advertising or behavioral analytics.
-- Solo Satoshi LLC operates the flasher and may contribute to ESP-Miner, but upstream firmware remains an open-source community project.

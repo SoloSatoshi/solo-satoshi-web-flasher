@@ -4,13 +4,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="theme-color" content="#f3efe6" />
-    <meta name="description" content="Flash verified Bitaxe and NerdAxe releases or local custom firmware directly from Chrome, Edge, or Brave with SHA-256 checks and automatic restart." />
+    <meta name="description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-KbzJUyEGoYC2g9EMFfUT296QGXJHoqjFDHhFrtKSXRo=' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-v9sGhvs1WT47RDcwALLDy9EyiCgDTdxFM/GshHPNzNQ=' https://challenges.cloudflare.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="stylesheet" href="./boot.css" />
@@ -19,7 +19,7 @@
     <meta property="og:site_name" content="Solo Satoshi" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="Bitaxe, NerdAxe &amp; Custom Firmware Flasher | Solo Satoshi" />
-    <meta property="og:description" content="Install verified ESP-Miner releases or local custom firmware for Bitaxe and NerdAxe devices directly from a supported desktop browser." />
+    <meta property="og:description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
     <meta property="og:url" content="https://flash.solosatoshi.com/" />
     <meta property="og:image" content="https://flash.solosatoshi.com/og-image-2026-09-24-line2.png" />
     <meta property="og:image:type" content="image/png" />
@@ -28,7 +28,7 @@
     <meta property="og:image:alt" content="Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Bitaxe, NerdAxe &amp; Custom Firmware Flasher | Solo Satoshi" />
-    <meta name="twitter:description" content="Install verified releases or local custom firmware for Bitaxe and NerdAxe devices directly from Chrome, Edge, or Brave." />
+    <meta name="twitter:description" content="Flash verified Bitaxe, NerdAxe, and Turbo Touch firmware or local ESP32-S3 and Nano 3S images from a supported desktop browser." />
     <meta name="twitter:image" content="https://flash.solosatoshi.com/og-image-2026-09-24-line2.png" />
     <meta name="twitter:image:alt" content="Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -72,24 +72,53 @@
             "@id": "https://flash.solosatoshi.com/#website",
             "url": "https://flash.solosatoshi.com/",
             "name": "Solo Satoshi Web Flasher",
-            "description": "Browser-based verified-release and local custom-firmware installer for Bitaxe and NerdAxe Bitcoin miners.",
+            "description": "Browser-based installer for verified Bitaxe, NerdAxe, and Turbo Touch releases plus local ESP32-S3 and Nano 3S firmware.",
             "inLanguage": "en-US",
-            "publisher": { "@id": "https://www.solosatoshi.com/#organization" }
+            "publisher": {
+              "@id": "https://www.solosatoshi.com/#organization"
+            }
           },
           {
             "@type": "WebPage",
             "@id": "https://flash.solosatoshi.com/#webpage",
             "url": "https://flash.solosatoshi.com/",
             "name": "Bitaxe, NerdAxe, and Custom Firmware Web Flasher",
-            "description": "Flash verified Bitaxe and NerdAxe releases or a local custom firmware file directly from a supported desktop browser.",
-            "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
+            "description": "Flash verified Bitaxe, NerdAxe, and Turbo Touch releases or local ESP32-S3 and Nano 3S firmware from a supported desktop browser.",
+            "isPartOf": {
+              "@id": "https://flash.solosatoshi.com/#website"
+            },
             "about": [
-              { "@type": "Thing", "name": "Bitaxe" },
-              { "@type": "Thing", "name": "NerdAxe" },
-              { "@type": "Thing", "name": "ESP-Miner firmware" }
+              {
+                "@type": "Thing",
+                "name": "Bitaxe"
+              },
+              {
+                "@type": "Thing",
+                "name": "NerdAxe"
+              },
+              {
+                "@type": "Thing",
+                "name": "Bitaxe Turbo Touch"
+              },
+              {
+                "@type": "Thing",
+                "name": "Avalon Nano 3S"
+              },
+              {
+                "@type": "Thing",
+                "name": "ESP-Miner firmware"
+              },
+              {
+                "@type": "Thing",
+                "name": "Mujina firmware"
+              }
             ],
-            "primaryImageOfPage": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
-            "mainEntity": { "@id": "https://flash.solosatoshi.com/#app" },
+            "primaryImageOfPage": {
+              "@id": "https://flash.solosatoshi.com/#primaryimage"
+            },
+            "mainEntity": {
+              "@id": "https://flash.solosatoshi.com/#app"
+            },
             "dateModified": "2026-09-24",
             "inLanguage": "en-US"
           },
@@ -107,26 +136,33 @@
             "@id": "https://flash.solosatoshi.com/#app",
             "name": "Solo Satoshi Bitaxe, NerdAxe, and Custom Firmware Web Flasher",
             "url": "https://flash.solosatoshi.com/",
-            "description": "A free browser-based firmware flasher for installing verified releases or local custom firmware directly on supported Bitaxe and NerdAxe Bitcoin miners.",
+            "description": "A free browser-based firmware flasher for verified Bitaxe, NerdAxe, and Turbo Touch releases, local ESP32-S3 images, and Nano 3S K230 images.",
             "applicationCategory": "UtilitiesApplication",
             "applicationSubCategory": "Firmware updater",
             "operatingSystem": "Windows, macOS, Linux, ChromeOS",
             "browserRequirements": "Requires a current desktop browser with Web Serial support, such as Google Chrome, Microsoft Edge, or Brave.",
             "isAccessibleForFree": true,
             "featureList": [
-              "Guided eight-step firmware installation workflow",
-              "Automatic official firmware release discovery",
+              "Guided eight-step verified-release installation workflow",
+              "Automatic discovery of approved upstream firmware releases",
+              "Latest stable release plus up to five hardware-compatible rollback versions",
               "Optional prerelease firmware testing channel",
-              "SHA-256 firmware verification before and after writing",
-              "Verified background firmware preparation and browser caching",
-              "Bitaxe and NerdAxe model selection",
-              "Optional miner settings preservation",
-              "Local Web Serial installation",
-              "Advanced local custom-firmware installation without file upload"
+              "SHA-256 firmware verification before installation and ESP write verification",
+              "Four-stage post-flash restart verification",
+              "Bitaxe, NerdAxe, and screen-only Turbo Touch support",
+              "Advanced local ESP32-S3 custom-firmware installation without file upload",
+              "Beta local Avalon Nano 3S K230 KDIMG installation through WebUSB",
+              "Description-only issue reporting protected by rate limiting and Turnstile"
             ],
-            "image": { "@id": "https://flash.solosatoshi.com/#primaryimage" },
-            "isPartOf": { "@id": "https://flash.solosatoshi.com/#website" },
-            "provider": { "@id": "https://www.solosatoshi.com/#organization" },
+            "image": {
+              "@id": "https://flash.solosatoshi.com/#primaryimage"
+            },
+            "isPartOf": {
+              "@id": "https://flash.solosatoshi.com/#website"
+            },
+            "provider": {
+              "@id": "https://www.solosatoshi.com/#organization"
+            },
             "offers": {
               "@type": "Offer",
               "price": "0",
@@ -139,8 +175,14 @@
             "name": "How to flash Bitaxe or NerdAxe firmware from a web browser",
             "description": "Connect the miner, select its exact supported hardware and firmware, then install the verified release through Web Serial.",
             "tool": [
-              { "@type": "HowToTool", "name": "A supported desktop Chrome, Edge, or Brave browser" },
-              { "@type": "HowToTool", "name": "A data-capable USB cable" }
+              {
+                "@type": "HowToTool",
+                "name": "A supported desktop Chrome, Edge, or Brave browser"
+              },
+              {
+                "@type": "HowToTool",
+                "name": "A data-capable USB cable"
+              }
             ],
             "step": [
               {
@@ -199,21 +241,29 @@
             "name": "Solo Satoshi Web Flasher source code",
             "codeRepository": "https://flash.solosatoshi.com/source/latest.tar.gz",
             "license": "https://www.gnu.org/licenses/gpl-3.0.html",
-            "programmingLanguage": ["TypeScript", "HTML", "CSS"],
+            "programmingLanguage": [
+              "TypeScript",
+              "HTML",
+              "CSS"
+            ],
             "runtimePlatform": "Web browser",
-            "targetProduct": { "@id": "https://flash.solosatoshi.com/#app" }
+            "targetProduct": {
+              "@id": "https://flash.solosatoshi.com/#app"
+            }
           },
           {
             "@type": "FAQPage",
             "@id": "https://flash.solosatoshi.com/#faq",
-            "isPartOf": { "@id": "https://flash.solosatoshi.com/#webpage" },
+            "isPartOf": {
+              "@id": "https://flash.solosatoshi.com/#webpage"
+            },
             "mainEntity": [
               {
                 "@type": "Question",
                 "name": "How do I flash firmware with the Solo Satoshi Web Flasher?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Complete the eight steps in order: connect and approve the USB serial device, choose the miner family and release channel, select the exact model, confirm the Bitaxe board when applicable, choose a supported version, decide whether to preserve settings, then install. Keep USB and power connected until the automatic restart finishes."
+                  "text": "Choose the tool that matches the job. Verified releases uses the guided eight-step flow for official Bitaxe, NerdAxe, and Turbo Touch screen firmware. Advanced writes a local merged ESP32-S3 .bin. Mujina beta writes a user-selected Nano 3S K230 .kdimg. Every tool requires the hardware connection before the firmware can be installed."
                 }
               },
               {
@@ -221,7 +271,7 @@
                 "name": "Which browsers support the web flasher?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool."
+                  "text": "Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial and WebUSB support. The flasher can run on Windows, macOS, Linux, or ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported."
                 }
               },
               {
@@ -229,7 +279,7 @@
                 "name": "Can the flasher preserve my miner settings?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution."
+                  "text": "For verified ESP releases, yes. Preserve miner settings is off by default and skips the designated NVS settings partition when enabled. It is not a backup, and settings may not remain compatible after an update. Advanced custom firmware and the Nano 3S Mujina beta always replace the complete image and do not preserve settings."
                 }
               },
               {
@@ -237,15 +287,15 @@
                 "name": "How is firmware verified before flashing?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The release automation verifies each downloaded file against the digest published by GitHub. Your browser checks the firmware SHA-256 checksum before installation, and the flashing tool verifies the bytes written to flash before restarting the device."
+                  "text": "For listed releases, release automation checks the approved upstream repository, expected file, size, and SHA-256 digest published by GitHub. The browser checks the size and SHA-256 again before writing, and the ESP flashing library verifies the completed write. These checks confirm that the bytes match the listed release; they do not guarantee that firmware is bug-free or suitable for every configuration."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Which Bitaxe and NerdAxe models are supported?",
+                "name": "Which devices and firmware are supported?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The supported list is generated from current official ESP-Miner releases. Select the exact model and printed Bitaxe board revision. NerdAxe hardware is matched automatically from the selected model. A firmware version is offered only when its release contains the matching factory image."
+                  "text": "The Verified releases tab supports hardware represented by factory images in the live ESP-Miner, ESP-Miner-NerdQAxePlus, and BAP-GT-TOUCH release manifest. It shows the newest stable release plus up to five earlier compatible stable releases. A version is hidden when it has no factory image for the selected board, so recently introduced hardware cannot select older, unsupported firmware. The Mujina beta separately supports user-supplied Avalon Nano 3S K230 images."
                 }
               },
               {
@@ -253,7 +303,7 @@
                 "name": "Where does the firmware come from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive."
+                  "text": "Verified Bitaxe releases come from bitaxeorg/ESP-Miner, NerdAxe releases from shufps/ESP-Miner-NerdQAxePlus, and Turbo Touch screen releases from bitaxeorg/BAP-GT-TOUCH. The service mirrors those release files and links the matching upstream release and source archive. Advanced and Mujina firmware is selected by the user, stays local to the browser, and is not supplied or authenticated by Solo Satoshi."
                 }
               },
               {
@@ -261,7 +311,7 @@
                 "name": "Can I test prerelease firmware?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. When an official prerelease is newer than the latest production release, select the Prereleases channel. If no eligible prerelease exists, that option is disabled and Latest Releases is selected automatically. Prerelease firmware may contain bugs or require recovery."
+                  "text": "Yes. When an official prerelease is newer than the latest production release, select Prereleases. If no eligible prerelease exists for that firmware family, the option is disabled and Latest Releases is selected automatically. Prerelease firmware may contain bugs or require recovery."
                 }
               },
               {
@@ -277,7 +327,7 @@
                 "name": "Can I flash my own compiled firmware?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Yes. The Advanced custom firmware tool accepts a merged, bootable ESP32-S3 .bin built for address 0x0. The file stays in your browser and is not uploaded. Custom firmware is not verified for authenticity or hardware compatibility, and the Advanced path writes the complete image without preserving settings. You are solely responsible for selecting and using it."
+                  "text": "Yes. Advanced accepts a local merged, bootable ESP32-S3 .bin built for address 0x0, up to 32 MB. The browser checks its basic image structure and confirms that the connected chip is an ESP32-S3 before writing. The file is never uploaded, but its authenticity, safety, and hardware compatibility cannot be verified. Advanced replaces the complete image without preserving settings, and you are solely responsible for using it."
                 }
               },
               {
@@ -293,7 +343,7 @@
                 "name": "What does the Mujina beta support?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The Mujina beta uses WebUSB to flash a user-selected Avalon Nano 3S K230 .kdimg image to SPI NAND after checking its structure and every partition SHA-256. Solo Satoshi does not provide or authenticate the image, and an interrupted full-NAND replacement can require recovery. For Bitaxe Gamma Mujina bridge firmware, use Advanced with a merged ESP32-S3 .bin built for address 0x0."
+                  "text": "The Mujina beta uses WebUSB to write a user-selected Avalon Nano 3S K230 .kdimg to SPI NAND after checking its device metadata, structure, and every embedded partition SHA-256. Solo Satoshi does not supply or authenticate the image. The process replaces the complete Nano 3S image and can require recovery if interrupted. For a Bitaxe Gamma Mujina bridge image, use Advanced with a merged ESP32-S3 .bin built for address 0x0."
                 }
               },
               {
@@ -301,7 +351,23 @@
                 "name": "Does Turbo Touch screen firmware update the miner inside it?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through its USB port. It does not update the internal Bitaxe GT miner. To update the miner, select its exact Bitaxe model and board separately and connect the miner USB port."
+                  "text": "No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through the screen USB port. It does not update the Bitaxe GT miner inside the unit. To update the miner, select the matching Bitaxe model and board in Verified releases and connect the miner USB port."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What happens after an ESP firmware image is written?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The flasher reports four post-flash stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. Keep USB and power connected until all four stages finish. The USB disconnect shown during the automatic reset is expected."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is sent when I report an issue?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Only the description you enter is sent to Solo Satoshi support; the form does not request your name, email address, or device logs. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information."
                 }
               }
             ]
@@ -309,7 +375,7 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-CIQKk8FU.js"></script>
+    <script type="module" crossorigin src="./assets/index-DbDL5igD.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rom-GkxcFgpz.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32-DD96Zcyw.js">
     <link rel="modulepreload" crossorigin href="./assets/esp32c3-CR-Wc1OM.js">
@@ -322,27 +388,31 @@
         <header><img src="./solo-satoshi-logo.webp" alt="Solo Satoshi" width="64" height="64"><p>Solo Satoshi Web Flasher</p></header>
         <article>
           <h1>Flash Bitaxe, NerdAxe, and custom firmware directly from your browser.</h1>
-          <p>A precise, browser-based installer for Bitaxe, NerdAxe, and custom Bitcoin mining firmware builds.</p>
+          <p>A browser-based installer for verified Bitaxe and NerdAxe releases, Turbo Touch screen firmware, and local custom Bitcoin mining firmware.</p>
           <h2>Supported firmware and hardware</h2>
-          <p>The live model and rollback-version lists are generated from official ESP-Miner and BAP-GT-TOUCH releases. Select the exact model and printed Bitaxe board number. NerdAxe hardware is matched automatically from the selected model. Turbo Touch screen firmware updates only the display controller, not the Bitaxe GT miner inside the unit.</p>
+          <p>The flasher automatically discovers official releases and offers the newest stable release plus up to five earlier stable versions only when each release contains a factory image for the selected hardware. New hardware cannot be rolled back to firmware released before support for that hardware was added. Turbo Touch screen firmware updates only the display controller, not the Bitaxe GT miner inside the unit.</p>
           <h2>How the browser flasher works</h2>
           <ol><li>Connect the miner and approve its USB serial device.</li><li>Choose Bitaxe or NerdAxe.</li><li>Choose the latest-release or prerelease channel.</li><li>Select the exact miner model.</li><li>Match the Bitaxe board revision or review the automatically matched NerdAxe board.</li><li>Select a compatible firmware version.</li><li>Choose whether to preserve miner settings.</li><li>Install the verified release and maintain USB and power until the miner restarts.</li></ol>
           <p>After a compatible version is selected, the browser prepares and verifies that matching firmware. Changing the hardware or version prepares the newly matched file.</p>
           <h2>Verification and source transparency</h2>
-          <p>Release automation verifies firmware against upstream GitHub digests. The browser independently checks the SHA-256 checksum before flashing, and the flashing tool verifies the bytes written to flash before restarting the device. Corresponding source archives and upstream release pages are linked for inspection.</p>
+          <p>For listed releases, release automation checks the approved upstream repository, expected file, size, and SHA-256 digest published by GitHub. The browser checks the size and SHA-256 again before writing, and the ESP flashing library verifies the completed write. These checks confirm that the bytes match the listed release; they do not guarantee that firmware is bug-free or suitable for every configuration. Corresponding source archives and upstream release pages are linked for inspection.</p>
           <h2>Advanced custom firmware</h2>
-          <p>The Advanced tool can install a local merged, bootable ESP32-S3 firmware file built for address 0x0. The file remains in browser memory and is never uploaded. Custom firmware is not verified for authenticity or hardware compatibility, does not preserve settings, and is used entirely at the user's risk.</p>
+          <p>Yes. Advanced accepts a local merged, bootable ESP32-S3 .bin built for address 0x0, up to 32 MB. The browser checks its basic image structure and confirms that the connected chip is an ESP32-S3 before writing. The file is never uploaded, but its authenticity, safety, and hardware compatibility cannot be verified. Advanced replaces the complete image without preserving settings, and you are solely responsible for using it.</p>
           <h2>Frequently asked questions</h2>
-          <h3>How do I flash firmware with the Solo Satoshi Web Flasher?</h3><p>Connect and approve the miner's USB serial device, select the exact supported hardware and firmware, choose whether to preserve settings, then keep USB and power connected while the verified release installs and the miner restarts.</p>
-          <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial support. Safari, Firefox, and mobile browsers do not currently support USB flashing with this tool.</p>
-          <h3>Can the flasher preserve my miner settings?</h3><p>Yes. Preserve miner settings leaves the device NVS settings area untouched while updating the remaining firmware. Record important settings before every update as a precaution.</p>
-          <h3>Where does the firmware come from?</h3><p>Firmware comes from the official ESP-Miner repositories for Bitaxe and NerdAxe devices. Every listed file links to its upstream GitHub release and corresponding source archive.</p>
-          <h3>Does Turbo Touch screen firmware update the miner inside it?</h3><p>No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through its USB port. It does not update the internal Bitaxe GT miner.</p>
-          <h3>Can I test prerelease firmware?</h3><p>When an official prerelease is newer than the latest production release, select the Prereleases channel. If none is eligible, the option is disabled and Latest Releases is selected automatically.</p>
-          <h3>What happens if I change my firmware selection?</h3><p>The install button always uses the image matched to the current selections. A changed selection prepares and verifies its matching image before writing.</p>
-          <h3>Can I flash my own compiled firmware?</h3><p>Yes. Use the Advanced tool with a merged, bootable ESP32-S3 .bin built for address 0x0. The file is processed locally and never uploaded. You are solely responsible for its origin, contents, layout, and compatibility.</p>
+          <h3>How do I flash firmware with the Solo Satoshi Web Flasher?</h3><p>Choose the tool that matches the job. Verified releases uses the guided eight-step flow for official Bitaxe, NerdAxe, and Turbo Touch screen firmware. Advanced writes a local merged ESP32-S3 .bin. Mujina beta writes a user-selected Nano 3S K230 .kdimg. Every tool requires the hardware connection before the firmware can be installed.</p>
+          <h3>Which browsers support the web flasher?</h3><p>Use a current desktop version of Google Chrome, Microsoft Edge, or Brave with Web Serial and WebUSB support. The flasher can run on Windows, macOS, Linux, or ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.</p>
+          <h3>Can the flasher preserve my miner settings?</h3><p>For verified ESP releases, yes. Preserve miner settings is off by default and skips the designated NVS settings partition when enabled. It is not a backup, and settings may not remain compatible after an update. Advanced custom firmware and the Nano 3S Mujina beta always replace the complete image and do not preserve settings.</p>
+          <h3>How is firmware verified before flashing?</h3><p>For listed releases, release automation checks the approved upstream repository, expected file, size, and SHA-256 digest published by GitHub. The browser checks the size and SHA-256 again before writing, and the ESP flashing library verifies the completed write. These checks confirm that the bytes match the listed release; they do not guarantee that firmware is bug-free or suitable for every configuration.</p>
+          <h3>Which devices and firmware are supported?</h3><p>The Verified releases tab supports hardware represented by factory images in the live ESP-Miner, ESP-Miner-NerdQAxePlus, and BAP-GT-TOUCH release manifest. It shows the newest stable release plus up to five earlier compatible stable releases. A version is hidden when it has no factory image for the selected board, so recently introduced hardware cannot select older, unsupported firmware. The Mujina beta separately supports user-supplied Avalon Nano 3S K230 images.</p>
+          <h3>Where does the firmware come from?</h3><p>Verified Bitaxe releases come from bitaxeorg/ESP-Miner, NerdAxe releases from shufps/ESP-Miner-NerdQAxePlus, and Turbo Touch screen releases from bitaxeorg/BAP-GT-TOUCH. The service mirrors those release files and links the matching upstream release and source archive. Advanced and Mujina firmware is selected by the user, stays local to the browser, and is not supplied or authenticated by Solo Satoshi.</p>
+          <h3>Can I test prerelease firmware?</h3><p>Yes. When an official prerelease is newer than the latest production release, select Prereleases. If no eligible prerelease exists for that firmware family, the option is disabled and Latest Releases is selected automatically. Prerelease firmware may contain bugs or require recovery.</p>
+          <h3>What happens if I change my firmware selection?</h3><p>The Flash firmware button always uses the image matched to the current family, channel, model, board, and version. Changing a selection prepares and verifies the newly matched image. A previously verified image may be reused from memory or the browser cache, but its file size and SHA-256 must still match before it can be written.</p>
+          <h3>Can I flash my own compiled firmware?</h3><p>Yes. Advanced accepts a local merged, bootable ESP32-S3 .bin built for address 0x0, up to 32 MB. The browser checks its basic image structure and confirms that the connected chip is an ESP32-S3 before writing. The file is never uploaded, but its authenticity, safety, and hardware compatibility cannot be verified. Advanced replaces the complete image without preserving settings, and you are solely responsible for using it.</p>
           <h3>How do I put my miner into bootloader mode?</h3><p>The browser can connect to the USB serial port even when the ESP32 bootloader is not active. If flashing does not start, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. Select Retry flashing. Some miners enter bootloader mode automatically and do not require this sequence.</p>
-          <h3>What does the Mujina beta support?</h3><p>The Mujina beta uses WebUSB to flash a user-selected Avalon Nano 3S K230 .kdimg image to SPI NAND after checking its structure and every partition SHA-256. Solo Satoshi does not provide or authenticate the image, and an interrupted full-NAND replacement can require recovery. For Bitaxe Gamma Mujina bridge firmware, use Advanced with a merged ESP32-S3 .bin built for address 0x0.</p>
+          <h3>What does the Mujina beta support?</h3><p>The Mujina beta uses WebUSB to write a user-selected Avalon Nano 3S K230 .kdimg to SPI NAND after checking its device metadata, structure, and every embedded partition SHA-256. Solo Satoshi does not supply or authenticate the image. The process replaces the complete Nano 3S image and can require recovery if interrupted. For a Bitaxe Gamma Mujina bridge image, use Advanced with a merged ESP32-S3 .bin built for address 0x0.</p>
+          <h3>Does Turbo Touch screen firmware update the miner inside it?</h3><p>No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through the screen USB port. It does not update the Bitaxe GT miner inside the unit. To update the miner, select the matching Bitaxe model and board in Verified releases and connect the miner USB port.</p>
+          <h3>What happens after an ESP firmware image is written?</h3><p>The flasher reports four post-flash stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. Keep USB and power connected until all four stages finish. The USB disconnect shown during the automatic reset is expected.</p>
+          <h3>What is sent when I report an issue?</h3><p>Only the description you enter is sent to Solo Satoshi support; the form does not request your name, email address, or device logs. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.</p>
           <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
         </article>
       </main>

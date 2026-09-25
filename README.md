@@ -10,12 +10,15 @@ miners and the Bitaxe Turbo Touch display. Use the flasher at
 - Installs verified BAP-GT-TOUCH releases on the Turbo Touch display
   controller, clearly separated from the Bitaxe GT miner inside the unit.
 - Offers newer official prereleases when an eligible build is available.
-- Shows up to five compatible production releases for supported rollbacks.
+- Shows the newest stable release and up to five earlier compatible stable
+  releases for supported rollbacks.
 - Filters firmware by miner family, model, board revision, and the version in
   which that hardware first became supported.
-- Verifies official firmware with SHA-256 before writing it.
+- Verifies official firmware with SHA-256 before writing it and checks the
+  ESP bootloader's MD5 result after the write completes.
 - Can preserve the miner's settings partition during verified-release installs.
-- Restarts the miner automatically after a successful flash.
+- Shows write verification, restart, USB disconnect, and completion status,
+  and restarts supported hardware automatically after a successful flash.
 - Provides an Advanced tool for a local merged ESP32-S3 `.bin` built for
   address `0x0`. Custom firmware stays in the browser and is never uploaded.
 - Provides a clearly marked Mujina beta for local Avalon Nano 3S
@@ -27,8 +30,8 @@ miners and the Bitaxe Turbo Touch display. Use the flasher at
 - Provides a translated interface in nine languages.
 
 A current desktop version of Chrome, Edge, or Brave is required because the
-installer uses Web Serial. Firefox, Safari, and mobile browsers cannot flash a
-connected miner with this tool.
+installer uses Web Serial and WebUSB. Firefox, Safari, and mobile browsers
+cannot flash connected hardware with this tool.
 
 ## Firmware safety
 
