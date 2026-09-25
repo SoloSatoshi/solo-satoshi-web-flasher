@@ -11,6 +11,10 @@ html, body {
   background: #f3efe6;
 }
 
+/* Keep crawlable fallback content available without showing a stale frame
+   while the interactive application starts. */
+.js .seo-fallback { display: none; }
+
 .seo-fallback {
   width: min(900px, calc(100% - 40px));
   margin: 0 auto;
