@@ -7,7 +7,7 @@ Application source: https://flash.solosatoshi.com/source/latest.tar.gz
 
 ## Purpose and browser support
 
-The Solo Satoshi AxeOS Web Flasher provides three browser-based tools: Verified releases for approved Bitaxe, NerdAxe, and Bitaxe Turbo Touch screen firmware; Advanced for a local merged ESP32-S3 image; and a beta Mujina tool for a local Avalon Nano 3S K230 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial or WebUSB. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
+The Solo Satoshi AxeOS Web Flasher provides two browser-based tools: Verified releases for approved Bitaxe, NerdAxe, and Bitaxe Turbo Touch screen firmware; and Advanced for a local merged ESP32-S3 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
 
 ## Verified releases
 
@@ -46,21 +46,11 @@ Advanced requires a USB serial connection before a file can be selected. It acce
 
 The file remains in browser memory and is never uploaded. The structural and chip checks cannot authenticate its publisher, detect malicious code, prove that its partition contents are safe, or establish compatibility with the connected device. Advanced writes the complete image without preserving settings. The user is solely responsible for the image, origin, contents, flash layout, compatibility, installation, and resulting device or data impact.
 
-## Mujina beta
-
-Mujina hardware must be selected before its connection control becomes available. The Avalon Nano 3S path uses WebUSB, not the ESP Web Serial flasher. The Nano 3S must enter K230 burn mode: remove the Wi-Fi dongle, connect the required USB-A-to-USB-A cable to the port where the dongle was installed and to the computer, hold the recessed button, and power on the miner while continuing to hold the button.
-
-The browser accepts a user-selected `.kdimg` only when its metadata identifies a K230 Nano 3S image. It validates the KDIMG structure and every embedded partition SHA-256 before writing the complete image to SPI NAND. The browser downloads a K230 SPI NAND loader from a pinned commit in the official kendryte/k230_flash_py repository and verifies a fixed SHA-256 before executing it. If the device changes from BootROM to loader mode, the user may need to approve the reconnected USB device before flashing resumes.
-
-Solo Satoshi does not host, supply, or authenticate the Nano 3S firmware image. Nano Mujina is a community fork of 256foundation/mujina. A Nano flash replaces the stock firmware and settings and can leave the device unable to boot if the image is incompatible or if USB, power, the page, or the browser is interrupted. The beta may be unstable and recovery may be required.
-
-The Bitaxe Gamma choice directs the user to Advanced because its Mujina bridge image is a merged ESP32-S3 `.bin` for address `0x0`; it does not use the K230 Nano flashing protocol.
-
 ## Privacy and issue reporting
 
 The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. It does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
 
-Web Serial and WebUSB require the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
+Web Serial requires the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
 
 Report an issue sends only the description entered by the user and does not request a name, email address, or device logs. Cloudflare processes ordinary request metadata, including the IP address used for rate limiting and signals used by Turnstile bot protection. Proton delivers and stores the resulting support email. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
 

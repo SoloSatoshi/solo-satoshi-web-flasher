@@ -1,10 +1,10 @@
 # Solo Satoshi Web Flasher
 
-> A free AxeOS web flasher for verified Bitaxe and NerdAxe firmware releases, the Bitaxe Turbo Touch display controller, local ESP32-S3 images, and user-selected Avalon Nano 3S K230 images.
+> A free AxeOS web flasher for verified Bitaxe and NerdAxe firmware releases, the Bitaxe Turbo Touch display controller, and local ESP32-S3 images.
 
 ## Primary page
 
-- [Solo Satoshi Web Flasher](https://flash.solosatoshi.com/): Use Verified releases for approved upstream firmware, Advanced for a local merged ESP32-S3 image, or the Mujina beta for a local Avalon Nano 3S K230 KDIMG image.
+- [Solo Satoshi Web Flasher](https://flash.solosatoshi.com/): Use Verified releases for approved upstream firmware or Advanced for a local merged ESP32-S3 image.
 
 ## Documentation and policies
 
@@ -23,8 +23,6 @@
 - Turbo Touch is a screen-only target. Its firmware updates the display controller and does not update the Bitaxe GT miner inside the unit.
 - Verified ESP releases may preserve the designated NVS settings partition. The option is off by default and is not a backup.
 - Advanced requires an approved USB serial connection before accepting a local merged, bootable ESP32-S3 `.bin` for address `0x0`. The browser checks basic image structure and the connected chip type. The image remains local, is never uploaded, is not authenticated or checked for hardware compatibility, and is written without preserving settings.
-- Mujina beta requires hardware selection before connection. For Avalon Nano 3S it uses WebUSB to validate and write a user-selected K230 `.kdimg` to SPI NAND. It checks K230/Nano 3S metadata, KDIMG structure, and each embedded partition SHA-256. The image remains local, is not authenticated by Solo Satoshi, replaces the complete device image, and may require recovery if interrupted.
-- The Bitaxe Gamma choice in Mujina directs the user to Advanced for a merged ESP32-S3 Mujina bridge image.
 - After an ESP flash, the interface reports: firmware written and verified, device restarting, USB disconnect detected, and restart complete. This sequence confirms the flash and reset flow, not mining or network operation after boot.
 - USB communication and selected custom firmware remain between the browser and the locally selected device. Technical logs are not uploaded.
 - Report an issue sends only the entered description. The form does not request a name, email address, or device logs. Cloudflare rate limiting and Turnstile protect the submission, and Proton delivers and stores the support email.
