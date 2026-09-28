@@ -1,6 +1,6 @@
 # Solo Satoshi Web Flasher
 
-> A free AxeOS web flasher for verified Bitaxe and NerdAxe firmware releases, the Bitaxe Turbo Touch display controller, and local ESP32-S3 images.
+> A free web flasher for verified Bitaxe, BitForge, NerdAxe, and NerdNOS firmware releases, the Bitaxe Turbo Touch display controller, and local ESP32-S3 images.
 
 ## Primary page
 
@@ -15,8 +15,8 @@
 
 ## Authoritative facts
 
-- Verified releases discovers approved releases from bitaxeorg/ESP-Miner, shufps/ESP-Miner-NerdQAxePlus, and bitaxeorg/BAP-GT-TOUCH.
-- Supported Bitaxe models include Max, Ultra, Hex, Supra, Gamma, Gamma Duo, SupraHex, Gamma Turbo, GammaHex, and Naja Duo. Supported NerdAxe models include NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe Gamma, NerdOCTAXE Gamma, NerdOCTAXE+, NerdQAxe+, NerdQAxe++, NerdQX, Q1370, and Q1373.
+- Verified releases discovers approved releases from bitaxeorg/ESP-Miner, WantClue/forge-os, shufps/ESP-Miner-NerdQAxePlus, and bitaxeorg/BAP-GT-TOUCH. NerdNOS uses an explicitly pinned official image and matching source commit.
+- Supported Bitaxe models include Max, Ultra, UltraHex, Supra, Gamma, Gamma Duo, SupraHex, Gamma Turbo, GammaHex, and Naja Duo. BitForge Nano and NerdNOS are automatically matched. Supported NerdAxe models include NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe Gamma, NerdOCTAXE Gamma, NerdOCTAXE+, NerdQAxe+, NerdQAxe++, NerdQX, Q1370, and Q1373.
 - The verified installer shows the newest stable release plus up to five previous stable releases only when a release contains a factory image for the selected board. Firmware from before a hardware model's first supported release is not offered for that model.
 - An eligible prerelease is offered only when it is newer than the current stable release. Otherwise the prerelease option remains visible but disabled and Latest Releases is selected automatically.
 - Release automation checks the approved repository, asset name, file size, and SHA-256 digest published by GitHub. The browser verifies size and SHA-256 before writing, and the ESP flashing library verifies the completed write.

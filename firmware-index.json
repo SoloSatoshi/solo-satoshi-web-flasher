@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-28T00:26:12.165Z",
+  "generatedAt": "2026-09-28T02:20:54.658Z",
   "sources": [
     {
       "family": "bitaxe",
@@ -102,6 +102,60 @@
       "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitaxe-touch/v1.0/BAP-GT-TOUCH-v1.0-source.tar.gz"
     },
     {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.7",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.7",
+      "publishedAt": "2026-09-26T08:48:57Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.7/forge-os-v1.7-source.tar.gz"
+    },
+    {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.6",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.6",
+      "publishedAt": "2026-07-10T09:42:44Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.6/forge-os-v1.6-source.tar.gz"
+    },
+    {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.5",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.5",
+      "publishedAt": "2026-05-16T06:00:18Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.5/forge-os-v1.5-source.tar.gz"
+    },
+    {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.4",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.4",
+      "publishedAt": "2026-05-03T05:19:49Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.4/forge-os-v1.4-source.tar.gz"
+    },
+    {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.3",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.3",
+      "publishedAt": "2026-04-30T15:10:42Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.3/forge-os-v1.3-source.tar.gz"
+    },
+    {
+      "family": "bitforge",
+      "channel": "stable",
+      "repository": "WantClue/forge-os",
+      "releaseTag": "v1.2",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.2",
+      "publishedAt": "2026-04-27T13:10:17Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/bitforge/v1.2/forge-os-v1.2-source.tar.gz"
+    },
+    {
       "family": "nerdaxe",
       "channel": "stable",
       "repository": "shufps/ESP-Miner-NerdQAxePlus",
@@ -154,6 +208,15 @@
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37",
       "publishedAt": "2026-05-09T14:12:30Z",
       "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.37/ESP-Miner-NerdQAxePlus-v1.0.37-source.tar.gz"
+    },
+    {
+      "family": "nerdnos",
+      "channel": "stable",
+      "repository": "WantClue/NerdMiner_v2",
+      "releaseTag": "v2.0.2",
+      "releaseUrl": "https://github.com/WantClue/NerdMiner_v2/commit/22588347597d24969f41ed56fad2641678ad59c1",
+      "publishedAt": "2026-05-04T15:57:56Z",
+      "sourceArchiveUrl": "https://firmware.solosatoshi.com/nerdnos/v2.0.2/NerdMiner_v2-v2.0.2-source.tar.gz"
     }
   ],
   "firmware": [
@@ -1973,6 +2036,96 @@
       "releaseUrl": "https://github.com/bitaxeorg/ESP-Miner/releases/tag/v2.14.0"
     },
     {
+      "id": "bitforge-Nano-v1.7",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.7",
+      "assetName": "bitforgeos-factory-Nano-v1.7.bin",
+      "size": 15802368,
+      "sha256": "d18e87cae43d8a76a3f3931ff02acafa0e68e39ee6da411365260f2d191f92a7",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.7/bitforgeos-factory-Nano-v1.7.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.7"
+    },
+    {
+      "id": "bitforge-Nano-v1.6",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.6",
+      "assetName": "esp-miner-factory-Nano-v1.6.bin",
+      "size": 15802368,
+      "sha256": "3523104e56373ec6e6ee22ed1e94e067203e1e2f8e53decc1442809df9ebca12",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.6/esp-miner-factory-Nano-v1.6.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.6"
+    },
+    {
+      "id": "bitforge-Nano-v1.5",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.5",
+      "assetName": "esp-miner-factory-Nano-v1.5.bin",
+      "size": 15802368,
+      "sha256": "2effe35505602608f658910c6aaeea72de3dcfcd93c93f25ac4f7638dabde569",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.5/esp-miner-factory-Nano-v1.5.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.5"
+    },
+    {
+      "id": "bitforge-Nano-v1.4",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.4",
+      "assetName": "esp-miner-factory-Nano-v1.4.bin",
+      "size": 15802368,
+      "sha256": "493b7f567c0cb0bcbbcc97e6152c008e3cd10dbea3fb7d9c67480b9743e4dad7",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.4/esp-miner-factory-Nano-v1.4.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.4"
+    },
+    {
+      "id": "bitforge-Nano-v1.3",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.3",
+      "assetName": "esp-miner-factory-Nano-v1.3.bin",
+      "size": 15802368,
+      "sha256": "f20603ad4dad91aabf034027f7dbbdf27181b2f8742a372b8a51d0a0b3ea323f",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.3/esp-miner-factory-Nano-v1.3.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.3"
+    },
+    {
+      "id": "bitforge-Nano-v1.2",
+      "family": "bitforge",
+      "channel": "stable",
+      "model": "BitForge Nano",
+      "board": "Nano",
+      "supportedSince": "2025-12-24T12:17:38Z",
+      "releaseTag": "v1.2",
+      "assetName": "esp-miner-factory-Nano-v1.2.bin",
+      "size": 15802368,
+      "sha256": "3553d95069a175b10635f4b8df069e1b52758d08af2bf44214f3ed23d9bc4aef",
+      "downloadUrl": "https://firmware.solosatoshi.com/bitforge/v1.2/esp-miner-factory-Nano-v1.2.bin",
+      "sourceRepository": "WantClue/forge-os",
+      "releaseUrl": "https://github.com/WantClue/forge-os/releases/tag/v1.2"
+    },
+    {
       "id": "nerdaxe-Q1373-v1.1.0.1",
       "family": "nerdaxe",
       "channel": "stable",
@@ -2841,6 +2994,21 @@
       "downloadUrl": "https://firmware.solosatoshi.com/nerdaxe/v1.0.37/esp-miner-factory-NerdQAxe++-v1.0.37.bin",
       "sourceRepository": "shufps/ESP-Miner-NerdQAxePlus",
       "releaseUrl": "https://github.com/shufps/ESP-Miner-NerdQAxePlus/releases/tag/v1.0.37"
+    },
+    {
+      "id": "nerdnos-100-v2.0.2",
+      "family": "nerdnos",
+      "channel": "stable",
+      "model": "NerdNOS",
+      "board": "100",
+      "supportedSince": "2026-05-04T15:57:56Z",
+      "releaseTag": "v2.0.2",
+      "assetName": "merged-flash.bin",
+      "size": 2215984,
+      "sha256": "63ea2e3822a41b9ee720d1adb006fc5694e1403470d08a3c636442357035126c",
+      "downloadUrl": "https://firmware.solosatoshi.com/nerdnos/v2.0.2/merged-flash.bin",
+      "sourceRepository": "WantClue/NerdMiner_v2",
+      "releaseUrl": "https://github.com/WantClue/NerdMiner_v2/commit/22588347597d24969f41ed56fad2641678ad59c1"
     }
   ]
 }

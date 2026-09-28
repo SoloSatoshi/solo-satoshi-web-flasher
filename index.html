@@ -10,7 +10,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-q/lAwEGebPpLy3ZEKrKkYP8FEB9oYywd6DdgOu22UAk=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-b/CqYmqi449bvHxOVWTSrO3/XQIrc8O2MK4KJSrAg7w=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="preload" href="./fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
@@ -295,7 +295,7 @@
                 "name": "How do I put my miner into bootloader mode?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The browser can connect to the USB serial port even when the ESP32 bootloader is not active. If flashing does not start, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. Select Retry flashing. Some miners enter bootloader mode automatically and do not require this sequence."
+                  "text": "Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. BitForge Nano uses automatic USB bootloader entry and should not be opened. For the NerdNOS LilyGO screen, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button. Use these recovery steps only if normal flashing does not start."
                 }
               },
               {
@@ -327,8 +327,8 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-xIibomSh.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CxfAXJSU.css">
+    <script type="module" crossorigin src="./assets/index-lfTKdzaa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C82dR2tL.css">
   </head>
   <body>
     <div id="root" data-prerendered="true">
@@ -351,7 +351,7 @@
           <h3>Can I test prerelease firmware?</h3><p>Yes. When an official prerelease is newer than the latest production release, select Prereleases. If no eligible prerelease exists for that firmware family, the option is disabled and Latest Releases is selected automatically. Prerelease firmware may contain bugs or require recovery.</p>
           <h3>What happens if I change my firmware selection?</h3><p>The Flash firmware button always uses the image matched to the current family, channel, model, board, and version. Changing a selection prepares and verifies the newly matched image. A previously verified image may be reused from memory or the browser cache, but its file size and SHA-256 must still match before it can be written.</p>
           <h3>Can I flash my own compiled firmware?</h3><p>Yes. Advanced accepts a local merged, bootable ESP32-S3 .bin built for address 0x0, up to 32 MB. The browser checks its basic image structure and confirms that the connected chip is an ESP32-S3 before writing. The file is never uploaded, but its authenticity, safety, and hardware compatibility cannot be verified. Advanced replaces the complete image without preserving settings, and you are solely responsible for using it.</p>
-          <h3>How do I put my miner into bootloader mode?</h3><p>The browser can connect to the USB serial port even when the ESP32 bootloader is not active. If flashing does not start, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. Select Retry flashing. Some miners enter bootloader mode automatically and do not require this sequence.</p>
+          <h3>How do I put my miner into bootloader mode?</h3><p>Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. BitForge Nano uses automatic USB bootloader entry and should not be opened. For the NerdNOS LilyGO screen, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button. Use these recovery steps only if normal flashing does not start.</p>
           <h3>Does Turbo Touch screen firmware update the miner inside it?</h3><p>No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through the screen USB port. It does not update the Bitaxe GT miner inside the unit. To update the miner, select the matching Bitaxe model and board in Verified releases and connect the miner USB port.</p>
           <h3>What happens after an ESP firmware image is written?</h3><p>The flasher reports four post-flash stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. Keep USB and power connected until all four stages finish. The USB disconnect shown during the automatic reset is expected.</p>
           <h3>What is sent when I report an issue?</h3><p>Only the description you enter is sent to Solo Satoshi support; the form does not request your name, email address, or device logs. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.</p>

@@ -14,6 +14,7 @@ except where use is legally permitted to describe origin or preserve required
 copyright and license notices.
 
 This trademark reservation does not reduce any permission granted for the
-GPL-covered software itself. Names and marks belonging to Bitaxe, NerdAxe, and
-other third parties remain the property of their respective owners and are used
-only to identify compatible hardware and upstream projects.
+GPL-covered software itself. Names and marks belonging to Bitaxe, BitForge,
+NerdAxe, NerdNOS, and other third parties remain the property of their
+respective owners and are used only to identify compatible hardware and
+upstream projects.
