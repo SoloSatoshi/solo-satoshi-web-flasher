@@ -48,11 +48,11 @@ The file remains in browser memory and is never uploaded. The structural and chi
 
 ## Privacy and issue reporting
 
-The application has no account system and does not request names, email addresses, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. It does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
+The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The application does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
 
 Web Serial requires the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
 
-Report an issue sends only the description entered by the user and does not request a name, email address, or device logs. Cloudflare processes ordinary request metadata, including the IP address used for rate limiting and signals used by Turnstile bot protection. Proton delivers and stores the resulting support email. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
+Report an issue sends the reply email and description entered by the user. The email is used only by the Solo Satoshi support team to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare processes ordinary request metadata, including the IP address used for rate limiting and signals used by Turnstile bot protection. Proton delivers and stores the resulting support email, including the reply email, as support correspondence. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
 
 Privacy policy: https://flash.solosatoshi.com/privacy.html
 

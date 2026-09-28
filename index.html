@@ -10,7 +10,7 @@
     <meta name="author" content="Solo Satoshi" />
     <meta name="application-name" content="Solo Satoshi Web Flasher" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-b/CqYmqi449bvHxOVWTSrO3/XQIrc8O2MK4KJSrAg7w=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Du+OJKJSbdUgz5nrHeWWINvez6XKDDU/tyj/5c2uvwo=' 'sha256-ODdD0VngTcksU5ePZdrV0qpDyVxMAPy1LxdvOeICcvk=' https://challenges.cloudflare.com; style-src 'self' 'sha256-s/DnO/f/QjpO40fvSk4OlmJRFATnQ1yHlqiKGYM7FZw='; img-src 'self' data:; font-src 'self'; connect-src 'self' https://firmware.solosatoshi.com https://report.solosatoshi.com https://raw.githubusercontent.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests" />
     <link rel="canonical" href="https://flash.solosatoshi.com/" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <link rel="preload" href="./fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
@@ -151,7 +151,7 @@
               "Four-stage post-flash restart verification",
               "Bitaxe, NerdAxe, and screen-only Turbo Touch support",
               "Advanced local ESP32-S3 custom-firmware installation without file upload",
-              "Description-only issue reporting protected by rate limiting and Turnstile"
+              "Reply-enabled issue reporting protected by rate limiting and Turnstile"
             ],
             "image": {
               "@id": "https://flash.solosatoshi.com/#primaryimage"
@@ -319,7 +319,7 @@
                 "name": "What is sent when I report an issue?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Only the description you enter is sent to Solo Satoshi support; the form does not request your name, email address, or device logs. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information."
+                  "text": "The reply email and description you enter are sent to Solo Satoshi support. The email is used only to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information."
                 }
               }
             ]
@@ -327,8 +327,8 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-lfTKdzaa.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-C82dR2tL.css">
+    <script type="module" crossorigin src="./assets/index-BdMBMx1n.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-eB6axtOd.css">
   </head>
   <body>
     <div id="root" data-prerendered="true">
@@ -354,7 +354,7 @@
           <h3>How do I put my miner into bootloader mode?</h3><p>Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT. BitForge Nano uses automatic USB bootloader entry and should not be opened. For the NerdNOS LilyGO screen, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button. Use these recovery steps only if normal flashing does not start.</p>
           <h3>Does Turbo Touch screen firmware update the miner inside it?</h3><p>No. Bitaxe Turbo Touch — Screen Only updates the touchscreen ESP32-S3 controller through the screen USB port. It does not update the Bitaxe GT miner inside the unit. To update the miner, select the matching Bitaxe model and board in Verified releases and connect the miner USB port.</p>
           <h3>What happens after an ESP firmware image is written?</h3><p>The flasher reports four post-flash stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. Keep USB and power connected until all four stages finish. The USB disconnect shown during the automatic reset is expected.</p>
-          <h3>What is sent when I report an issue?</h3><p>Only the description you enter is sent to Solo Satoshi support; the form does not request your name, email address, or device logs. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.</p>
+          <h3>What is sent when I report an issue?</h3><p>The reply email and description you enter are sent to Solo Satoshi support. The email is used only to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare processes ordinary request data for rate limiting and Turnstile bot protection, and Proton delivers and stores the support email. Never include passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.</p>
           <nav aria-label="Source and store links"><a href="./source/latest.tar.gz">Download source code</a><a href="https://www.solosatoshi.com/shop" target="_blank" rel="noopener noreferrer">Shop Solo Satoshi hardware</a></nav>
         </article>
       </main>
