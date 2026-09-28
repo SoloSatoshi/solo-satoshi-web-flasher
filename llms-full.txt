@@ -34,7 +34,7 @@ The exact selected image is prepared in the background. Changing family, channel
 
 Settings preservation is off by default. When enabled for a verified ESP image, the flasher skips the designated NVS settings partition. It does not read or upload the Wi-Fi, pool, or configuration values in that partition. Preservation is not a backup and cannot guarantee that old settings remain compatible with new firmware.
 
-Bitaxe Turbo Touch — Screen Only is a separate display-controller target from the official BAP-GT-TOUCH project. It updates the touchscreen ESP32-S3 through the screen USB port and does not update the Bitaxe GT miner inside the unit. The miner must be selected and connected separately.
+Bitaxe Turbo Touch (Screen Only) is a separate display-controller target from the official BAP-GT-TOUCH project. It updates the touchscreen ESP32-S3 through the screen USB port and does not update the Bitaxe GT miner inside the unit. The miner must be selected and connected separately.
 
 Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT and choose Retry flashing. BitForge Nano enters bootloader mode automatically through USB and should not be opened. For NerdNOS, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button and retry. Approval of a serial port alone does not prove that bootloader mode is active.
 
