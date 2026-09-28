@@ -27,4 +27,4 @@
 - USB communication and selected custom firmware remain between the browser and the locally selected device. Technical logs are not uploaded.
 - Report an issue sends the reply email and description entered by the user. The email is used only to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare rate limiting and Turnstile protect the submission, and Proton delivers and stores the support email.
 - The application requires a current supported desktop Chrome, Edge, or Brave browser. Phones, tablets, Safari, and Firefox are not supported for flashing.
-- The application does not require an account and does not use advertising or behavioral analytics.
+- The application does not require an account or use advertising analytics. The live site uses cookieless Matomo analytics, respects browser Do Not Track, and records aggregate visits plus fixed events for miner-family selection, flash start/completion/failure, and successful issue-report submission. It does not send issue-report content, USB logs, serial data, firmware filenames, or firmware contents to Matomo.

@@ -48,7 +48,7 @@ The file remains in browser memory and is never uploaded. The structural and chi
 
 ## Privacy and issue reporting
 
-The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The application does not use advertising cookies or behavioral analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
+The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The live site uses cookieless Matomo analytics, respects browser Do Not Track, and records aggregate visits plus fixed events for miner-family selection, flash start/completion/failure, and successful issue-report submission. It does not send issue-report content, USB logs, serial data, firmware filenames, or firmware contents to Matomo. The application does not use advertising analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
 
 Web Serial requires the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
 
