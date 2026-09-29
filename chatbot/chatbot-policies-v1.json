@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T20:07:36.006Z",
+  "policies": [
+    {
+      "id": "terms",
+      "title": "Terms of Service and Sale Agreement",
+      "url": "https://www.solosatoshi.com/terms-of-service-and-sale-agreement/",
+      "wordpress_id": 1385,
+      "wordpress_slug": "terms-of-service-and-sale-agreement",
+      "modified": "2026-08-27T16:47:58"
+    },
+    {
+      "id": "returns_warranty",
+      "title": "Refund, Return, &#038; Warranty Policy",
+      "url": "https://www.solosatoshi.com/refund-return-and-warranty-policies/",
+      "wordpress_id": 1074,
+      "wordpress_slug": "refund-return-and-warranty-policies",
+      "modified": "2026-09-15T21:09:04"
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy Policy",
+      "url": "https://www.solosatoshi.com/privacy-policy/",
+      "wordpress_id": 3,
+      "wordpress_slug": "privacy-policy",
+      "modified": "2026-09-26T20:27:50"
+    },
+    {
+      "id": "backorders",
+      "title": "Backorder Terms and Conditions",
+      "url": "https://www.solosatoshi.com/solo-satoshi-backorder-terms-and-conditions/",
+      "wordpress_id": 37599,
+      "wordpress_slug": "solo-satoshi-backorder-terms-and-conditions",
+      "modified": "2026-08-27T16:30:29"
+    }
+  ]
+}

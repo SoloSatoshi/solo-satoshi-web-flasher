@@ -1,0 +1,2296 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-29T20:07:36.006Z",
+  "source": "https://www.solosatoshi.com/wp-json/wc/store/v1/products",
+  "products": [
+    {
+      "id": 59704,
+      "name": "Naja Duo Stand Free .STL Download",
+      "slug": "naja-duo-stand-free-stl-download",
+      "url": "https://www.solosatoshi.com/product/naja-duo-stand-free-stl-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download free Naja Duo stand STL files for compatible rear-mounted cooling fans. The current ZIP includes the TL-9015B version. Digital files only; no physical item ships.",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 59698,
+      "name": "SeedSigner+ Case Free .STL Download",
+      "slug": "seedsigner-plus-case-stl-files-free-download",
+      "url": "https://www.solosatoshi.com/product/seedsigner-plus-case-stl-files-free-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download four free SeedSigner+ case STL files: main enclosure, front lid, D-pad, and shim. Digital files only. Nothing ships. These parts fit the SeedSigner+ , not the regular or original SeedSigner. Separate right-side button caps are not included. Choose an STL Download",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 59200,
+      "name": "Sovereign Bitcoin Starter Package",
+      "slug": "sovereign-bitcoin-starter-package",
+      "url": "https://www.solosatoshi.com/product/sovereign-bitcoin-starter-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "103600",
+        "minimum": "103600",
+        "maximum": "112400"
+      },
+      "short_description": "Mine, verify, and hold with one order. Bitaxe Gamma miner, Start9 Server One node and home server, and your choice of Blockstream Jade Classic or SeedSigner+ signing device. Every component open source. Ships same day from Texas.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 57827,
+      "name": "SeedSigner+ Bitcoin Node Package",
+      "slug": "seedsigner-plus-node-package",
+      "url": "https://www.solosatoshi.com/product/seedsigner-plus-node-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "116100",
+        "minimum": "116100",
+        "maximum": "116100"
+      },
+      "short_description": "The SeedSigner+ Node Package combines a Start9 Server One with 2TB/16GB, an air-gapped SeedSigner+, blank microSD, three-plate steel backup kit, ten casino dice, SD card reader, and tamper-evident bags. The SeedSigner USB-C cable and power adapter are not included.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 57605,
+      "name": "Bitcoin Seed Phrase Dice Set (5 x 6-Sided Casino Grade Dice)",
+      "slug": "bitcoin-seed-phrase-dice-set-d6-casino-grade",
+      "url": "https://www.solosatoshi.com/product/bitcoin-seed-phrase-dice-set-d6-casino-grade/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1999",
+        "minimum": "1999",
+        "maximum": "1999"
+      },
+      "short_description": "Five matched, serialized 19 mm casino-grade d6 dice for supported Bitcoin seed entropy workflows. SeedSigner uses 50 recorded results for 12 words or 99 for 24 words. Follow the exact method documented by your signing device.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1068,
+          "name": "Seed Phrase &amp; Backups",
+          "slug": "seed-phrase-backups"
+        }
+      ]
+    },
+    {
+      "id": 57598,
+      "name": "Bitcoin Seed Phrase Dice Set (2 x 16-Sided Dice + 1 x 8-Sided Die)",
+      "slug": "bitcoin-seed-phrase-dice-set-d16-d8",
+      "url": "https://www.solosatoshi.com/product/bitcoin-seed-phrase-dice-set-d16-d8/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "999",
+        "minimum": "999",
+        "maximum": "999"
+      },
+      "short_description": "Two numbered d16 dice and one numbered d8 die for Blockstream&#8217;s documented BIP39 lookup method. Each ordered throw selects one provisional word; complete the final entropy and checksum on a compatible offline signer.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1068,
+          "name": "Seed Phrase &amp; Backups",
+          "slug": "seed-phrase-backups"
+        }
+      ]
+    },
+    {
+      "id": 57233,
+      "name": "Entropia v2 Seed Phrase Entropy Tablets",
+      "slug": "entropia-v2-seed-phrase-entropy-tablets",
+      "url": "https://www.solosatoshi.com/product/entropia-v2-seed-phrase-entropy-tablets/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "4999",
+        "minimum": "4999",
+        "maximum": "4999"
+      },
+      "short_description": "Entropia v2 includes 1,024 double-sided physical tablets covering all 2,048 BIP39 English word prefixes. Draw 11 or 23 provisional words, then complete the remaining entropy and checksum on a compatible offline signer.",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1068,
+          "name": "Seed Phrase &amp; Backups",
+          "slug": "seed-phrase-backups"
+        }
+      ]
+    },
+    {
+      "id": 56219,
+      "name": "Bitaxe Naja Duo Bitcoin Solo Miner (1201 Model)",
+      "slug": "bitaxe-naja-duo",
+      "url": "https://www.solosatoshi.com/product/bitaxe-naja-duo/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "38999",
+        "minimum": "38999",
+        "maximum": "40999"
+      },
+      "short_description": "The Bitaxe Naja Duo is the first Bitaxe built on Bitmain&#8217;s 3nm BM1373 ASIC, pushing 4.4 TH/s at just 42W for a stock efficiency of 9.5 J/TH, the first Bitaxe to break single-digit J/TH. Two BM1373 chips, Thermalright AXP90-X47 cooling, a 1.9&#8243; color LCD, and a tested 8 TH/s overclock make this a high-performance, efficient dual-chip Bitaxe for home mining.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 55551,
+      "name": "Multi-Signature Package",
+      "slug": "bitcoin-multi-signature-package",
+      "url": "https://www.solosatoshi.com/product/bitcoin-multi-signature-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "175000",
+        "minimum": "175000",
+        "maximum": "175000"
+      },
+      "short_description": "A complete 2-of-3 Bitcoin multisignature package with three independent signing devices, a Start9 Server One, three fireproof stainless-steel seed backups, physical entropy tools, and policy-backup media. Each signer must use its own seed. Coordinator software is downloaded separately.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55548,
+      "name": "Single-Signature Package",
+      "slug": "bitcoin-single-signature-package",
+      "url": "https://www.solosatoshi.com/product/bitcoin-single-signature-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "142500",
+        "minimum": "142500",
+        "maximum": "142500"
+      },
+      "short_description": "A complete Bitcoin single-signature package with a Start9 Server One, Jade Plus for regular signing, SeedSigner+ as a stateless recovery signer, three fireproof stainless-fireproof steel backups, and two documented physical-entropy options. USB-C power cable for SeedSigner+ is not included.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55547,
+      "name": "Multi-Signature Upgrade",
+      "slug": "bitcoin-multi-signature-upgrade",
+      "url": "https://www.solosatoshi.com/product/bitcoin-multi-signature-upgrade/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "90600",
+        "minimum": "90600",
+        "maximum": "90600"
+      },
+      "short_description": "A three-signer 2-of-3 Bitcoin multisignature kit for owners who already have a node or coordinator environment. Includes Jade Plus, SeedSigner+, Passport Prime, three fireproof stainless-steel seed backups, entropy tools, and policy-backup media. A full node is not included.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55546,
+      "name": "Passport Prime HODL Package",
+      "slug": "passport-prime-hodl-package",
+      "url": "https://www.solosatoshi.com/product/passport-prime-hodl-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "40986",
+        "minimum": "40986",
+        "maximum": "40986"
+      },
+      "short_description": "Foundation Passport Prime with a three-plate fireproof stainless-steel seed backup kit, two d16 dice, one d8 die, and four tamper-evident bags. Use the documented D16/D16/D8 workflow for the first 11 or 23 words, then complete the final entropy and checksum offline.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55544,
+      "name": "SeedSigner+ HODL Package",
+      "slug": "seedsigner-plus-hodl-package",
+      "url": "https://www.solosatoshi.com/product/seedsigner-plus-hodl-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "25900",
+        "minimum": "25900",
+        "maximum": "25900"
+      },
+      "short_description": "SeedSigner+ with a three-plate fireproof stainless-steel seed backup kit, ten casino-grade d6 dice, and four tamper-evident bags. The SeedSigner+ kit includes a blank microSD card, SeedQR cards, and printed setup page. USB-C cable and power adapter are not included.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55505,
+      "name": "Jade Plus HODL Package",
+      "slug": "jade-plus-hodl-package",
+      "url": "https://www.solosatoshi.com/product/jade-plus-hodl-package/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "26000",
+        "minimum": "26000",
+        "maximum": "26000"
+      },
+      "short_description": "Blockstream Jade Plus in Lunar Silver with JadeLink, a three-plate fireproof stainless-steel seed backup kit, two d16 dice, one d8 die, and four tamper-evident bags. Supports documented QR and JadeLink air-gapped workflows.",
+      "categories": [
+        {
+          "id": 1078,
+          "name": "Bundles",
+          "slug": "bundles"
+        }
+      ]
+    },
+    {
+      "id": 55535,
+      "name": "Bitcoin Seed Phrase Backup Kit",
+      "slug": "bitcoin-seed-phrase-backup-kit",
+      "url": "https://www.solosatoshi.com/product/bitcoin-seed-phrase-backup-kit/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5599",
+        "minimum": "5599",
+        "maximum": "5599"
+      },
+      "short_description": "Back up a 12-word or 24-word Bitcoin recovery phrase on three fireproof hardened austenitic stainless-steel plates. Includes an electric engraving pen, three locking screw sets, screwdriver, and instructions. No hammer, punches, loose tiles, or batteries required.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1068,
+          "name": "Seed Phrase &amp; Backups",
+          "slug": "seed-phrase-backups"
+        }
+      ]
+    },
+    {
+      "id": 55527,
+      "name": "Blockstream JadeLink Air-Gapped USB Drive",
+      "slug": "blockstream-jadelink-air-gapped-usb-drive",
+      "url": "https://www.solosatoshi.com/product/blockstream-jadelink-air-gapped-usb-drive/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3000",
+        "minimum": "3000",
+        "maximum": "3000"
+      },
+      "short_description": "The Blockstream JadeLink is a compact 64GB metal USB-C drive for air-gapped firmware upgrades and PSBT transaction signing with Jade Plus. Includes one JadeLink drive. Compatible with Jade Plus USB storage workflows; Jade Classic is not supported. Ships from Conroe, Texas.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 307,
+          "name": "Bitcoin Wallets",
+          "slug": "bitcoin-wallets"
+        }
+      ]
+    },
+    {
+      "id": 55491,
+      "name": "Foundation Passport Prime Bitcoin Hardware Wallet",
+      "slug": "foundation-passport-prime",
+      "url": "https://www.solosatoshi.com/product/foundation-passport-prime/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "34900",
+        "minimum": "34900",
+        "maximum": "34900"
+      },
+      "short_description": "Foundation Passport Prime is an open-source Bitcoin hardware wallet and personal security device with a 3.5-inch touchscreen, camera, 50GB encrypted Vault, TOTP authenticator, FIDO security keys, and Keycard backups. Includes three Keycards with Faraday sleeves, USB-C cable, and booklet. Assembled in the USA; available in Arctic Copper and Midnight Bronze.",
+      "categories": [
+        {
+          "id": 307,
+          "name": "Bitcoin Wallets",
+          "slug": "bitcoin-wallets"
+        }
+      ]
+    },
+    {
+      "id": 54849,
+      "name": "Heatbit Bitair: Air Purifier and Bitcoin Miner",
+      "slug": "heatbit-bitair-air-purifier-bitcoin-miner",
+      "url": "https://www.solosatoshi.com/product/heatbit-bitair-air-purifier-bitcoin-miner/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "17999",
+        "minimum": "17999",
+        "maximum": "17999"
+      },
+      "short_description": "Heatbit Bitair is the first air purifier designed to mine Bitcoin, combining true HEPA filtration with a 1.2 TH/s miner in a quiet tabletop appliance. It uses up to 25W, operates at 25–44 dB, covers rooms up to 200 sq ft, and supports solo or pool mining through the Heatbit app.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 54819,
+      "name": "SeedSigner+ Fully Assembled Kit &#038; Accessories",
+      "slug": "seedsigner",
+      "url": "https://www.solosatoshi.com/product/seedsigner/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "16800",
+        "minimum": "16800",
+        "maximum": "16800"
+      },
+      "short_description": "SeedSigner+ is a fully open-source Bitcoin hardware wallet and air-gapped, stateless signing device with a larger 2.8-inch display and D-pad controls, sourced directly from the SeedSigner project creator and fully assembled in the USA. Each set is individually packaged with the orange SeedSigner+ signer, blank microSD card, SeedQR card pack, and printed instruction page. Ships same day from Houston, Texas. View SeedSigner+ Setup Instructions",
+      "categories": [
+        {
+          "id": 307,
+          "name": "Bitcoin Wallets",
+          "slug": "bitcoin-wallets"
+        }
+      ]
+    },
+    {
+      "id": 54150,
+      "name": "Bitaxe Gamma Hex Bitcoin Solo Miner (1300 Model)",
+      "slug": "bitaxe-gamma-hex",
+      "url": "https://www.solosatoshi.com/product/bitaxe-gamma-hex/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "39699",
+        "minimum": "39699",
+        "maximum": "44999"
+      },
+      "short_description": "The Bitaxe Gamma Hex 1300 is a hydro-cooled, open-source Bitcoin miner with six Bitmain BM1370 ASIC chips. Stock performance is approximately 8.4 TH/s at 140W, or 16.7 J/TH. Its AIO liquid cooler supports low-noise operation and provides thermal headroom for tuning, with results varying by unit and settings.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 51904,
+      "name": "Avalon Q Riser Stand",
+      "slug": "avalon-q-riser-stand",
+      "url": "https://www.solosatoshi.com/product/avalon-q-riser-stand/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "999",
+        "minimum": "999",
+        "maximum": "999"
+      },
+      "short_description": "A two-piece black 3D-printed stand for the Canaan Avalon Q. Use the same feet for vertical exhaust-up placement or horizontal placement with added chassis clearance. Tool-free installation; miner sold separately.",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 37,
+          "name": "Stands",
+          "slug": "stands"
+        }
+      ]
+    },
+    {
+      "id": 51751,
+      "name": "Bitaxe 40W 5V 8A Power Supply",
+      "slug": "bitaxe-40w-5v-8a-power-supply",
+      "url": "https://www.solosatoshi.com/product/bitaxe-40w-5v-8a-power-supply/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1099",
+        "minimum": "1099",
+        "maximum": "1099"
+      },
+      "short_description": "The Bitaxe 40W 5V 8A power supply works with Bitaxe and Nerdaxe miners requiring 5V DC through a 5.5 × 2.1 mm center-positive barrel input. It provides 33% more rated power and current headroom than a 5V 6A 30W adapter and includes North America, EU, UK, and Australian plug heads.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 11327,
+      "name": "NerdQaxe++ Bitcoin Solo Miner (Revision 7)",
+      "slug": "nerdqaxe-plus-plus",
+      "url": "https://www.solosatoshi.com/product/nerdqaxe-plus-plus/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "18999",
+        "minimum": "18999",
+        "maximum": "23799"
+      },
+      "short_description": "The NerdQaxe++ Revision 7 is an open-source, quad-chip Bitcoin solo miner with four BM1370 ASICs. Stock performance is approximately 4.8 TH/s at 69.5W, while Solo Satoshi testing reached 8.1 TH/s with upgraded power, additional cooling, and manual tuning. Each unit is assembled, tested, and flashed with Nerd*OS in the USA. Get a 5% coupon here.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 571,
+          "name": "Nerdaxe",
+          "slug": "nerdaxe"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 50993,
+      "name": "PWM Fan Hub 1-to-5 Splitter Cable 16 Inch",
+      "slug": "pwm-fan-hub-1-to-5-splitter-cable",
+      "url": "https://www.solosatoshi.com/product/pwm-fan-hub-1-to-5-splitter-cable/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "899",
+        "minimum": "899",
+        "maximum": "899"
+      },
+      "short_description": "Expand one 4-pin PWM header into five fan connections with a 16-inch black braided passive hub. One master port reports RPM; all connected fans receive the same PWM command. Supports verified 5V or 12V systems within the host header’s combined-current limit.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 304,
+          "name": "Adapters",
+          "slug": "adapters"
+        }
+      ]
+    },
+    {
+      "id": 50983,
+      "name": "Thermalright TF7 Thermal Paste 2g",
+      "slug": "thermalright-tf7-thermal-paste-2g",
+      "url": "https://www.solosatoshi.com/product/thermalright-tf7-thermal-paste-2g/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "399",
+        "minimum": "399",
+        "maximum": "399"
+      },
+      "short_description": "Thermalright TF7 is a gray, non-conductive thermal paste supplied in a 2g syringe with an applicator. Thermalright publishes 12.8 W/m·K conductivity and thermal impedance below 0.01 °C·cm²/W for ASIC, CPU, GPU, and heatsink applications.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1037,
+          "name": "Thermal Paste",
+          "slug": "thermal-paste"
+        }
+      ]
+    },
+    {
+      "id": 50950,
+      "name": "4-Pin PWM Fan Splitter Cable 10.5 Inch 1-to-2 Converter",
+      "slug": "4-pin-pwm-fan-splitter-cable",
+      "url": "https://www.solosatoshi.com/product/4-pin-pwm-fan-splitter-cable/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "599",
+        "minimum": "599",
+        "maximum": "599"
+      },
+      "short_description": "Connect two fans to one 4-pin PWM header with this 10.5-inch black braided passive splitter. The master branch reports RPM while the slave omits tachometer feedback. Supports verified 5V or 12V systems within the host header’s combined-current limit.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 606,
+          "name": "Cords and Adapters",
+          "slug": "cords-and-adapters"
+        }
+      ]
+    },
+    {
+      "id": 50925,
+      "name": "Thermalright AXP90-X47 Full Copper Heatsink + 92mm PWM Fan",
+      "slug": "thermalright-axp90-x47-full-copper-heatsink-fan",
+      "url": "https://www.solosatoshi.com/product/thermalright-axp90-x47-full-copper-heatsink-fan/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5599",
+        "minimum": "5599",
+        "maximum": "5599"
+      },
+      "short_description": "The Thermalright AXP90-X47 Full Copper is a good cooling upgrade for the NerdQaxe++ and Bitaxe Naja Duo, pairing a C1100 copper heatsink and four 6 mm heat pipes with a 92 mm PWM fan. It can also fit the Bitaxe GT with compatible 3D-printed brackets sold separately. Official manual hosted locally.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 543,
+          "name": "Heatsinks",
+          "slug": "heatsinks"
+        }
+      ]
+    },
+    {
+      "id": 50192,
+      "name": "BitForge Nano Bitcoin Solo Miner (Ghost Edition)",
+      "slug": "bitforge-nano-ghost-edition",
+      "url": "https://www.solosatoshi.com/product/bitforge-nano-ghost-edition/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "34999",
+        "minimum": "34999",
+        "maximum": "34999"
+      },
+      "short_description": "The BitForge Nano Ghost Edition is a compact open-source Bitcoin solo miner with two BM1370 ASICs, up to approximately 2.6 TH/s, ForgeOS, 2.4 GHz Wi-Fi, dual-fan cooling, RGB lighting, and a smoked-window aluminum enclosure. Includes 12V power supply, North American cord, RGB remote, and access to Solo Satoshi firmware guidance.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 14841,
+      "name": "Blockstream Jade Bitcoin Hardware Wallet",
+      "slug": "blockstream-jade-bitcoin-hardware-wallet",
+      "url": "https://www.solosatoshi.com/product/blockstream-jade-bitcoin-hardware-wallet/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "7900",
+        "minimum": "7900",
+        "maximum": "16900"
+      },
+      "short_description": "Buy Blockstream Jade Classic or Jade Plus, fully open-source hardware wallets for Bitcoin and Liquid assets. Choose Jade Classic, Jade Plus Black, or Jade Plus Lunar Silver with QR signing, USB-C, Bluetooth, and model-specific air-gapped features. Get a 5% coupon here.",
+      "categories": [
+        {
+          "id": 307,
+          "name": "Bitcoin Wallets",
+          "slug": "bitcoin-wallets"
+        }
+      ]
+    },
+    {
+      "id": 4695,
+      "name": "Bitaxe Touch Bitcoin Solo Miner (Turbo Touch Edition)",
+      "slug": "bitaxe-touch",
+      "url": "https://www.solosatoshi.com/product/bitaxe-touch/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "25000",
+        "minimum": "25000",
+        "maximum": "25000"
+      },
+      "short_description": "The Bitaxe Turbo Touch is a dual-chip, open-source Bitcoin solo miner with approximately 2.15 TH/s stock performance, a 4.3-inch touchscreen, eight display pages, AxeOS, and about 43W power draw. Each unit includes a regional 12.4V, 10A power supply. Get a 5% coupon here.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 1651,
+      "name": "Bitaxe Gamma Bitcoin Solo Miner (602 Model)",
+      "slug": "bitaxe-gamma",
+      "url": "https://www.solosatoshi.com/product/bitaxe-gamma/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "6100",
+        "minimum": "6100",
+        "maximum": "7200"
+      },
+      "short_description": "The Bitaxe Gamma 602 is an open-source, single-chip BM1370 Bitcoin miner with approximately 1.2 TH/s stock performance at 18 to 20W. Each unit includes a Dark Horse heatsink, 40 mm fan, OLED display, AxeOS, 2.4 GHz Wi-Fi, and configurable stand and 5V power-supply options.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 44838,
+      "name": "Bitaxe Gamma Duo Bitcoin Solo Miner (650 Model)",
+      "slug": "bitaxe-duo-bitcoin-solo-miner-650-model",
+      "url": "https://www.solosatoshi.com/product/bitaxe-duo-bitcoin-solo-miner-650-model/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "10429",
+        "minimum": "10429",
+        "maximum": "11907"
+      },
+      "short_description": "The Bitaxe Gamma Duo 650 is an open-source dual-BM1370 miner with approximately 1.63 TH/s stock performance at 25.8W, Dark Horse and VR heatsinks, 40 mm fan, OLED, AxeOS, and Wi-Fi. PSU-selected packages include the linked Bitaxe 40W 5V 8A supply with four regional plug heads.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 25241,
+      "name": "Nerdaxe Gamma Bitcoin Solo Miner (Revision 2.3 Model)",
+      "slug": "nerdaxe-gamma-bitcoin-solo-miner",
+      "url": "https://www.solosatoshi.com/product/nerdaxe-gamma-bitcoin-solo-miner/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "13900",
+        "minimum": "13900",
+        "maximum": "15000"
+      },
+      "short_description": "The Nerdaxe Gamma revision 2.3 is an open-source BM1370 Bitcoin solo miner delivering approximately 1.2 TH/s at typical stock settings, with a 1.9-inch color display, Wi-Fi, and browser-based controls. Select the miner alone or add a compatible regional 5V power supply and upright stand.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 571,
+          "name": "Nerdaxe",
+          "slug": "nerdaxe"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 11318,
+      "name": "Bitaxe GT Gamma Turbo Bitcoin Solo Miner (801 Model)",
+      "slug": "bitaxe-gt-gamma-turbo",
+      "url": "https://www.solosatoshi.com/product/bitaxe-gt-gamma-turbo/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "17399",
+        "minimum": "17399",
+        "maximum": "19999"
+      },
+      "short_description": "The Bitaxe GT 801 Gamma Turbo is an open-source, dual-chip BM1370 Bitcoin miner with approximately 2.15 TH/s stock performance at 43W. Each unit includes an aluminum heatsink, 60 mm fan, OLED display, AxeOS, 2.4 GHz Wi-Fi, 12V XT30 input, and configurable power-supply and stand options.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 41516,
+      "name": "Start9 Server One Home Server with StartOS (2026 Model)",
+      "slug": "start9-server-one-2026-home-server-with-startos",
+      "url": "https://www.solosatoshi.com/product/start9-server-one-2026-home-server-with-startos/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "89900",
+        "minimum": "89900",
+        "maximum": "139900"
+      },
+      "short_description": "The Start9 Server One 2026 is a compact personal server with StartOS preinstalled, an AMD Ryzen 5 6600H processor, wired Gigabit Ethernet, and 2TB/16GB or 4TB/32GB configurations. Run a Bitcoin node and supported self-hosted services with a 1-year Start9 hardware warranty and lifetime Start9 Support membership.",
+      "categories": [
+        {
+          "id": 856,
+          "name": "Bitcoin Nodes",
+          "slug": "bitcoin-nodes"
+        },
+        {
+          "id": 855,
+          "name": "Home Servers",
+          "slug": "home-servers"
+        }
+      ]
+    },
+    {
+      "id": 32745,
+      "name": "Avalon Nano 3S Bitcoin Solo Miner",
+      "slug": "avalon-nano-3s-bitcoin-solo-miner",
+      "url": "https://www.solosatoshi.com/product/avalon-nano-3s-bitcoin-solo-miner/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "29999",
+        "minimum": "29999",
+        "maximum": "29999"
+      },
+      "short_description": "The Canaan Avalon Nano 3S is a compact 6 TH/s desktop Bitcoin miner with a 140W GaN adapter, three power levels, 30–40 dB published noise range, Wi-Fi, and supplemental heat output. Includes North American cable and a 360-day Canaan limited warranty. Use code NANO for $79 off. Current checkout subtotal: $220.99 before tax and shipping.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 808,
+          "name": "Canaan Avalon Miners",
+          "slug": "canaan-avalon"
+        },
+        {
+          "id": 681,
+          "name": "Heaters",
+          "slug": "heaters"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 40178,
+      "name": "Canaan Avalon Mini 3 37.5TH Bitcoin Home Miner",
+      "slug": "canaan-avalon-mini-3-37-5th-bitcoin-home-mining-space-heater",
+      "url": "https://www.solosatoshi.com/product/canaan-avalon-mini-3-37-5th-bitcoin-home-mining-space-heater/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "74999",
+        "minimum": "74999",
+        "maximum": "74999"
+      },
+      "short_description": "The Canaan Avalon Mini 3 is a 37.5 TH/s, 800W Bitcoin home miner and baseboard-style space heater with 21.3 J/TH efficiency, app-controlled thermostat, Heater/Mining/Night modes, washable filter, and tip-over protection. Integrated PSU and North American power cord included.",
+      "categories": [
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 808,
+          "name": "Canaan Avalon Miners",
+          "slug": "canaan-avalon"
+        },
+        {
+          "id": 681,
+          "name": "Heaters",
+          "slug": "heaters"
+        }
+      ]
+    },
+    {
+      "id": 36612,
+      "name": "Canaan Avalon Q Bitcoin Home Miner (90 TH/s)",
+      "slug": "canaan-avalon-q-90th-bitcoin-home-miner",
+      "url": "https://www.solosatoshi.com/product/canaan-avalon-q-90th-bitcoin-home-miner/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "188800",
+        "minimum": "188800",
+        "maximum": "188800"
+      },
+      "short_description": "The Canaan Avalon Q is a 90 TH/s Bitcoin home miner rated at 1,674W and 18.6 J/TH, with three power modes, Ethernet, an included Wi-Fi module, and Avalon Family app control. It includes a 360-day limited Canaan warranty. Pay $1,379.00 with code Q at checkout.",
+      "categories": [
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 808,
+          "name": "Canaan Avalon Miners",
+          "slug": "canaan-avalon"
+        },
+        {
+          "id": 681,
+          "name": "Heaters",
+          "slug": "heaters"
+        }
+      ]
+    },
+    {
+      "id": 50888,
+      "name": "Thermal Grizzly Kryonaut Extreme Thermal Paste 2g",
+      "slug": "thermal-grizzly-kryonaut-extreme-thermal-paste-2g",
+      "url": "https://www.solosatoshi.com/product/thermal-grizzly-kryonaut-extreme-thermal-paste-2g/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "2199",
+        "minimum": "2199",
+        "maximum": "2199"
+      },
+      "short_description": "Buy authentic Thermal Grizzly Kryonaut Extreme 2g thermal paste for serviceable ASIC, CPU, GPU, and IC heatsink interfaces. Electrically non-conductive, no curing, and supplied with two applicators, manual, and certificate of origin.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 1037,
+          "name": "Thermal Paste",
+          "slug": "thermal-paste"
+        }
+      ]
+    },
+    {
+      "id": 43997,
+      "name": "Solo Satoshi Block Hoodie (American Flag Sleeve) Black Pullover",
+      "slug": "solo-satoshi-block-hoodie-with-american-flag",
+      "url": "https://www.solosatoshi.com/product/solo-satoshi-block-hoodie-with-american-flag/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5850",
+        "minimum": "5850",
+        "maximum": "6250"
+      },
+      "short_description": "Black Solo Satoshi Block hoodie with multicolor chest graphic and American flag sleeve. Runs small; order one size up. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 946,
+          "name": "Hoodies",
+          "slug": "hoodies"
+        }
+      ]
+    },
+    {
+      "id": 50702,
+      "name": "El Mirage Heatsink for Bitaxe and Nerdaxe",
+      "slug": "el-mirage-heatsink-for-bitaxe-and-nerdaxe",
+      "url": "https://www.solosatoshi.com/product/el-mirage-heatsink-for-bitaxe-and-nerdaxe/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "899",
+        "minimum": "899",
+        "maximum": "999"
+      },
+      "short_description": "Ix Tech El Mirage copper-plated aluminum heatsink with four-point M3 mounting for compatible Bitaxe Max, Ultra, Supra, Gamma, Gamma Duo 650, Nerdaxe Ultra, and Nerdaxe Gamma miners. Hardware and fan holder included; optional TF7 paste.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 543,
+          "name": "Heatsinks",
+          "slug": "heatsinks"
+        }
+      ]
+    },
+    {
+      "id": 50662,
+      "name": "LilyGo T-Display S3 (H577) Bitcoin Solo Miner Replacement Screen",
+      "slug": "lilygo-t-display-s3-h577-replacement-screen",
+      "url": "https://www.solosatoshi.com/product/lilygo-t-display-s3-h577-replacement-screen/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1999",
+        "minimum": "1999",
+        "maximum": "1999"
+      },
+      "short_description": "Buy a genuine LILYGO T-Display S3 H577 replacement display and ESP32-S3 controller for compatible NerdQaxe++ revisions. Pre-soldered headers, 1.9-inch 170 × 320 IPS screen, 16 MB flash, 8 MB PSRAM, and direct Solo Satoshi web-flasher access.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 523,
+          "name": "Screens",
+          "slug": "screens"
+        }
+      ]
+    },
+    {
+      "id": 41243,
+      "name": "Thermalright TL-9015B 92mm Slim PWM Fan",
+      "slug": "thermalright-tl-9015b-92mm-slim-pwm-fan",
+      "url": "https://www.solosatoshi.com/product/thermalright-tl-9015b-92mm-slim-pwm-fan/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1199",
+        "minimum": "1199",
+        "maximum": "1199"
+      },
+      "short_description": "Buy the Thermalright TL-9015B 92 × 15 mm slim 12V PWM fan for compatible Naja Duo and NerdQaxe++ cooling setups. Up to 2700 RPM, 42.58 CFM, 1.33 mm H₂O, and 22.4 dBA.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 506,
+          "name": "Fans",
+          "slug": "fans"
+        }
+      ]
+    },
+    {
+      "id": 41766,
+      "name": "12V 10A 120W Switching Power Supply With 5.5&#215;2.1 Jack",
+      "slug": "12v-10a-120w-switching-power-supply-with-5-5x2-1-jack",
+      "url": "https://www.solosatoshi.com/product/12v-10a-120w-switching-power-supply-with-5-5x2-1-jack/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "2499",
+        "minimum": "2499",
+        "maximum": "2499"
+      },
+      "short_description": "Buy a 12V 10A 120W replacement power supply for qualifying older, pre-XT30 NerdQaxe+ and NerdQaxe++ models with a verified 5.5 × 2.1 mm barrel input. Includes the selected NA, UK, EU, or AU IEC C13 cord.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 43979,
+      "name": "Bitaxe Anarchy Snapback Hat",
+      "slug": "bitxae-anarchy-snapback-hat",
+      "url": "https://www.solosatoshi.com/product/bitxae-anarchy-snapback-hat/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3000",
+        "minimum": "3000",
+        "maximum": "3000"
+      },
+      "short_description": "Buy the Bitaxe Anarchy Snapback Hat with gothic white Bitaxe lettering, a red anarchy-style “A,” structured trucker crown, and adjustable fit. Stocked and shipped by Solo Satoshi in Conroe, Texas.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 24,
+          "name": "Hats",
+          "slug": "hats"
+        }
+      ]
+    },
+    {
+      "id": 41684,
+      "name": "Black 3D Printed Bitaxe Display Stand",
+      "slug": "black-3d-printed-bitaxe-display-stand",
+      "url": "https://www.solosatoshi.com/product/black-3d-printed-bitaxe-display-stand/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "399",
+        "minimum": "399",
+        "maximum": "399"
+      },
+      "short_description": "Buy a black two-piece 3D-printed display stand for the Bitaxe Gamma, compatible legacy single-chip Bitaxe miners, and the Bitaxe Gamma Duo 650. Angled viewing position with an open honeycomb front.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 37,
+          "name": "Stands",
+          "slug": "stands"
+        }
+      ]
+    },
+    {
+      "id": 44185,
+      "name": "Unisex 256 Foundation Hoodie Pullover",
+      "slug": "unisex-256-foundation-hoodie-pullover",
+      "url": "https://www.solosatoshi.com/product/unisex-256-foundation-hoodie-pullover/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5500",
+        "minimum": "5500",
+        "maximum": "5900"
+      },
+      "short_description": "Buy the unisex 256 Foundation hoodie with circuit-style chest graphic, cotton face, fleece blend, three-panel hood, and pouch pocket. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 946,
+          "name": "Hoodies",
+          "slug": "hoodies"
+        }
+      ]
+    },
+    {
+      "id": 44135,
+      "name": "Unisex OSMU Hoodie Pullover",
+      "slug": "unisex-osmu-hoodie-pullover",
+      "url": "https://www.solosatoshi.com/product/unisex-osmu-hoodie-pullover/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5500",
+        "minimum": "5500",
+        "maximum": "5900"
+      },
+      "short_description": "Buy the unisex Open Source Miners United hoodie with OSMU chest graphic, cotton face, fleece blend, three-panel hood, and pouch pocket. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 946,
+          "name": "Hoodies",
+          "slug": "hoodies"
+        }
+      ]
+    },
+    {
+      "id": 25081,
+      "name": "52Pi Copper MOSFET Heatsink Kit for Bitaxe and Nerdaxe",
+      "slug": "52pi-copper-mosfet-heatsink-kit-for-bitaxe-and-nerdaxe",
+      "url": "https://www.solosatoshi.com/product/52pi-copper-mosfet-heatsink-kit-for-bitaxe-and-nerdaxe/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1109",
+        "minimum": "1109",
+        "maximum": "1109"
+      },
+      "short_description": "Buy the official 52Pi F-0029 kit with 18 copper heatsinks and pre-applied thermal adhesive for qualified passive-cooling projects. Copper is electrically conductive; verify safe placement, clearance, airflow, and warranty implications before use. Get 5% coupon here.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 543,
+          "name": "Heatsinks",
+          "slug": "heatsinks"
+        }
+      ]
+    },
+    {
+      "id": 44088,
+      "name": "Solo Satoshi Snapback Hat",
+      "slug": "solo-satoshi-snapback-hat",
+      "url": "https://www.solosatoshi.com/product/solo-satoshi-snapback-hat/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3000",
+        "minimum": "3000",
+        "maximum": "3000"
+      },
+      "short_description": "Buy the Solo Satoshi Snapback Hat with a structured trucker crown, flat bill, adjustable closure, and clean front logo. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 24,
+          "name": "Hats",
+          "slug": "hats"
+        }
+      ]
+    },
+    {
+      "id": 44070,
+      "name": "Solo Satoshi T-Shirt with American Flag",
+      "slug": "solo-satoshi-t-shirt-with-american-flag",
+      "url": "https://www.solosatoshi.com/product/solo-satoshi-t-shirt-with-american-flag/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3600",
+        "minimum": "3600",
+        "maximum": "4050"
+      },
+      "short_description": "Buy the black Solo Satoshi logo T-shirt with American flag sleeve detail. Soft pre-shrunk ring-spun cotton in XS–3XL. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 25,
+          "name": "T-Shirts",
+          "slug": "t-shirts"
+        }
+      ]
+    },
+    {
+      "id": 44044,
+      "name": "Solo Satoshi Block T Shirt with American Flag",
+      "slug": "short-sleeve-t-shirt",
+      "url": "https://www.solosatoshi.com/product/short-sleeve-t-shirt/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3600",
+        "minimum": "3600",
+        "maximum": "4050"
+      },
+      "short_description": "Buy the black Solo Satoshi Block T-shirt with American flag sleeve detail. Soft pre-shrunk ring-spun cotton in XS–3XL. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 25,
+          "name": "T-Shirts",
+          "slug": "t-shirts"
+        }
+      ]
+    },
+    {
+      "id": 44022,
+      "name": "Solo Satoshi Hoodie (American Flag Sleeve) Black Pullover",
+      "slug": "solo-satoshi-hoodie-american-flag-sleeve-black-pullover",
+      "url": "https://www.solosatoshi.com/product/solo-satoshi-hoodie-american-flag-sleeve-black-pullover/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "4769",
+        "minimum": "4769",
+        "maximum": "5169"
+      },
+      "short_description": "Buy the black Solo Satoshi logo hoodie with American flag sleeve detail. Midweight 80/20 cotton-recycled-polyester blend in S–3XL. Partner fulfilled.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 946,
+          "name": "Hoodies",
+          "slug": "hoodies"
+        }
+      ]
+    },
+    {
+      "id": 47632,
+      "name": "Black 3D Printed NerdQaxe++ Display Stand",
+      "slug": "black-3d-printed-nerdqaxe-display-stand",
+      "url": "https://www.solosatoshi.com/product/black-3d-printed-nerdqaxe-display-stand/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1199",
+        "minimum": "1199",
+        "maximum": "1199"
+      },
+      "short_description": "Purpose-built for the NerdQaxe++. This black HT-PLA-GF display stand secures your miner with four corner PCB mounting posts, features an 80mm rear fan cutout, and keeps airflow open with an open-frame design.",
+      "categories": [
+        {
+          "id": 37,
+          "name": "Stands",
+          "slug": "stands"
+        }
+      ]
+    },
+    {
+      "id": 48519,
+      "name": "Mean Well LRS-350-12 348W 12V 29A Switching Power Supply",
+      "slug": "mean-well-lrs-350-12-348w-12v-29a-switching-power-supply",
+      "url": "https://www.solosatoshi.com/product/mean-well-lrs-350-12-348w-12v-29a-switching-power-supply/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3399",
+        "minimum": "3399",
+        "maximum": "3399"
+      },
+      "short_description": "Buy the MEAN WELL LRS-350-12 enclosed 12V 29A 348W switching power supply for compatible Bitaxe GT, Turbo Touch, Naja Duo, NerdQaxe, and Gamma Hex systems. Official PDFs and wiring guidance included; AC and DC leads are sold separately.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 24528,
+      "name": "Mean Well LRS-50-5 50W 5V 10A Switching Power Supply",
+      "slug": "mean-well-lrs-50-5",
+      "url": "https://www.solosatoshi.com/product/mean-well-lrs-50-5/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1499",
+        "minimum": "1499",
+        "maximum": "1499"
+      },
+      "short_description": "Buy the MEAN WELL LRS-50-5 fanless 5V 10A 50W switching power supply for one compatible Bitaxe or Nerdaxe miner. Includes official local datasheet and installation-manual access; AC cord and DC barrel lead are sold separately.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 28317,
+      "name": "US 3-Prong AC Plug Pigtail – 1 Meter, 14 AWG",
+      "slug": "us-3-prong-ac-plug-pigtail-1-meter-14-awg",
+      "url": "https://www.solosatoshi.com/product/us-3-prong-ac-plug-pigtail-1-meter-14-awg/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "399",
+        "minimum": "399",
+        "maximum": "399"
+      },
+      "short_description": "Buy a 1-meter grounded North American three-prong AC pigtail with three-conductor SVT 14 AWG cable and prepared black, white, and green leads for qualified wiring of compatible screw-terminal power supplies.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 606,
+          "name": "Cords and Adapters",
+          "slug": "cords-and-adapters"
+        }
+      ]
+    },
+    {
+      "id": 28311,
+      "name": "5.5 × 2.1mm 90° Barrel Jack Male Pigtail – 1 Meter, 16 AWG",
+      "slug": "5-5-x-2-1mm-90-degree-barrel-jack-male-pigtail-1-meter-16-awg",
+      "url": "https://www.solosatoshi.com/product/5-5-x-2-1mm-90-degree-barrel-jack-male-pigtail-1-meter-16-awg/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "499",
+        "minimum": "499",
+        "maximum": "499"
+      },
+      "short_description": "Buy a 1-meter UL2464 16 AWG right-angle 5.5 × 2.1 mm male barrel pigtail for compatible regulated 5V or 12V Bitaxe and Nerdaxe power systems. Center-positive wiring with stripped and tinned leads; terminals sold separately.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 606,
+          "name": "Cords and Adapters",
+          "slug": "cords-and-adapters"
+        }
+      ]
+    },
+    {
+      "id": 28245,
+      "name": "XT30 Female Pigtail – 1 Meter, 16 AWG",
+      "slug": "xt30-female-pigtail-1-meter-16-awg",
+      "url": "https://www.solosatoshi.com/product/xt30-female-pigtail-1-meter-16-awg/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "499",
+        "minimum": "499",
+        "maximum": "499"
+      },
+      "short_description": "Buy a 1-meter XT30 female pigtail with UL2464 16 AWG red and black prepared leads for compatible 12V Bitaxe GT, NerdQaxe++, Naja Duo, and Turbo Touch DC power systems.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 606,
+          "name": "Cords and Adapters",
+          "slug": "cords-and-adapters"
+        }
+      ]
+    },
+    {
+      "id": 28218,
+      "name": "Mean Well LRS-600-12 600W 12V 50A Switching Power Supply",
+      "slug": "mean-well-lrs-600-12-600w-12v-50a-switching-power-supply",
+      "url": "https://www.solosatoshi.com/product/mean-well-lrs-600-12-600w-12v-50a-switching-power-supply/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "5990",
+        "minimum": "5990",
+        "maximum": "5990"
+      },
+      "short_description": "Buy the MEAN WELL LRS-600-12 enclosed 12V 50A 600W switching power supply for compatible 12V Bitcoin-miner clusters. Official PDFs and branch-wiring guidance included; use a properly rated grounded AC cord and separately fused DC leads.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 36578,
+      "name": "12.4V 10A 124W Switching Power Supply with XT30 Connector",
+      "slug": "12-4v-10a-124w-switching-power-supply-with-xt30-connector",
+      "url": "https://www.solosatoshi.com/product/12-4v-10a-124w-switching-power-supply-with-xt30-connector/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "2499",
+        "minimum": "2499",
+        "maximum": "2499"
+      },
+      "short_description": "Buy a 12.4V 10A 124W external switching power supply with a fixed XT30 male output for compatible Bitaxe GT, Naja Duo, NerdQaxe++, and Turbo Touch miners. Select the correct North America, UK, EU, or Australia AC cord at checkout.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 28189,
+      "name": "Noctua NF-A8 PWM 80mm 12V Fan for NerdQaxe++",
+      "slug": "noctua-nf-a8-pwm-premium-quiet-fan-4-pin-80mm-brown",
+      "url": "https://www.solosatoshi.com/product/noctua-nf-a8-pwm-premium-quiet-fan-4-pin-80mm-brown/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1999",
+        "minimum": "1999",
+        "maximum": "1999"
+      },
+      "short_description": "Buy the Noctua NF-A8 PWM 80mm 12V four-pin fan for quiet NerdQaxe++ rear airflow: 2200 RPM, 32.7 CFM, 17.7 dB(A), SSO2 bearing, accessories, six-year manufacturer warranty, and official PDFs.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 506,
+          "name": "Fans",
+          "slug": "fans"
+        }
+      ]
+    },
+    {
+      "id": 4504,
+      "name": "Satoshi Stacker &#8211; Stackable Bitaxe Stand",
+      "slug": "stackable-bitaxe-stand",
+      "url": "https://www.solosatoshi.com/product/stackable-bitaxe-stand/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "999",
+        "minimum": "999",
+        "maximum": "999"
+      },
+      "short_description": "Meet the Satoshi stacker the latest and greatest Bitaxe stand designed for optimal desk space and miner efficiency. Stack or stagger your Bitaxes in any configuration imaginable while maintaining peak performance and an ascetically pleasing Bitaxe mining operation.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 37,
+          "name": "Stands",
+          "slug": "stands"
+        }
+      ]
+    },
+    {
+      "id": 13743,
+      "name": "Bitaxe JST-SH to 4-Pin PWM Fan Adapter",
+      "slug": "bitaxe-fan-adapter",
+      "url": "https://www.solosatoshi.com/product/bitaxe-fan-adapter/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "100",
+        "minimum": "100",
+        "maximum": "100"
+      },
+      "short_description": "Buy a Bitaxe four-pin JST-SH 1.0 mm to standard four-pin PWM fan adapter for compatible Gamma 601/602 and Supra boards. Use only with a matching 5V four-wire PWM fan; this cable does not convert voltage.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 606,
+          "name": "Cords and Adapters",
+          "slug": "cords-and-adapters"
+        }
+      ]
+    },
+    {
+      "id": 3978,
+      "name": "Bitaxe 30W 5V 6A Power Supply",
+      "slug": "bitaxe-power-supply-5v-6a-30w",
+      "url": "https://www.solosatoshi.com/product/bitaxe-power-supply-5v-6a-30w/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "999",
+        "minimum": "999",
+        "maximum": "999"
+      },
+      "short_description": "Buy a compact Bitaxe 30W power supply with regulated 5V DC output, 6A capacity, and a right-angle 5.5 x 2.1mm center-positive barrel plug. Designed for compatible 5V single-chip Bitaxe and Nerdaxe miners at stock or moderate settings.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 36549,
+      "name": "Mean Well LRS-350-5 300W 5V 60A Switching Power Supply",
+      "slug": "mean-well-lrs-350-5-300w-5v-60a-switching-power-supply",
+      "url": "https://www.solosatoshi.com/product/mean-well-lrs-350-5-300w-5v-60a-switching-power-supply/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "3899",
+        "minimum": "3899",
+        "maximum": "3899"
+      },
+      "short_description": "Buy the MEAN WELL LRS-350-5 enclosed 5V 60A 300W switching power supply for engineered multi-miner 5V Bitcoin-mining systems. Official PDFs, compatible miner and cable guidance, a 240W planning target, and required installation precautions are included below.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 255,
+          "name": "Power Supplies",
+          "slug": "power-supplies"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Bitaxe Hat &#8211; Snapback",
+      "slug": "bitaxe-hat",
+      "url": "https://www.solosatoshi.com/product/bitaxe-hat/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "2999",
+        "minimum": "2999",
+        "maximum": "2999"
+      },
+      "short_description": "Buy the black embroidered Bitaxe snapback hat with gothic white logo, structured crown, flat bill, and adjustable closure. Partner fulfilled; mixed orders may arrive separately.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 24,
+          "name": "Hats",
+          "slug": "hats"
+        }
+      ]
+    },
+    {
+      "id": 1683,
+      "name": "AxeStand &#8211; Upright Bitaxe Stand",
+      "slug": "axestand",
+      "url": "https://www.solosatoshi.com/product/axestand/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "999",
+        "minimum": "999",
+        "maximum": "999"
+      },
+      "short_description": "Say hello to the AxeStand, a sleek, bold, and stylish Bitaxe stand for minimalists who desire optimal performance. The AxeStand will fit all Bitaxe models readily available on today market. This includes the Bitaxe Max, Ultra, Supra, and newer model Gamma.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 37,
+          "name": "Stands",
+          "slug": "stands"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Bitaxe Anarchy Shirt",
+      "slug": "solosatoshi-shirts",
+      "url": "https://www.solosatoshi.com/product/solosatoshi-shirts/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1999",
+        "minimum": "1999",
+        "maximum": "1999"
+      },
+      "short_description": "Buy the black cotton Bitaxe Anarchy Shirt with gothic white wordmark, red anarchy-style A, and Solo Satoshi back branding. S–XXL. Ships from Conroe, Texas.",
+      "categories": [
+        {
+          "id": 23,
+          "name": "Apparel",
+          "slug": "apparel"
+        },
+        {
+          "id": 25,
+          "name": "T-Shirts",
+          "slug": "t-shirts"
+        }
+      ]
+    },
+    {
+      "id": 24799,
+      "name": "Bitaxe Replacement OLED Screen",
+      "slug": "bitaxe-replacement-oled-screen",
+      "url": "https://www.solosatoshi.com/product/bitaxe-replacement-oled-screen/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "499",
+        "minimum": "499",
+        "maximum": "499"
+      },
+      "short_description": "Buy a 0.91-inch 128 × 32 SSD1306 Bitaxe replacement OLED screen for compatible Max, Ultra, Supra, Gamma, and standard-display GT miners. Pre-soldered 4-pin I2C header; verify the exact pin order before installation.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 523,
+          "name": "Screens",
+          "slug": "screens"
+        }
+      ]
+    },
+    {
+      "id": 24789,
+      "name": "OEM Bitaxe 40mm 5V PWM Replacement Fan",
+      "slug": "bitaxe-replacement-fan",
+      "url": "https://www.solosatoshi.com/product/bitaxe-replacement-fan/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "499",
+        "minimum": "499",
+        "maximum": "499"
+      },
+      "short_description": "Buy a 40 × 40 × 20 mm, 5V, dual-ball-bearing Bitaxe replacement fan. Choose Micro JST or standard four-pin PWM for compatible Gamma, Gamma Duo, Supra, Ultra, Max, and Nerdaxe Gamma boards.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 506,
+          "name": "Fans",
+          "slug": "fans"
+        }
+      ]
+    },
+    {
+      "id": 41743,
+      "name": "Bitcoin Grenade 3D Printed Stash Container",
+      "slug": "bitcoin-grenade-3d-printed-stash-container",
+      "url": "https://www.solosatoshi.com/product/bitcoin-grenade-3d-printed-stash-container/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "1999",
+        "minimum": "1999",
+        "maximum": "1999"
+      },
+      "short_description": "Buy the orange Bitcoin Grenade 3D Printed Stash Container, a nonfunctional desk collectible with white BTC symbol, removable top, hidden compartment, and metal pin-ring detail.",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        }
+      ]
+    },
+    {
+      "id": 2955,
+      "name": "NerdQaxe+ Bitcoin Solo Miner",
+      "slug": "nerdqaxe-plus",
+      "url": "https://www.solosatoshi.com/product/nerdqaxe-plus/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "37500",
+        "minimum": "37500",
+        "maximum": "37500"
+      },
+      "short_description": "High Efficiency and Power : The NerdQAxe boasts a remarkable 2.5 TH/s hash rate at default settings with an efficiency of only 55 watts of power, making it the most powerful and efficient Bitcoin mining device available on the market. Easy Setup : Features built-in WIFI and included user setup video for straightforward, cable-free setup via a browser, enabling quick start-up and hassle-free operation. Open-Source Software : Powered by AXE OS, allowing for extensive customization and community engagement, enhancing the mining experience and control. Power supply included : 12v/10A/120W – 50/60Hz power supply included. FREE 3D PRINTED STAND! When you buy from SoloSatoshi.com, all Bitaxe models come with a FREE Solo Satoshi stand!",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 571,
+          "name": "Nerdaxe",
+          "slug": "nerdaxe"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 42037,
+      "name": "Bitaxe Gamma Stand Free .STL Download",
+      "slug": "bitaxe-gamma-stand-free-stl-download",
+      "url": "https://www.solosatoshi.com/product/bitaxe-gamma-stand-free-stl-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download the free Solo Satoshi Bitaxe stand STL files for current and legacy single-chip Bitaxe boards and the Bitaxe Gamma Duo 650. Two printable model files are included; no physical stand ships. Download the Free STL ZIP",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 42028,
+      "name": "Bitaxe GT Stand Free .STL Download",
+      "slug": "bitaxe-gt-stand-free-stl-download",
+      "url": "https://www.solosatoshi.com/product/bitaxe-gt-stand-free-stl-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download the free Solo Satoshi Bitaxe GT stand STL file and print the vented display stand yourself. Designed specifically for the Bitaxe GT; no physical stand ships. Download the Free STL ZIP",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 26987,
+      "name": "NerdQaxe++ Stand Free .STL Download",
+      "slug": "nerdqaxe-stand-free-stl-download",
+      "url": "https://www.solosatoshi.com/product/nerdqaxe-stand-free-stl-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download the free Solo Satoshi NerdQaxe++ stand STL file for current and legacy NerdQaxe++ board revisions using the standard footprint. Print it yourself; no physical stand ships. Download the Free STL ZIP",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 19879,
+      "name": "NerdQaxe+ Hydro Bitcoin Solo Miner",
+      "slug": "nerdqaxe-hydro",
+      "url": "https://www.solosatoshi.com/product/nerdqaxe-hydro/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "35500",
+        "minimum": "35500",
+        "maximum": "35500"
+      },
+      "short_description": "The NerdQaxe+ Hydro is a professionally engineered, hydro-cooled solo bitcoin miner designed for high-efficiency, ultra-quiet performance in any home mining setup. Featuring customizable LED lighting and open-source firmware, it delivers power, style, and sovereignty in one compact package.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 571,
+          "name": "Nerdaxe",
+          "slug": "nerdaxe"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 27109,
+      "name": "Bitaxe Stand Free .STL Download",
+      "slug": "bitaxe-stand-free-stl-download",
+      "url": "https://www.solosatoshi.com/product/bitaxe-stand-free-stl-download/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Download the free extendable Bitaxe stand STL for current and legacy single-chip Bitaxe boards and the Bitaxe Gamma Duo 650. Print it yourself; no physical stand ships. Download the Free STL ZIP",
+      "categories": [
+        {
+          "id": 583,
+          "name": "3D Printing",
+          "slug": "3d-printing"
+        },
+        {
+          "id": 584,
+          "name": "Free Downloads",
+          "slug": "free-downloads"
+        }
+      ]
+    },
+    {
+      "id": 1691,
+      "name": "ImmergeAxe",
+      "slug": "immergeaxe",
+      "url": "https://www.solosatoshi.com/product/immergeaxe/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Out of respect for the developer of the ImmergeAxe project, we&#8217;ve taken this product listing down. Thank you for your continued support.",
+      "categories": [
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 23160,
+      "name": "Bitaxe Supra Bitcoin Solo Miner",
+      "slug": "bitaxe-supra",
+      "url": "https://www.solosatoshi.com/product/bitaxe-supra/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "6969",
+        "minimum": "6969",
+        "maximum": "6969"
+      },
+      "short_description": "The Bitaxe Supra is a plug-and-play, open-source Bitcoin miner, complete with integrated Wi-Fi, a removable OLED display, and whisper-quiet cooling. Backed by global shipping, a 90-day warranty, and expert technical support, Solo Satoshi is your legit and trusted retailer for authentic, Made-in-USA mining hardware.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 11329,
+      "name": "Bitaxe Touch Blockstream Edition + Jade Plus Hardware Wallet &#8211; 1.5 TH/s",
+      "slug": "bitaxe-touch-blockstream-edition-jade-plus-bundle",
+      "url": "https://www.solosatoshi.com/product/bitaxe-touch-blockstream-edition-jade-plus-bundle/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "45000",
+        "minimum": "45000",
+        "maximum": "45000"
+      },
+      "short_description": "Imagine mining Bitcoin with the simple touch of a screen, in silence, and then securing it with top-tier security. That&#8217;s the power of the collaboration between Solo Satoshi, ACS, and Blockstream with the Bitaxe Touch &#8211; Jade Plus bundle. Advanced Crypto Service&#8217;s top tier innovation meets Blockstream&#8217;s secure wallet tech meets Solo Satoshi&#8217;s world class customer service. This bundle offers a seamless, secure Bitcoin experience from mining to storage. Don&#8217;t miss this game-changing bundle. What&#8217;s included: Bitaxe Touch 1.5TH/s &#8211; Blockstream Jade UI edition. 5V/6A/30W 120-240VAC North American power supply. Blockstream Jade Plus in Black &#8211; Plastic case. Cold wallet unit is in original Blockstream packaging with tamperproof seal intact.",
+      "categories": [
+        {
+          "id": 324,
+          "name": "Bitaxe",
+          "slug": "bitaxe"
+        },
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 22,
+          "name": "Bitcoin Miners",
+          "slug": "bitcoin-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    },
+    {
+      "id": 24030,
+      "name": "Bitaxe Heatsink Upgrade",
+      "slug": "bitaxe-heatsink-upgrade",
+      "url": "https://www.solosatoshi.com/product/bitaxe-heatsink-upgrade/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "699",
+        "minimum": "699",
+        "maximum": "899"
+      },
+      "short_description": "Buy the Dark Horse 40 × 40 × 25 mm black anodized-aluminum Bitaxe heatsink upgrade with a 137-pin cooling matrix for compatible single-chip Max, Ultra, Supra, and Gamma miners. Choose it with or without Thermalright TF7 paste; active 40mm fan cooling is required.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 543,
+          "name": "Heatsinks",
+          "slug": "heatsinks"
+        }
+      ]
+    },
+    {
+      "id": 25226,
+      "name": "Bitmain BM1370PA ASIC Chip",
+      "slug": "bitmain-bm1370pa-asic-chip",
+      "url": "https://www.solosatoshi.com/product/bitmain-bm1370pa-asic-chip/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "2999",
+        "minimum": "2999",
+        "maximum": "2999"
+      },
+      "short_description": "Buy one Bitmain BM1370PA bare SHA-256 ASIC chip for qualified repair or assembly of compatible BM1370 boards, including Bitaxe Gamma-class, Nerdaxe Gamma, and NerdQaxe++ designs. Advanced surface-mount rework required.",
+      "categories": [
+        {
+          "id": 260,
+          "name": "Accessories",
+          "slug": "accessories"
+        },
+        {
+          "id": 546,
+          "name": "ASIC Chips",
+          "slug": "asic-chips"
+        }
+      ]
+    },
+    {
+      "id": 13755,
+      "name": "Ember One",
+      "slug": "ember-one",
+      "url": "https://www.solosatoshi.com/product/ember-one/",
+      "price": {
+        "currency": "USD",
+        "minor_unit": 2,
+        "current": "0",
+        "minimum": "0",
+        "maximum": "0"
+      },
+      "short_description": "Ember One: Open-Source Bitcoin Mining Hashboard Powering Freedom Through Decentralized Innovation: The Bitcoin mining landscape has long been dominated by closed, proprietary hardware from giants like Bitmain, leaving enthusiasts and advocates of Bitcoin’s open protocol with few options, until now. Building on the groundbreaking Bitaxe project, the Ember One takes open-source mining to the next level. This modular hashboard delivers ~100W of power and 2-4 TH/s of hashrate , offering a small but mighty step toward dismantling the proprietary mining empire and making Bitcoin accessible to all.",
+      "categories": [
+        {
+          "id": 413,
+          "name": "Bitcoin Lottery Miners",
+          "slug": "bitcoin-lottery-miners"
+        },
+        {
+          "id": 259,
+          "name": "Solo Miners",
+          "slug": "solo-miners"
+        }
+      ]
+    }
+  ]
+}
