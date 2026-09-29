@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T20:07:36.006Z",
+  "generated_at": "2026-09-29T20:22:55.382Z",
   "last_reviewed": "2026-09-29",
   "records": [
     {
@@ -8,6 +8,12 @@
       "subjects": [
         "Bitaxe Gamma",
         "legacy single-chip Bitaxe"
+      ],
+      "intent_terms": [
+        "stand",
+        "display",
+        "stl",
+        "3d print"
       ],
       "facts": [
         "Current and legacy single-chip Bitaxe boards use the standard Bitaxe stand footprint.",
@@ -22,6 +28,14 @@
       "subjects": [
         "Bitaxe Gamma Duo 650",
         "Bitaxe Duo 650"
+      ],
+      "intent_terms": [
+        "stand",
+        "display",
+        "power",
+        "supply",
+        "included",
+        "package"
       ],
       "facts": [
         "The Bitaxe Gamma Duo 650 is compatible with the standard Bitaxe display-stand footprint.",
@@ -38,15 +52,71 @@
         "NerdQaxe++",
         "NerdQaxe Plus Plus"
       ],
+      "intent_terms": [
+        "power",
+        "supply",
+        "volt",
+        "connector",
+        "barrel",
+        "xt30"
+      ],
       "facts": [
         "Confirm the exact board revision before recommending a power supply.",
         "Revision 7 and revision 6.1 use an XT30 power connection.",
         "Older barrel-jack models require a regulated 12V supply with the correct 5.5 x 2.1 mm center-positive connector."
       ],
       "sources": [
+        "https://www.solosatoshi.com/product/nerdqaxe-plus-plus/"
+      ]
+    },
+    {
+      "id": "nerdqaxe_plus_plus_xt30_power",
+      "subjects": [
+        "NerdQaxe++ revision 7",
+        "NerdQaxe++ rev 7",
+        "NerdQaxe++ revision 6.1",
+        "NerdQaxe++ rev 6.1"
+      ],
+      "intent_terms": [
+        "power",
+        "supply",
+        "volt",
+        "connector",
+        "barrel",
+        "xt30"
+      ],
+      "facts": [
+        "Revision 7 and revision 6.1 use an XT30 power connection.",
+        "The Solo Satoshi 12.4V 10A 124W power supply with an XT30 connector is the direct compatible supply for XT30-equipped NerdQaxe++ revisions."
+      ],
+      "sources": [
         "https://www.solosatoshi.com/product/nerdqaxe-plus-plus/",
-        "https://www.solosatoshi.com/product/12v-10a-120w-switching-power-supply-with-5-5x2-1-jack/",
         "https://www.solosatoshi.com/product/12-4v-10a-124w-switching-power-supply-with-xt30-connector/"
+      ]
+    },
+    {
+      "id": "nerdqaxe_plus_plus_barrel_power",
+      "subjects": [
+        "NerdQaxe++ revision 5",
+        "NerdQaxe++ rev 5",
+        "older barrel-jack NerdQaxe++",
+        "legacy NerdQaxe++ barrel"
+      ],
+      "intent_terms": [
+        "power",
+        "supply",
+        "volt",
+        "connector",
+        "barrel",
+        "xt30"
+      ],
+      "facts": [
+        "Older barrel-jack NerdQaxe++ models require a regulated 12V supply with the correct 5.5 x 2.1 mm center-positive connector.",
+        "The Solo Satoshi 12V 10A 120W power supply with a 5.5 x 2.1 mm jack is intended for compatible older barrel-jack NerdQaxe+ and NerdQaxe++ models."
+      ],
+      "sources": [
+        "https://www.solosatoshi.com/product/nerdqaxe-plus-plus/",
+        "https://www.solosatoshi.com/product/12v-10a-120w-switching-power-supply-with-5-5x2-1-jack/"
       ]
     },
     {
@@ -54,6 +124,14 @@
       "subjects": [
         "NerdQaxe++",
         "NerdQaxe Plus Plus"
+      ],
+      "intent_terms": [
+        "fan",
+        "cool",
+        "heatsink",
+        "thermal",
+        "screen",
+        "display"
       ],
       "facts": [
         "The Thermalright AXP90-X47 Full Copper is a cooling upgrade for compatible NerdQaxe++ configurations.",
@@ -72,6 +150,13 @@
         "Naja Duo",
         "Bitaxe Naja Duo"
       ],
+      "intent_terms": [
+        "fan",
+        "cool",
+        "heatsink",
+        "thermal",
+        "stand"
+      ],
       "facts": [
         "The Thermalright TL-9015B 92 mm slim PWM fan is compatible with the Naja Duo rear-fan stand configuration.",
         "The Thermalright AXP90-X47 Full Copper is a cooling upgrade for compatible Naja Duo configurations."
@@ -88,6 +173,13 @@
         "Bitaxe GT",
         "Bitaxe 801 GT Gamma Turbo"
       ],
+      "intent_terms": [
+        "fan",
+        "cool",
+        "heatsink",
+        "thermal",
+        "bracket"
+      ],
       "facts": [
         "The Thermalright AXP90-X47 Full Copper can be used on a Bitaxe GT only with a suitable 3D-printed mounting bracket.",
         "Do not describe the heatsink as a direct bolt-on part for the Bitaxe GT."
@@ -101,6 +193,14 @@
       "id": "five_volt_power_supply",
       "subjects": [
         "Solo Satoshi 40W 5V 8A power supply"
+      ],
+      "intent_terms": [
+        "power",
+        "supply",
+        "plug",
+        "head",
+        "compatible",
+        "connector"
       ],
       "facts": [
         "Use only with miners that require regulated 5V input, correct center-positive polarity, and a compatible 5.5 x 2.1 mm barrel connector.",
@@ -118,6 +218,14 @@
         "5.5 x 2.1 mm barrel pigtail",
         "16 AWG barrel pigtail"
       ],
+      "intent_terms": [
+        "pigtail",
+        "wire",
+        "wiring",
+        "mean well",
+        "power",
+        "connector"
+      ],
       "facts": [
         "The 16 AWG 5.5 x 2.1 mm center-positive barrel pigtail can be used in properly designed 12V miner wiring assemblies and with compatible Mean Well power supplies.",
         "The installer must verify voltage, polarity, current, conductor sizing, terminals, insulation, strain relief, branch protection, and enclosure safety."
@@ -132,6 +240,15 @@
       "subjects": [
         "US 3-prong AC plug pigtail"
       ],
+      "intent_terms": [
+        "pigtail",
+        "wire",
+        "wiring",
+        "mean well",
+        "power",
+        "ac",
+        "mains"
+      ],
       "facts": [
         "The US 3-prong AC plug pigtail uses 14 AWG conductors.",
         "AC mains wiring should be performed only by a qualified person with power disconnected and in accordance with the power-supply documentation and applicable electrical codes."
@@ -144,9 +261,17 @@
     {
       "id": "firmware_flasher",
       "subjects": [
-        "Bitaxe firmware",
-        "NerdAxe firmware",
-        "AxeOS web flasher"
+        "Bitaxe",
+        "NerdAxe",
+        "NerdQaxe",
+        "AxeOS"
+      ],
+      "intent_terms": [
+        "firmware",
+        "flash",
+        "flasher",
+        "bootloader",
+        "axeos"
       ],
       "facts": [
         "Use the Solo Satoshi web flasher for supported Bitaxe and NerdAxe firmware.",
