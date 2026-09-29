@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T20:22:55.382Z",
+  "generated_at": "2026-09-29T20:45:29.231Z",
   "last_reviewed": "2026-09-29",
   "records": [
     {
@@ -262,9 +262,14 @@
       "id": "firmware_flasher",
       "subjects": [
         "Bitaxe",
+        "BitForge",
         "NerdAxe",
         "NerdQaxe",
-        "AxeOS"
+        "NerdNOS",
+        "AxeOS",
+        "Turbo Touch",
+        "Naja Duo",
+        "GammaHex"
       ],
       "intent_terms": [
         "firmware",
@@ -274,9 +279,36 @@
         "axeos"
       ],
       "facts": [
-        "Use the Solo Satoshi web flasher for supported Bitaxe and NerdAxe firmware.",
+        "Use the Solo Satoshi web flasher for supported Bitaxe, BitForge, NerdAxe, NerdNOS, and Turbo Touch firmware.",
+        "The current Solo Satoshi firmware manifest includes Bitaxe Gamma board 601, Naja Duo board 1201, BitForge Nano board Nano, NerdNOS board 100, NerdQAxe++, and the Bitaxe Turbo Touch screen target GT-TOUCH.",
+        "NerdQAxe++ is listed under the NerdAxe firmware family in the Solo Satoshi web flasher.",
+        "Naja Duo is listed under the Bitaxe firmware family with board identifier 1201 in the Solo Satoshi web flasher.",
         "The customer must select the exact miner family, model, board, and compatible firmware version.",
         "Do not guess a board revision."
+      ],
+      "sources": [
+        "https://flash.solosatoshi.com/"
+      ]
+    },
+    {
+      "id": "mujina_local_flasher",
+      "subjects": [
+        "Avalon Nano 3S",
+        "Canaan Nano 3S",
+        "Nano 3S",
+        "Bitaxe Gamma"
+      ],
+      "intent_terms": [
+        "mujina",
+        "kdimg",
+        "custom firmware",
+        "local firmware"
+      ],
+      "facts": [
+        "The Solo Satoshi web flasher includes a clearly labeled Mujina beta for user-supplied local firmware files.",
+        "For an Avalon Nano 3S, the tool validates the local KDIMG structure and embedded partition hashes before writing through WebUSB.",
+        "For a Bitaxe Gamma Mujina bridge image, use the Advanced ESP32-S3 local-file flasher.",
+        "Solo Satoshi does not supply or authenticate the user's custom Mujina firmware file."
       ],
       "sources": [
         "https://flash.solosatoshi.com/"
