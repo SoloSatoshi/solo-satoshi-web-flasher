@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T20:45:29.231Z",
+  "generated_at": "2026-09-30T00:05:31.615Z",
   "last_reviewed": "2026-09-29",
   "records": [
     {
@@ -256,6 +256,38 @@
       "sources": [
         "https://www.solosatoshi.com/product/us-3-prong-ac-plug-pigtail-1-meter-14-awg/",
         "https://www.solosatoshi.com/a-beginners-guide-to-mean-well-power-supplies-for-bitcoin-home-mining/"
+      ]
+    },
+    {
+      "id": "bitaxe_wifi_troubleshooting",
+      "subjects": [
+        "Bitaxe",
+        "Bitaxe Gamma",
+        "Bitaxe Gamma Duo",
+        "Bitaxe Gamma Hex",
+        "Naja Duo",
+        "AxeOS"
+      ],
+      "intent_terms": [
+        "wifi",
+        "wi-fi",
+        "network",
+        "connect",
+        "connection",
+        "no ap found",
+        "ip address"
+      ],
+      "facts": [
+        "Troubleshooting round 1: Confirm the Bitaxe is connecting to a 2.4 GHz Wi-Fi network, because Bitaxe Wi-Fi hardware does not connect to a 5 GHz-only network.",
+        "Troubleshooting round 2: Re-enter the Wi-Fi network name and password exactly, including capitalization, spaces, numbers, and special characters, then save and restart the miner.",
+        "Troubleshooting round 3: Move the miner closer to the router and avoid guest or isolated IoT networks. If it connects to a temporary 2.4 GHz phone hotspot, the router configuration is the likely cause.",
+        "While connected to the temporary Bitaxe Wi-Fi network, open 192.168.4.1 if the setup page does not appear automatically.",
+        "After the miner joins the home network, the phone or computer must be on the same network to open the IP address shown on the miner display.",
+        "ASUS AiProtection, guest-network isolation, IoT isolation, VPNs, and custom DNS filtering can prevent setup or pool connectivity."
+      ],
+      "sources": [
+        "https://www.solosatoshi.com/how-to-set-up-bitaxe/",
+        "https://www.solosatoshi.com/axeos-guide/"
       ]
     },
     {
