@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe6">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Licenses, upstream attribution, third-party notices, and GPL corresponding source for the Solo Satoshi Web Flasher.">
+  <link rel="canonical" href="https://flash.solosatoshi.com/licenses.html">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <title>Licenses and Source | Solo Satoshi</title>
+  <style>
+    :root{font-family:system-ui,sans-serif;color:#211820;background:#f3efe6}body{max-width:760px;margin:auto;padding:48px 24px;font-size:16px;line-height:1.7}a{color:#74285f;transition:color .2s ease}a:hover{color:#f7931a}h1{font-family:Georgia,serif;font-size:44px;letter-spacing:-.04em;overflow-wrap:anywhere}h2{margin-top:36px;font-size:22px}p,li{color:#51434f}.back{text-decoration:none;font-size:14px;font-weight:700}hr{border:0;border-top:1px solid #c9c7bd;margin:36px 0}.legal-language-control.standalone{float:right;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700}.legal-language-select{width:clamp(128px,40vw,150px);padding:8px 30px 8px 10px;border:1px solid #c9bdc7;border-radius:7px;color:#211820;background:#fffaf4}.translation-notice{clear:both;border-left:3px solid #d11b7d;padding:10px 12px;color:#5d4e5d;font-size:14px}@media(max-width:560px){body{padding:28px 18px;font-size:16px}.legal-language-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}h1{font-size:38px}}
+  </style>
+  <script src="./legal-translations.js" defer></script>
+  <script src="./legal-i18n.js" defer></script>
+</head>
+<body>
+  <a class="back" href="./">← Back to flasher</a>
+  <h1>Licenses and source code</h1>
+  <p>The Solo Satoshi Web Flasher is free software licensed under GNU GPL version 3 only. <a href="./licenses/GPL-3.0.txt">Read the full license</a> or <a href="./source/latest.tar.gz">download the complete corresponding source for the version currently deployed</a>.</p>
+  <p>Development history, infrastructure, and business operations are maintained separately from the distributed application. The source archive includes the preferred source form and build files needed for the browser application.</p>
+  <h2>Firmware</h2>
+  <p>The application mirrors unmodified, checksum-verified GPL-3.0 firmware from <a href="https://github.com/bitaxeorg/ESP-Miner" target="_blank" rel="noopener noreferrer">bitaxeorg/ESP-Miner</a>, <a href="https://github.com/bitaxeorg/BAP-GT-TOUCH" target="_blank" rel="noopener noreferrer">bitaxeorg/BAP-GT-TOUCH</a>, <a href="https://github.com/shufps/ESP-Miner-NerdQAxePlus" target="_blank" rel="noopener noreferrer">shufps/ESP-Miner-NerdQAxePlus</a>, and <a href="https://github.com/WantClue/forge-os" target="_blank" rel="noopener noreferrer">WantClue/forge-os</a>. It also mirrors the official NerdNOS 2.0.2 image from a pinned Bitaxe Web Flasher commit and publishes the matching pinned <a href="https://github.com/WantClue/NerdMiner_v2/commit/22588347597d24969f41ed56fad2641678ad59c1" target="_blank" rel="noopener noreferrer">NerdNOS source</a> under the <a href="./licenses/MIT-NerdNOS.txt">MIT License</a>. A corresponding tagged or pinned source archive is provided beside every firmware image.</p>
+  <h2>Reference projects</h2>
+  <p>Portions of the flashing workflow, hardware-selection approach, and initial language catalog were adapted from <a href="https://github.com/bitaxeorg/bitaxe-web-flasher" target="_blank" rel="noopener noreferrer">bitaxeorg/bitaxe-web-flasher</a> and <a href="https://github.com/shufps/nerdqaxe-web-flasher" target="_blank" rel="noopener noreferrer">shufps/nerdqaxe-web-flasher</a>, both licensed under GPL version 3. Copyright in those upstream works remains with their respective authors and contributors.</p>
+  <h2>Runtime libraries</h2>
+  <ul>
+    <li><a href="https://github.com/espressif/esptool-js" target="_blank" rel="noopener noreferrer">esptool-js</a> 0.7.0 | <a href="./licenses/Apache-2.0-esptool-js.txt">Apache License 2.0</a></li>
+    <li><a href="https://lucide.dev" target="_blank" rel="noopener noreferrer">Lucide React</a> 1.47.0 | <a href="./licenses/ISC-lucide-react.txt">ISC and MIT licenses</a></li>
+    <li>React 19.3.0, React DOM 19.3.0, and Scheduler 0.28.0 | <a href="./licenses/MIT-react.txt">MIT License</a></li>
+    <li>i18next 26.4.2, react-i18next 17.0.15, and i18next-browser-languagedetector 8.2.1 | <a href="./licenses/MIT-i18next.txt">MIT License</a></li>
+    <li>@babel/runtime 7.29.7, html-parse-stringify 4.0.1, and use-sync-external-store 1.7.0 | <a href="./licenses/MIT-runtime-support.txt">MIT licenses</a></li>
+    <li>atob-lite 2.0.0 | <a href="./licenses/MIT-atob-lite.txt">MIT License</a></li>
+    <li>pako 2.2.0 | <a href="./licenses/MIT-Zlib-pako.txt">MIT and Zlib licenses</a></li>
+    <li>@noble/hashes 2.4.0 | <a href="./licenses/MIT-noble-hashes.txt">MIT License</a></li>
+    <li>TypeScript 6.0.3 | <a href="./licenses/Apache-2.0-typescript.txt">Apache License 2.0</a></li>
+    <li>Manrope variable font 5.3.0 | <a href="./licenses/OFL-Manrope.txt">SIL Open Font License 1.1</a></li>
+    <li>Newsreader variable font 5.3.0 | <a href="./licenses/OFL-Newsreader.txt">SIL Open Font License 1.1</a></li>
+    <li>Simple Icons brand marks 16.32.0 | <a href="./licenses/CC0-1.0-simple-icons.txt">CC0 1.0 Universal</a></li>
+  </ul>
+  <h2>Solo Satoshi trademarks</h2>
+  <p>The GPL license covers the application software. It does not grant rights to use the Solo Satoshi name, logo, or other source-identifying marks. Modified versions must not imply sponsorship, endorsement, or affiliation with Solo Satoshi LLC. Upstream names and marks belong to their respective owners.</p>
+  <hr>
+  <p>© 2026 Solo Satoshi LLC. All rights reserved. The names of upstream projects and products belong to their respective owners.</p>
+  <p><a href="./privacy.html">Privacy Policy</a> · <a href="./terms.html">Terms of Service</a> · <a href="./">Web Flasher</a></p>
+</body>
+</html>

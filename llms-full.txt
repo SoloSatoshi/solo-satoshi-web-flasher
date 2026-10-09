@@ -1,0 +1,67 @@
+# Solo Satoshi Web Flasher
+
+Canonical URL: https://flash.solosatoshi.com/
+Operator: Solo Satoshi LLC
+Application license: GNU GPL version 3 only
+Application source: https://flash.solosatoshi.com/source/latest.tar.gz
+
+## Purpose and browser support
+
+The Solo Satoshi Web Flasher provides two browser-based tools: Verified releases for approved Bitaxe, BitForge, NerdAxe, NerdNOS, and Bitaxe Turbo Touch screen firmware; and Advanced for a local merged ESP32-S3 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
+
+## Verified releases
+
+The verified installer enforces eight ordered steps:
+
+1. Connect the device with a data-capable USB cable and approve the browser's USB serial request.
+2. Choose the Bitaxe, BitForge, NerdAxe, or NerdNOS firmware family.
+3. Choose Latest Releases or an eligible Prereleases channel.
+4. Select the exact model when the family has more than one supported model. BitForge and NerdNOS are selected automatically.
+5. Select the printed Bitaxe board revision. Other supported families are matched automatically from the model.
+6. Select a firmware version that contains a factory image for that hardware.
+7. Leave settings preservation off or enable it for the designated ESP NVS settings partition.
+8. Install while keeping USB and power connected through the automatic restart.
+
+Each dependent control remains disabled until its prerequisite is complete. When a firmware family has no eligible prerelease, the prerelease box remains visible but disabled and Latest Releases is selected automatically.
+
+Release automation follows bitaxeorg/ESP-Miner, WantClue/forge-os, shufps/ESP-Miner-NerdQAxePlus, and bitaxeorg/BAP-GT-TOUCH. For each release repository it retains the newest stable release plus up to five preceding stable releases. NerdNOS is an explicitly pinned official image with a fixed SHA-256 and matching source commit. A version appears for selected hardware only if that release contains a matching factory image. This prevents recently introduced hardware from selecting firmware released before support for that hardware existed. A prerelease is eligible only when it is newer than the latest stable release.
+
+Supported Bitaxe models and boards include Max 102; Ultra 201, 202, 203, 204, 205, and 207; UltraHex 302 and 303; Supra 400 through 403; Gamma 601 and 602; Gamma Duo 650; SupraHex 701 and 702; Gamma Turbo 801; GammaHex 1300; and Naja Duo 1201. BitForge Nano and NerdNOS are automatically matched to their supported targets. Supported NerdAxe models include NerdAxe, NerdAxe Gamma, NerdEKO, NerdHaxe Gamma, NerdOCTAXE Gamma, NerdOCTAXE+, NerdQAxe+, NerdQAxe++, NerdQX, Q1370, and Q1373. The GT-TOUCH target updates the Turbo Touch display controller only.
+
+Release processing restricts files to approved repositories and expected asset formats, checks the file size, and compares the file with the SHA-256 digest published by GitHub. The browser independently checks size and SHA-256 before writing. The ESP flashing library verifies the completed write. These checks confirm that the bytes match the listed release; they do not prove that firmware is bug-free or suitable for every configuration.
+
+The exact selected image is prepared in the background. Changing family, channel, model, board, or version prepares the newly matched image. A verified image may be reused from page memory or the browser-managed HTTP cache, but the size and SHA-256 must still match before it is written.
+
+Settings preservation is off by default. When enabled for a verified ESP image, the flasher skips the designated NVS settings partition. It does not read or upload the Wi-Fi, pool, or configuration values in that partition. Preservation is not a backup and cannot guarantee that old settings remain compatible with new firmware.
+
+Bitaxe Turbo Touch (Screen Only) is a separate display-controller target from the official BAP-GT-TOUCH project. It updates the touchscreen ESP32-S3 through the screen USB port and does not update the Bitaxe GT miner inside the unit. The miner must be selected and connected separately.
+
+Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT and choose Retry flashing. BitForge Nano enters bootloader mode automatically through USB and should not be opened. For NerdNOS, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button and retry. Approval of a serial port alone does not prove that bootloader mode is active.
+
+After an ESP image is written, the interface reports four local stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. The disconnect during automatic reset is expected. These stages confirm the write and reset sequence; they do not test Wi-Fi, pools, mining, thermals, or the application after boot.
+
+## Advanced local ESP32-S3 firmware
+
+Advanced requires a USB serial connection before a file can be selected. It accepts a local merged, bootable ESP32-S3 `.bin` built for address `0x0`, with a maximum size of 32 MB. The browser checks the ESP boot-image header, the partition table at `0x8000`, and a locally calculated SHA-256 digest. Before writing, the flasher confirms that the connected chip identifies as ESP32-S3.
+
+The file remains in browser memory and is never uploaded. The structural and chip checks cannot authenticate its publisher, detect malicious code, prove that its partition contents are safe, or establish compatibility with the connected device. Advanced writes the complete image without preserving settings. The user is solely responsible for the image, origin, contents, flash layout, compatibility, installation, and resulting device or data impact.
+
+## Privacy and issue reporting
+
+The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The live site uses cookieless Matomo analytics, respects browser Do Not Track, and records aggregate visits, Shop Hardware clicks, compatibility and setup-funnel steps, categorized failures, FAQ openings, and issue-report form outcomes. It does not send issue-report content, USB logs, serial data, custom firmware filenames, or firmware contents to Matomo. The application does not use advertising analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
+
+Web Serial requires the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
+
+Report an issue sends the reply email and description entered by the user. The email is used only by the Solo Satoshi support team to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare processes ordinary request metadata, including the IP address used for rate limiting and signals used by Turnstile bot protection. Proton delivers and stores the resulting support email, including the reply email, as support correspondence. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
+
+Privacy policy: https://flash.solosatoshi.com/privacy.html
+
+## Open source and policies
+
+The browser application is GPL-3.0-only. The Licenses and Source page identifies upstream projects, runtime dependencies, applicable licenses, and the complete corresponding source archive for the deployed version. Verified firmware release entries link to the matching upstream release and corresponding source archive.
+
+ESP-Miner and related firmware are community-developed open-source projects. Solo Satoshi may sponsor, test, document, package, distribute, or contribute code and also sells compatible hardware. Solo Satoshi is not the sole author or controller of every upstream release or third-party contribution.
+
+Terms: https://flash.solosatoshi.com/terms.html
+Licenses: https://flash.solosatoshi.com/licenses.html
+Store: https://www.solosatoshi.com/shop
