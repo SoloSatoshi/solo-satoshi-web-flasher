@@ -1,0 +1,1 @@
+export{n as ESP32S2ROM}from"./lib-C8NTLg1h.js";
