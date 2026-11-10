@@ -1,0 +1,1 @@
+export{n as ESP32S2ROM}from"./lib-JVyaV3ER.js";
