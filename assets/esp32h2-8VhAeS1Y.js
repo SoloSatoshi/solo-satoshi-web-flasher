@@ -1,0 +1,1 @@
+export{i as ESP32H2ROM}from"./lib-CNX_4Hjg.js";
