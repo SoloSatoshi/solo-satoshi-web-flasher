@@ -1,0 +1,1 @@
+export{s as ESP32C2ROM}from"./lib-B1V2DbD8.js";
