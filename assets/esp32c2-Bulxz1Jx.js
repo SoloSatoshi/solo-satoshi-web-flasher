@@ -1,0 +1,1 @@
+export{s as ESP32C2ROM}from"./lib-CCp_5mc3.js";

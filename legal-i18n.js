@@ -26,8 +26,24 @@
     return value.replace(/\s+/g, ' ').trim()
   }
 
-  function applyLanguage(language) {
-    const selected = languages.some(([code]) => code === language) ? language : 'en'
+  let languageRequest = 0
+  const dictionaries = new Map()
+  function loadDictionary(language) {
+    if (language === 'en' || window.LEGAL_TRANSLATIONS?.[language]) return Promise.resolve()
+    if (!dictionaries.has(language)) dictionaries.set(language, new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = `./legal-locales/${language}.js`
+      script.onload = resolve
+      script.onerror = () => { dictionaries.delete(language); script.remove(); reject(new Error('Translation unavailable')) }
+      document.head.append(script)
+    }))
+    return dictionaries.get(language)
+  }
+  async function applyLanguage(language) {
+    let selected = languages.some(([code]) => code === language) ? language : 'en'
+    const request = ++languageRequest
+    try { await loadDictionary(selected) } catch { selected = 'en' }
+    if (request !== languageRequest) return
     const dictionary = window.LEGAL_TRANSLATIONS?.[selected] || window.LEGAL_TRANSLATIONS?.en || {}
     document.documentElement.lang = selected
     document.title = dictionary[document.documentElement.dataset.englishTitle] || document.documentElement.dataset.englishTitle
@@ -47,7 +63,7 @@
       notice.textContent = selected === 'en' ? '' : notices[selected]
       notice.hidden = selected === 'en'
     }
-    localStorage.setItem('soloSatoshiFlasherLanguage', selected)
+    try { localStorage.setItem('soloSatoshiFlasherLanguage', selected) } catch { /* Language still applies without storage. */ }
     if (select) select.setAttribute('aria-label', dictionary.Language || 'Language')
   }
 
@@ -94,7 +110,8 @@
     const noticeAnchor = document.querySelector('.legal-hero .meta') || document.querySelector('h1')
     noticeAnchor?.after(notice)
 
-    const saved = localStorage.getItem('soloSatoshiFlasherLanguage')
+    let saved
+    try { saved = localStorage.getItem('soloSatoshiFlasherLanguage') } catch { /* Default to browser language. */ }
     const browser = navigator.language.split('-')[0]
     applyLanguage(saved || browser || 'en')
   })

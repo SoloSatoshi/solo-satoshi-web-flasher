@@ -38,7 +38,7 @@ Bitaxe Turbo Touch (Screen Only) is a separate display-controller target from th
 
 Bootloader recovery depends on the hardware. For Bitaxe and NerdAxe, hold BOOT, press and release RESET while continuing to hold BOOT, then release BOOT and choose Retry flashing. BitForge Nano enters bootloader mode automatically through USB and should not be opened. For NerdNOS, unplug USB, hold the lower-right button, reconnect USB while continuing to hold it, then release the button and retry. Approval of a serial port alone does not prove that bootloader mode is active.
 
-After an ESP image is written, the interface reports four local stages: firmware written and verified, device restarting, USB disconnect detected, and restart complete. The disconnect during automatic reset is expected. These stages confirm the write and reset sequence; they do not test Wi-Fi, pools, mining, thermals, or the application after boot.
+After an ESP image is written, the interface reports four local stages: firmware written and verified, reset signal sent, serial connection released, and reset sequence finished. Successful application boot must be checked on the device. These stages confirm the write and reset sequence; they do not test Wi-Fi, pools, mining, thermals, or the application after boot.
 
 ## Advanced local ESP32-S3 firmware
 
