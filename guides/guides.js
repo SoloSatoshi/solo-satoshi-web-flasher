@@ -1,7 +1,7 @@
-const menus = [...document.querySelectorAll('.shop-menu')]
+const menus = [...document.querySelectorAll('.shop-menu, .mobile-navigation')]
 document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape') return
-  const openMenu = menus.find((menu) => menu.open)
+  const openMenu = menus.filter((menu) => menu.open).at(-1)
   if (!openMenu) return
   openMenu.open = false
   openMenu.querySelector('summary')?.focus()
