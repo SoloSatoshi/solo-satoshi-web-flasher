@@ -9,6 +9,13 @@ Application source: https://flash.solosatoshi.com/source/latest.tar.gz
 
 The Solo Satoshi Web Flasher provides two browser-based tools: Verified releases for approved Bitaxe, BitForge, NerdAxe, NerdNOS, and Bitaxe Turbo Touch screen firmware; and Advanced for a local merged ESP32-S3 image. Flashing requires a current desktop version of Chrome, Edge, or Brave with access to Web Serial. It can work on Windows, macOS, Linux, and ChromeOS when the browser and operating system can access the USB device. Safari, Firefox, phones, and tablets are not supported.
 
+## Firmware guides
+
+Guides index: https://flash.solosatoshi.com/guides/
+Firmware update walkthrough: https://flash.solosatoshi.com/guides/bitaxe-firmware-update/
+
+The walkthrough explains exact hardware identification, Web Serial connection, stable versus prerelease selection, settings preservation, installation, bootloader recovery, and the separate checks required after a reset. It includes genuine AxeOS and Nerd*OS interface screenshots. Example versions and operating readings do not prescribe a release or tuning target. Instructions and FAQs are native page text, and each screenshot links to its original.
+
 ## Verified releases
 
 The verified installer enforces eight ordered steps:
@@ -48,11 +55,13 @@ The file remains in browser memory and is never uploaded. The structural and chi
 
 ## Privacy and issue reporting
 
-The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The live site uses cookieless Matomo analytics, respects browser Do Not Track, and records aggregate visits, Shop Hardware clicks, compatibility and setup-funnel steps, categorized failures, FAQ openings, and issue-report form outcomes. It does not send issue-report content, USB logs, serial data, custom firmware filenames, or firmware contents to Matomo. The application does not use advertising analytics. It stores the selected language in localStorage, does not use sessionStorage, and may use the browser-managed HTTP cache for verified firmware files.
+The application has no account system and does not request names, payment details, private keys, seed phrases, wallet credentials, Wi-Fi passwords, or mining-pool credentials. The optional issue-report form requires a reply email so support can respond. The installer uses optional, cookieless usage and visit analytics, isolated from support-form text, firmware files, and USB-session data. Saved declines, Do Not Track, and Global Privacy Control disable optional tracking. Outside the United States and in unknown regions, analytics remains off until accepted; US analytics is on by default unless a saved choice or browser privacy signal prevents it. The application stores the language and consent choice in localStorage, does not use sessionStorage, and may cache verified firmware locally. The consent choice lasts 180 days, independently of analytics retention.
+
+Detailed usage-analytics logs are configured for automatic deletion after 744 days. Aggregated usage reports and visit analytics have no fixed automatic deletion date. Support emails are deleted manually as needed, subject to applicable deletion rights, support and security needs, and legal recordkeeping obligations.
 
 Web Serial requires the user to select a local device. USB technical logs, miner settings, and locally selected firmware files are not uploaded to Solo Satoshi. Hosting and delivery providers receive ordinary request information needed to deliver and protect the service.
 
-Report an issue sends the reply email and description entered by the user. The email is used only by the Solo Satoshi support team to respond about that report and is not added to a marketing list or separate flasher contact database. Cloudflare processes ordinary request metadata, including the IP address used for rate limiting and signals used by Turnstile bot protection. Proton delivers and stores the resulting support email, including the reply email, as support correspondence. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
+Report an issue sends the reply email and description entered by the user. The email is used only by the Solo Satoshi support team to respond about that report and is not added to a marketing list or separate flasher contact database. Security and delivery providers process ordinary request metadata, including the IP address used for rate limiting and signals used by bot protection. An email provider delivers and stores the resulting support email, including the reply email, as support correspondence. Users are instructed not to submit passwords, Wi-Fi credentials, private keys, seed phrases, or other sensitive information.
 
 Privacy policy: https://flash.solosatoshi.com/privacy.html
 

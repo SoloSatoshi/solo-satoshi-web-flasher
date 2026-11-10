@@ -1,0 +1,1 @@
+export{o as ESP32C5ROM}from"./lib-lLBK6GBa.js";

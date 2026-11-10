@@ -1,0 +1,1 @@
+export{n as ESP32S2ROM}from"./lib-lLBK6GBa.js";
